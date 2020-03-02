@@ -1,0 +1,43 @@
+<codelist xmlns:dac="http://www.oecd.org/dac/stats/dacandcrscodelists" name="SectorCategory" xml:lang="en" complete="1">
+    <metadata>
+        <name>
+            <narrative>DAC 3 Digit Sector</narrative>
+        </name>
+        <url>http://www.oecd.org/dac/stats/dacandcrscodelists.htm</url>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>410</code>
+            <name>
+                <narrative>General Environment Protection</narrative>
+                <narrative xml:lang="fr">Protection de l'Environnement Général</narrative>
+            </name>
+            <description>
+                <narrative>Covers activities concerned with conservation, protection or amelioration of the physical environment without sector allocation.</narrative>
+                <narrative xml:lang="fr">Secteur non spécifié.</narrative>
+            </description>
+        </codelist-item>
+        <codelist-item>
+            <code>520</code>
+            <name>
+                <narrative>Developmental Food Aid/Food Security Assistance</narrative>
+                <narrative xml:lang="fr">Aide Alimentaire Dévelopmentale/Sécurité Alimentaire</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item>
+            <code>740</code>
+            <name>
+                <narrative>Disaster Prevention &amp; Preparedness</narrative>
+                <narrative xml:lang="fr">Prévention catastrophes/Préparation à leur survenue</narrative>
+            </name>
+            <description>
+                <narrative>See codes 41050 and 15220 for prevention of floods and conflicts.</narrative>
+                <narrative xml:lang="fr">Voir codes 41050 et 15220 pour la prévention des inondations et des conflits.</narrative>
+            </description>
+        </codelist-item>
+    </codelist-items>
+</codelist>

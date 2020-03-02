@@ -1,0 +1,325 @@
+<codelist xmlns:dac="http://www.oecd.org/dac/stats/dacandcrscodelists" name="Channel-category" xml:lang="en" complete="1">
+    <metadata>
+        <name>
+            <narrative>Channel category</narrative>
+        </name>
+        <url>http://www.oecd.org/dac/stats/dacandcrscodelists.htm</url>
+    </metadata>
+    <codelist-items>
+        <codelist-item status="active">
+            <code>10000</code>
+            <name>
+                <narrative>PUBLIC SECTOR INSTITUTIONS</narrative>
+                <narrative xml:lang="fr">INSTITUTIONS DU SECTEUR PUBLIC</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>11000</code>
+            <name>
+                <narrative>Donor government</narrative>
+                <narrative xml:lang="fr">Gouvernement du donneur</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>12000</code>
+            <name>
+                <narrative>Recipient government</narrative>
+                <narrative xml:lang="fr">Gouvernement du bénéficiaire</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>13000</code>
+            <name>
+                <narrative>Third Country Government (Delegated co-operation)</narrative>
+                <narrative xml:lang="fr">Gouvernement tiers (coopération déléguée)</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>20000</code>
+            <name>
+                <narrative>Non-Governmental Organisations (NGOs) and Civil Society</narrative>
+                <narrative xml:lang="fr">Organisations non gouvernementales et société civile</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>21000</code>
+            <name>
+                <narrative>International NGOs</narrative>
+                <narrative xml:lang="fr">ONG internationales</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>22000</code>
+            <name>
+                <narrative>National NGOs</narrative>
+                <narrative xml:lang="fr">ONG nationales</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>23000</code>
+            <name>
+                <narrative>Local/Regional NGOs</narrative>
+                <narrative xml:lang="fr">ONG locales et régionales</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>30000</code>
+            <name>
+                <narrative>Public-Private Partnerships</narrative>
+                <narrative xml:lang="fr">Partenariats public-privé</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>31000</code>
+            <name>
+                <narrative>Public-Private Partnerships (PPP)</narrative>
+                <narrative xml:lang="fr">Partenariats public-privé (PPP)</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>32000</code>
+            <name>
+                <narrative>Networks</narrative>
+                <narrative xml:lang="fr">Réseaux</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>40000</code>
+            <name>
+                <narrative>Multilateral Institutions</narrative>
+                <narrative xml:lang="fr">Institutions multilatérales</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>41000</code>
+            <name>
+                <narrative>United Nations Agencies, Funds and Commissions</narrative>
+                <narrative xml:lang="fr">Agences, fonds et commissions des Nations Unies</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>41300</code>
+            <name>
+                <narrative>Other UN (Core Contributions Reportable in Part)</narrative>
+                <narrative xml:lang="fr">Autres Nations Unies (Contributions comptabilisables pour partie)</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>42000</code>
+            <name>
+                <narrative>European Union Institutions</narrative>
+                <narrative xml:lang="fr">Institutions de l'Union Européenne</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>43000</code>
+            <name>
+                <narrative>International Monetary Fund</narrative>
+                <narrative xml:lang="fr">Fonds Monétaire International</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>44000</code>
+            <name>
+                <narrative>World Bank Group</narrative>
+                <narrative xml:lang="fr">Groupe de la Banque Mondiale</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>45000</code>
+            <name>
+                <narrative>World Trade Organisation</narrative>
+                <narrative xml:lang="fr">Organisation Mondiale du Commerce</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>46000</code>
+            <name>
+                <narrative>Regional Development Banks</narrative>
+                <narrative xml:lang="fr">Banques régionales de développement</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>47000</code>
+            <name>
+                <narrative>Other Multilateral Institutions</narrative>
+                <narrative xml:lang="fr">Autres institutions multilatérales</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="withdrawn" withdrawal-date="2015-12-31">
+            <code>50000</code>
+            <name>
+                <narrative>Others</narrative>
+                <narrative xml:lang="fr">Autres</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <dac:reference>Deleted, replaced by 90000:  DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="active">
+            <code>51000</code>
+            <name>
+                <narrative>University, college or other teaching institution, research institute or think-tank</narrative>
+                <narrative xml:lang="fr">Université, collège ou autre établissement d'enseignement, institut de recherche ou de réflexion</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="withdrawn" withdrawal-date="2015-12-31">
+            <code>52000</code>
+            <name>
+                <narrative>Other</narrative>
+                <narrative xml:lang="fr">Autre</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <dac:reference>Deleted, replaced by 90000:  DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2016-01-01">
+            <code>60000</code>
+            <name>
+                <narrative>Private sector institution</narrative>
+                <narrative xml:lang="fr">Institutions du Secteur Privé</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2016-01-01">
+            <code>61000</code>
+            <name>
+                <narrative>Private sector in provider country</narrative>
+                <narrative xml:lang="fr">Secteur privé du pays donneur</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2016-01-01">
+            <code>62000</code>
+            <name>
+                <narrative>Private sector in recipient country</narrative>
+                <narrative xml:lang="fr">Secteur privé du pays bénéficiaire</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2016-01-01">
+            <code>63000</code>
+            <name>
+                <narrative>Private sector in third country</narrative>
+                <narrative xml:lang="fr">Secteur privé d'un pays tiers</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2016-01-01">
+            <code>90000</code>
+            <name>
+                <narrative>Other</narrative>
+                <narrative xml:lang="fr">Autre</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <dac:reference>Added:  DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+    </codelist-items>
+</codelist>
