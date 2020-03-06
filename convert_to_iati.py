@@ -62,6 +62,11 @@ def remove_trailing_whitespaces(codelist_item):
     for narrative in narratives:
         if hasattr(narrative, "text") and narrative.text is not None:
             narrative.text = narrative.text.strip()
+
+    categories = codelist_item.xpath("//category")
+    for category in categories:
+        if hasattr(category, "text") and category.text is not None:
+            category.text = category.text.strip()
     return
 
 
