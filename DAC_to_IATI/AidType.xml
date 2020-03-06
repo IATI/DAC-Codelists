@@ -40,7 +40,7 @@
                 <narrative xml:lang="fr">Contributions aux budgets réguliers des ONG, autres organismes privés, partenariats public-privé (PPP) et instituts de recherche</narrative>
             </name>
             <description>
-                <narrative>Funds are paid over to NGOs (local, national and international) for use at the latter’s discretion, and contribute to programmes and activities which NGOs have developed themselves, and which they implement on their own authority and responsibility. Core contributions to PPPs, funds paid over to foundations (e.g. philanthropic foundations), and contributions to research institutes (public and private) are also recorded here. Annex 2 of the DAC Directives provides a list of INGOs, PPPs and networks core contributions to which may be reported under B01. This list is not exclusive. </narrative>
+                <narrative>Funds are paid over to NGOs (local, national and international) for use at the latter’s discretion, and contribute to programmes and activities which NGOs have developed themselves, and which they implement on their own authority and responsibility. Core contributions to PPPs, funds paid over to foundations (e.g. philanthropic foundations), and contributions to research institutes (public and private) are also recorded here. Annex 2 of the DAC Directives provides a list of INGOs, PPPs and networks core contributions to which may be reported under B01. This list is not exclusive.</narrative>
                 <narrative xml:lang="fr">Fonds versés à des PPP, réseaux, instituts de recherche et organismes privés à but non lucratif – ONG basées dans des pays en développement, dans des pays donneurs ou ONG internationales et autres organisations de la société civile par exemple les fondations philanthropiques – qui sont utilisés à la discrétion de ces organisations, et qui contribuent au financement de programmes et activités que ces organisations ont mis au point elles-mêmes et qu’elles mettent en œuvre sous leur propre autorité et responsabilité.La Liste des organisations internationales éligible en APD (voir l’annexe 2) fournit une liste d’ONGI, de PPP et de réseaux en faveur desquels les contributions aux budgets réguliers peuvent être notifiées sous B01. Cette liste n’est pas exhaustive.</narrative>
             </description>
             <category>B</category>
@@ -101,7 +101,7 @@
             </name>
             <description>
                 <narrative>Experts, consultants, teachers, academics, researchers, volunteers and contributions to public and private bodies for sending experts to developing countries.</narrative>
-                <narrative xml:lang="fr">Experts, consultants, enseignants, universitaires, chercheurs, stagiaires et volontaires, ainsi que contributions à des organismes publics et privés pour l’envoi d’experts dans les pays en développement. </narrative>
+                <narrative xml:lang="fr">Experts, consultants, enseignants, universitaires, chercheurs, stagiaires et volontaires, ainsi que contributions à des organismes publics et privés pour l’envoi d’experts dans les pays en développement.</narrative>
             </description>
             <category>D</category>
         </codelist-item>
@@ -109,7 +109,7 @@
             <code>D02</code>
             <name>
                 <narrative>Other technical assistance</narrative>
-                <narrative xml:lang="fr">Autres formes d’assistance technique </narrative>
+                <narrative xml:lang="fr">Autres formes d’assistance technique</narrative>
             </name>
             <description>
                 <narrative>Provision, outside projects as described in category C01, of technical assistance in recipient countries (excluding technical assistance performed by donor experts reported under D01, and scholarships/training in donor country reported under E01). This includes training and research; language training; south-south studies; research studies; collaborative research between donor and recipient universities and organisations); local scholarships; development-oriented social and cultural programmes. This category also covers ad hoc contributions such as conferences, seminars and workshops, exchange visits, publications, etc.</narrative>
@@ -169,7 +169,7 @@
             <code>H01</code>
             <name>
                 <narrative>Development awareness</narrative>
-                <narrative xml:lang="fr">Sensibilisation au développement </narrative>
+                <narrative xml:lang="fr">Sensibilisation au développement</narrative>
             </name>
             <description>
                 <narrative>Funding of activities designed to increase public support, i.e. awareness in the donor country of development co-operation efforts, needs and issues.</narrative>

@@ -34,9 +34,17 @@ def cleanup(codelist):
         if i >= 0:
             elem.tag = elem.tag[i + 1]
     objectify.deannotate(codelist, cleanup_namespaces=True)
+    anchors = codelist.xpath("//a")
+    for anchor in anchors:
+        anchor.getparent().remove(anchor)
     for codelist_item in codelist.find('codelist-items').findall('codelist-item'):
-        if codelist_item.find('a') is not None:
-            codelist_item.remove(codelist_item.find('a'))
+        if 'mcd' in codelist_item.attrib.keys():
+            codelist_item.attrib.pop('mcd')
+        if 'status' in codelist_item.attrib.keys():
+            codelist_status = codelist_item.attrib['status']
+            if codelist_status == "Vonlontary basis":
+                codelist_item.attrib['status'] = "withdrawn"
+        remove_trailing_whitespaces(codelist_item)
     return codelist
 
 
@@ -50,8 +58,11 @@ def remove_empty_narratives(codelist_item):
 
 
 def remove_trailing_whitespaces(codelist_item):
-    """TODO."""
-    pass
+    narratives = codelist_item.xpath("//narrative")
+    for narrative in narratives:
+        if hasattr(narrative, "text") and narrative.text is not None:
+            narrative.text = narrative.text.strip()
+    return
 
 
 def add_iati_codelist_xml(codelist, iati_codelist):

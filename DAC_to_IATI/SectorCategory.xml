@@ -83,7 +83,7 @@
                 <narrative xml:lang="fr">Gouvernement &amp; Société Civile-général</narrative>
             </name>
             <description>
-                <narrative>N.B. Use code 51010 for general budget support. </narrative>
+                <narrative>N.B. Use code 51010 for general budget support.</narrative>
                 <narrative xml:lang="fr">N.B. Utiliser le code 51010 pour le soutien budgétaire général.</narrative>
             </description>
         </codelist-item>
@@ -260,7 +260,7 @@
                 <narrative xml:lang="fr">Soutien Budgétaire</narrative>
             </name>
             <description>
-                <narrative>Budget support in the form of sector-wide approaches (SWAps) should be included in the respective sectors. </narrative>
+                <narrative>Budget support in the form of sector-wide approaches (SWAps) should be included in the respective sectors.</narrative>
                 <narrative xml:lang="fr">Les soutiens budgétaires sous la forme d’approches sectorielles devraient être inclus dans les secteurs respectifs.</narrative>
             </description>
         </codelist-item>
@@ -307,7 +307,7 @@
                 <narrative xml:lang="fr">Reconstruction &amp; Réhabilitation</narrative>
             </name>
             <description>
-                <narrative>This relates to activities during and in the aftermath of an emergency situation.  Longer-term activities to improve the level of infrastructure or social services should be reported under the relevant economic and social sector codes. See also guideline on distinguishing humanitarian from sector-allocable aid. </narrative>
+                <narrative>This relates to activities during and in the aftermath of an emergency situation.  Longer-term activities to improve the level of infrastructure or social services should be reported under the relevant economic and social sector codes. See also guideline on distinguishing humanitarian from sector-allocable aid.</narrative>
                 <narrative xml:lang="fr">Activités menées pendant et après une situation d’urgence. Les activités à plus long terme destinées à améliorer le niveau d’infrastructure ou de services sociaux doivent être rapportées sous les codes correspondants des secteurs économiques et sociaux pertinents. Voir également les orientations sur la distinction entre l’aide humanitaire et l’aide ventilable par secteur.</narrative>
             </description>
         </codelist-item>

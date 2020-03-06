@@ -16,7 +16,7 @@
             <code>0</code>
             <name>
                 <narrative>NON FLOW ITEMS</narrative>
-                <narrative xml:lang="fr">AUTRE QU’APPORTS </narrative>
+                <narrative xml:lang="fr">AUTRE QU’APPORTS</narrative>
             </name>
             <description>
                 <narrative>Non resource flow items requested on DAC table 1</narrative>
@@ -34,7 +34,7 @@
             <code>1000</code>
             <name>
                 <narrative>GUARANTEES AND OTHER UNFUNDED CONTINGENT LIABILITIES</narrative>
-                <narrative xml:lang="fr">GARANTIES ET AUTRES ENGAGEMENTS CONDITIONNELS NON PROVISIONNÉS </narrative>
+                <narrative xml:lang="fr">GARANTIES ET AUTRES ENGAGEMENTS CONDITIONNELS NON PROVISIONNÉS</narrative>
             </name>
         </codelist-item>
         <codelist-item status="withdrawn" withdrawal-date="2015-12-31">
@@ -109,7 +109,7 @@
                 <narrative xml:lang="fr">INVESTISSEMENTS DIRECTS INTERNATIONAUX</narrative>
             </name>
             <description>
-                <narrative>Investment made by a private entity resident in a reporting country to acquire or add to a lasting interest(1) in an enterprise in a country on the DAC List of ODA Recipients.  </narrative>
+                <narrative>Investment made by a private entity resident in a reporting country to acquire or add to a lasting interest(1) in an enterprise in a country on the DAC List of ODA Recipients.</narrative>
                 <narrative xml:lang="fr">L’investissement direct est motivé par la volonté d’une entité résidente d’un pays déclarant d’acquérir ou de maintenir un intérêt durable1 dans une entité résidente d’un pays en développement.</narrative>
             </description>
         </codelist-item>
