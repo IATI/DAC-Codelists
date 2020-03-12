@@ -6,6 +6,7 @@ DAC_CODELISTS_DIR = 'Current_DAC'
 IATI_CODELISTS_DIR = 'IATI_codelists'
 OUTPUTDIR = 'DAC_to_IATI'
 namespaces = {'dac': 'http://www.oecd.org/dac/stats/dacandcrscodelists'}
+codelist_dict = {'Channel-category': 'CRSChannelCode'}
 
 
 def indent(elem, level=0, shift=2):
@@ -27,6 +28,8 @@ def indent(elem, level=0, shift=2):
 
 def cleanup(codelist):
     """Remove dac namespaces from the xml."""
+    if codelist.attrib["name"] in codelist_dict.keys():
+        codelist.attrib["name"] = codelist_dict[codelist.attrib["name"]]
     for elem in codelist.getiterator():
         if not hasattr(elem.tag, 'find'):
             continue
