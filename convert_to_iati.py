@@ -43,7 +43,7 @@ def cleanup(codelist):
         if 'status' in codelist_item.attrib.keys():
             codelist_status = codelist_item.attrib['status']
             if codelist_status == "Vonlontary basis":
-                codelist_item.attrib['status'] = "withdrawn"
+                codelist_item.attrib['status'] = "active"
         remove_trailing_whitespaces(codelist_item)
     return codelist
 
