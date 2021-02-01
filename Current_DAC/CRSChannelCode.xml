@@ -149,6 +149,17 @@
                 <narrative xml:lang="fr"/>
             </description>
         </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01">
+            <code>41100</code>
+            <name>
+                <narrative>UN entities (core contributions reportable in full)</narrative>
+                <narrative xml:lang="fr">Entités des Nations Unies (contributions aux budgets reguliers à déclarer dans leur intégralité)</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
         <codelist-item status="active">
             <code>41300</code>
             <name>
@@ -157,6 +168,39 @@
             </name>
             <description>
                 <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01">
+            <code>41400</code>
+            <name>
+                <narrative>UN inter-agency pooled funds</narrative>
+                <narrative xml:lang="fr">Fonds communs interinstitutions des Nations Unies</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01">
+            <code>41500</code>
+            <name>
+                <narrative>UN single-agency thematic funds</narrative>
+                <narrative xml:lang="fr">Fonds thématiques uniques des Nations Unies</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01">
+            <code>41600</code>
+            <name>
+                <narrative>Existing UN channels not included in Standard I - UN entity- of the UN Data Cube reporting framework</narrative>
+                <narrative xml:lang="fr">Canaux de l'ONU existants non inclus dans la norme I du cadre de reporting du cube de l'ONU</narrative>
+            </name>
+            <description>
+                <narrative>Canaux existants de l'ONU non inclus dans la norme I - entité des Nations Unies - du cadre de reporting du cube de données de l'ONU</narrative>
                 <narrative xml:lang="fr"/>
             </description>
         </codelist-item>
@@ -2128,7 +2172,7 @@
             <category>31000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="2011-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2011-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>30010</code>
             <name>
                 <narrative>International drug purchase facility</narrative>
@@ -2141,6 +2185,20 @@
             <category>47000</category>
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Change of Channel Category:  DCD/DAC/STAT(2012)1.</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>30010</code>
+            <name>
+                <narrative>International drug purchase facility</narrative>
+                <narrative xml:lang="fr">Facilité internationale d'achat de médicaments</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2006-12-31" mcd="MCD">
             <code>30011</code>
@@ -2468,7 +2526,7 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>ODA-eligible but not added to Annex 2 List; channel code created in single table [DCD/DAC/STAT(2018)35].</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41101</code>
             <name>
                 <narrative>Convention to Combat Desertification </narrative>
@@ -2482,7 +2540,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Renamed:  DCD/DAC/STAT(2008)5</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41101</code>
+            <name>
+                <narrative>Convention to Combat Desertification </narrative>
+                <narrative xml:lang="fr">Convention sur la lutte contre la désertification </narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41102</code>
             <name>
                 <narrative>Desert Locust Control Organisation for Eastern Africa </narrative>
@@ -2495,7 +2567,21 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41102</code>
+            <name>
+                <narrative>Desert Locust Control Organisation for Eastern Africa </narrative>
+                <narrative xml:lang="fr">Organisation de lutte contre le criquet pèlerin dans l'Est Africain</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41600</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Sub-entity of UNEP United Nations Environment Programme ; Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41103</code>
             <name>
                 <narrative>Economic Commission for Africa </narrative>
@@ -2508,7 +2594,21 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41103</code>
+            <name>
+                <narrative>Economic Commission for Africa </narrative>
+                <narrative xml:lang="fr">Commission économique pour l'Afrique</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41104</code>
             <name>
                 <narrative>Economic Commission for Latin America and the Caribbean</narrative>
@@ -2522,7 +2622,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Renamed:  DCD/DAC/STAT(2006)15</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41104</code>
+            <name>
+                <narrative>Economic Commission for Latin America and the Caribbean</narrative>
+                <narrative xml:lang="fr">Commission économique pour l'Amérique latine et les Caraïbes</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41105</code>
             <name>
                 <narrative>Economic and Social Commission for Western Asia</narrative>
@@ -2536,7 +2650,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Renamed:  DCD/DAC/STAT(2006)15</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41105</code>
+            <name>
+                <narrative>Economic and Social Commission for Western Asia</narrative>
+                <narrative xml:lang="fr">Commission économique et sociale pour l'Asie occidentale</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41106</code>
             <name>
                 <narrative>Economic and Social Commission for Asia and the Pacific </narrative>
@@ -2549,7 +2677,21 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41106</code>
+            <name>
+                <narrative>Economic and Social Commission for Asia and the Pacific </narrative>
+                <narrative xml:lang="fr">Commission économique et sociale pour l'Asie et le Pacifique</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41107</code>
             <name>
                 <narrative>International Atomic Energy Agency (Contributions to Technical Cooperation Fund Only)</narrative>
@@ -2563,7 +2705,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Renamed:  DCD/DAC/STAT(2008)10</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41107</code>
+            <name>
+                <narrative>International Atomic Energy Agency (Contributions to Technical Cooperation Fund Only)</narrative>
+                <narrative xml:lang="fr">Agence internationale de l'énergie atomique (Contributions au Fonds de Coopération Technique uniquement)</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41108</code>
             <name>
                 <narrative>International Fund for Agricultural Development </narrative>
@@ -2575,6 +2731,20 @@
             </description>
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41108</code>
+            <name>
+                <narrative>International Fund for Agricultural Development </narrative>
+                <narrative xml:lang="fr">Fonds international de développement agricole</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2010-12-31" mcd="MCD">
             <code>41109</code>
@@ -2590,7 +2760,7 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Removed: DCD/DAC/STAT(2011)16</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41110</code>
             <name>
                 <narrative>Joint United Nations Programme on HIV/AIDS </narrative>
@@ -2603,7 +2773,21 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="2000-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41110</code>
+            <name>
+                <narrative>Joint United Nations Programme on HIV/AIDS </narrative>
+                <narrative xml:lang="fr">Programme commun des Nations Unies sur le VIH/SIDA</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2000-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41111</code>
             <name>
                 <narrative>United Nations Capital Development Fund </narrative>
@@ -2616,7 +2800,21 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41111</code>
+            <name>
+                <narrative>United Nations Capital Development Fund </narrative>
+                <narrative xml:lang="fr">Fonds d’équipement des Nations Unies </narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41112</code>
             <name>
                 <narrative>United Nations Conference on Trade and Development </narrative>
@@ -2629,7 +2827,21 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41112</code>
+            <name>
+                <narrative>United Nations Conference on Trade and Development </narrative>
+                <narrative xml:lang="fr">Conférence des Nations Unies sur le commerce et le développement</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41114</code>
             <name>
                 <narrative>United Nations Development Programme </narrative>
@@ -2642,7 +2854,21 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41114</code>
+            <name>
+                <narrative>United Nations Development Programme </narrative>
+                <narrative xml:lang="fr">Programme des Nations Unies pour le développement</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41116</code>
             <name>
                 <narrative>United Nations Environment Programme </narrative>
@@ -2655,7 +2881,21 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41116</code>
+            <name>
+                <narrative>United Nations Environment Programme </narrative>
+                <narrative xml:lang="fr">Programme des Nations Unies pour l'environnement</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41119</code>
             <name>
                 <narrative>United Nations Population Fund </narrative>
@@ -2669,7 +2909,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Renamed:  DCD/DAC/STAT(2008)5</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41119</code>
+            <name>
+                <narrative>United Nations Population Fund </narrative>
+                <narrative xml:lang="fr">Fonds des Nations Unies pour la population</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41120</code>
             <name>
                 <narrative>United Nations Human Settlement Programme </narrative>
@@ -2683,7 +2937,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Renamed:  DCD/DAC/STAT(2004)3</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41120</code>
+            <name>
+                <narrative>United Nations Human Settlement Programme </narrative>
+                <narrative xml:lang="fr">Programme des Nations Unies pour les établissements humains</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41121</code>
             <name>
                 <narrative>United Nations Office of the United Nations High Commissioner for Refugees </narrative>
@@ -2696,7 +2964,21 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41121</code>
+            <name>
+                <narrative>United Nations Office of the United Nations High Commissioner for Refugees </narrative>
+                <narrative xml:lang="fr">Haut Commissariat des Nations Unies pour les réfugiés</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41122</code>
             <name>
                 <narrative>United Nations Children’s Fund </narrative>
@@ -2709,7 +2991,21 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41122</code>
+            <name>
+                <narrative>United Nations Children’s Fund </narrative>
+                <narrative xml:lang="fr">Fonds des Nations Unies pour l'enfance</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41123</code>
             <name>
                 <narrative>United Nations Industrial Development Organisation </narrative>
@@ -2721,6 +3017,20 @@
             </description>
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41123</code>
+            <name>
+                <narrative>United Nations Industrial Development Organisation </narrative>
+                <narrative xml:lang="fr">Organisation des Nations Unies pour le développement industriel</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2010-12-31" mcd="MCD">
             <code>41124</code>
@@ -2736,7 +3046,7 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Removed: DCD/DAC/STAT(2011)16</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41125</code>
             <name>
                 <narrative>United Nations Institute for Training and Research </narrative>
@@ -2749,7 +3059,21 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="2001-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41125</code>
+            <name>
+                <narrative>United Nations Institute for Training and Research </narrative>
+                <narrative xml:lang="fr">Institut des Nations Unies pour la formation et la recherche </narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2001-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41126</code>
             <name>
                 <narrative>United Nations Mine Action Service </narrative>
@@ -2763,7 +3087,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2002)3</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41126</code>
+            <name>
+                <narrative>United Nations Mine Action Service </narrative>
+                <narrative xml:lang="fr">Service de l'action antimines des Nations Unies</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41600</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Sub-entity of UN DPO UN Department of Peace Operations; Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41127</code>
             <name>
                 <narrative>United Nations Office of Co-ordination of Humanitarian Affairs </narrative>
@@ -2777,7 +3115,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Renamed:  DCD/DAC/STAT(2006)15</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41127</code>
+            <name>
+                <narrative>United Nations Office of Co-ordination of Humanitarian Affairs </narrative>
+                <narrative xml:lang="fr">Bureau des Nations Unies pour la coordination de l'assistance humanitaire</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41128</code>
             <name>
                 <narrative>United Nations Office on Drugs and Crime </narrative>
@@ -2791,7 +3143,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Renamed:  DCD/DAC/STAT(2008)5</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41128</code>
+            <name>
+                <narrative>United Nations Office on Drugs and Crime </narrative>
+                <narrative xml:lang="fr">Office des Nations Unies contre la drogue et le crime</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41129</code>
             <name>
                 <narrative>United Nations Research Institute for Social Development </narrative>
@@ -2805,7 +3171,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Renamed:  DCD/DAC/STAT(2008)5</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41129</code>
+            <name>
+                <narrative>United Nations Research Institute for Social Development </narrative>
+                <narrative xml:lang="fr">Institut de recherche des Nations Unies pour le développement social </narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41130</code>
             <name>
                 <narrative>United Nations Relief and Works Agency for Palestine Refugees in the Near East</narrative>
@@ -2819,7 +3199,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Renamed:  DCD/DAC/STAT(2008)5</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41130</code>
+            <name>
+                <narrative>United Nations Relief and Works Agency for Palestine Refugees in the Near East</narrative>
+                <narrative xml:lang="fr">Office de secours et de travaux des Nations Unies pour les réfugiés de Palestine dans le Proche-Orient</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41131</code>
             <name>
                 <narrative>United Nations System Staff College </narrative>
@@ -2833,7 +3227,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Renamed:  DCD/DAC/STAT(2003)2</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2002-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41131</code>
+            <name>
+                <narrative>United Nations System Staff College </narrative>
+                <narrative xml:lang="fr">Ecole des cadres du système des Nations Unies</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2002-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41132</code>
             <name>
                 <narrative>United Nations System Standing Committee on Nutrition </narrative>
@@ -2847,7 +3255,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2003)2</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41132</code>
+            <name>
+                <narrative>United Nations System Standing Committee on Nutrition </narrative>
+                <narrative xml:lang="fr">Comité permanent de la nutrition du système des Nations Unies</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41600</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Sub-entity of FAO Food and Agricultural Organisation; Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41133</code>
             <name>
                 <narrative>United Nations Special Initiative on Africa </narrative>
@@ -2860,7 +3282,21 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41133</code>
+            <name>
+                <narrative>United Nations Special Initiative on Africa </narrative>
+                <narrative xml:lang="fr">Initiative spéciale des Nations Unies pour l'Afrique</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41600</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Sub-entity of ECA Economic Commission for Africa; Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41134</code>
             <name>
                 <narrative>United Nations University (including Endowment Fund) </narrative>
@@ -2873,7 +3309,21 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41134</code>
+            <name>
+                <narrative>United Nations University (including Endowment Fund) </narrative>
+                <narrative xml:lang="fr">Université des Nations Unies (y compris le Fonds de dotation)</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41135</code>
             <name>
                 <narrative>United Nations Volunteers </narrative>
@@ -2886,7 +3336,21 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="2000-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41135</code>
+            <name>
+                <narrative>United Nations Volunteers </narrative>
+                <narrative xml:lang="fr">Programme des volontaires des Nations Unies </narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2000-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41136</code>
             <name>
                 <narrative>United Nations Voluntary Fund on Disability </narrative>
@@ -2900,7 +3364,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2001)6</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41136</code>
+            <name>
+                <narrative>United Nations Voluntary Fund on Disability </narrative>
+                <narrative xml:lang="fr">Fonds de contributions voluntaires des Nations Unies pour les handicapés</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41600</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Sub-entity of UN DESA United Nations Department of Economic and Social Affairs; Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41137</code>
             <name>
                 <narrative>United Nations Voluntary Fund for Technical Co-operation in the Field of Human Rights</narrative>
@@ -2913,7 +3391,21 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41137</code>
+            <name>
+                <narrative>United Nations Voluntary Fund for Technical Co-operation in the Field of Human Rights</narrative>
+                <narrative xml:lang="fr">Fonds de contributions volontaires des Nations Unies pour la coopération technique dans le domaine des droits de l'homme</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41600</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Sub entity of OHCHR United Nations High Commissioner for Human Rights; Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41138</code>
             <name>
                 <narrative>United Nations Voluntary Fund for Victims of Torture </narrative>
@@ -2927,7 +3419,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Renamed:  DCD/DAC/STAT(2003)2</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41138</code>
+            <name>
+                <narrative>United Nations Voluntary Fund for Victims of Torture </narrative>
+                <narrative xml:lang="fr">Fonds de contributions volontaires des Nations Unies pour les victimes de la torture </narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41600</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Sub entity of OHCHR United Nations High Commissioner for Human Rights; Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41140</code>
             <name>
                 <narrative>World Food Programme </narrative>
@@ -2940,11 +3446,25 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="2007-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41140</code>
+            <name>
+                <narrative>World Food Programme </narrative>
+                <narrative xml:lang="fr">Programme alimentaire mondial</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2007-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41141</code>
             <name>
-                <narrative>United Nations Peacebuilding Fund (Window Two:  Restricted Contributions Only)</narrative>
-                <narrative xml:lang="fr">Fonds des Nations Unies pour la consolidation de la paix (Guichet deux:  contributions réservées)</narrative>
+                <narrative>United Nations Peacebuilding Fund</narrative>
+                <narrative xml:lang="fr">Fonds des Nations Unies pour la consolidation de la paix</narrative>
             </name>
             <description>
                 <narrative/>
@@ -2954,7 +3474,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added: DCD/DAC/STAT(2008)10</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2007-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41141</code>
+            <name>
+                <narrative>United Nations Peacebuilding Fund</narrative>
+                <narrative xml:lang="fr">Fonds des Nations Unies pour la consolidation de la paix</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41400</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2007-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41142</code>
             <name>
                 <narrative>United Nations Democracy Fund</narrative>
@@ -2968,7 +3502,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added: DCD/DAC/STAT(2008)10</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2008-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41142</code>
+            <name>
+                <narrative>United Nations Democracy Fund</narrative>
+                <narrative xml:lang="fr">Fonds des Nations Unies pour la démocratie</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41600</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Sub-entity of the UN Secretariat; Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2008-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41143</code>
             <name>
                 <narrative>World Health Organisation - core voluntary contributions account</narrative>
@@ -2982,7 +3530,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added: DCD/DAC/STAT(2009)6 together with new Annex 2 code which will appear under "Other UN Agencies and funds" as an of which.</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2009-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41143</code>
+            <name>
+                <narrative>World Health Organisation - core voluntary contributions account</narrative>
+                <narrative xml:lang="fr">Organisation mondiale de la santé - compte de contributions volontaires sans objet désigné</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2009-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41144</code>
             <name>
                 <narrative>International Labour Organisation - Regular Budget Supplementary Account</narrative>
@@ -2996,7 +3558,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added: DCD/DAC/STAT(2010)5</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41144</code>
+            <name>
+                <narrative>International Labour Organisation - Regular Budget Supplementary Account</narrative>
+                <narrative xml:lang="fr">Organisation internationale du Travail - Compte supplémentaire du budget ordinaire</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41145</code>
             <name>
                 <narrative>International Maritime Organization - Technical Co-operation Fund</narrative>
@@ -3010,7 +3586,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2011)16</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41145</code>
+            <name>
+                <narrative>International Maritime Organization - Technical Co-operation Fund</narrative>
+                <narrative xml:lang="fr">Organisation maritime internationale - Programme intégré de coopération technique</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41146</code>
             <name>
                 <narrative>United Nations Entity for Gender Equality and the Empowerment of Women</narrative>
@@ -3024,7 +3614,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2011)16</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41146</code>
+            <name>
+                <narrative>United Nations Entity for Gender Equality and the Empowerment of Women</narrative>
+                <narrative xml:lang="fr">Entité des Nations Unies pour l'égalité des sexes et l'autonomisation de la femme</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41147</code>
             <name>
                 <narrative>Central Emergency Response Fund</narrative>
@@ -3038,7 +3642,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2011)16</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2011-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41147</code>
+            <name>
+                <narrative>Central Emergency Response Fund</narrative>
+                <narrative xml:lang="fr">Fonds central pour les interventions d'urgence</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41400</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2011-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41148</code>
             <name>
                 <narrative>United Nations Department of Political Affairs, Trust Fund in Support of Political Affairs</narrative>
@@ -3052,7 +3670,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2012)9</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2018-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41148</code>
+            <name>
+                <narrative>United Nations Department of Political Affairs, Trust Fund in Support of Political Affairs</narrative>
+                <narrative xml:lang="fr">Département des affaires politiques des Nations unies, fonds fiduciaire de soutien aux affaires politiques</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41500</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2018-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41149</code>
             <name>
                 <narrative>United Nations Development Coordination Office</narrative>
@@ -3066,7 +3698,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2019)17</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2018-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41149</code>
+            <name>
+                <narrative>United Nations Development Coordination Office</narrative>
+                <narrative xml:lang="fr">Bureau de la coordination des activités de développement des Nations Unies</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2018-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41150</code>
             <name>
                 <narrative>United Nations Institute for Disarmament Research</narrative>
@@ -3080,7 +3726,21 @@
             <dac:coefficient>27</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2019)17</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2019-01-01" mcd="non-MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41150</code>
+            <name>
+                <narrative>United Nations Institute for Disarmament Research</narrative>
+                <narrative xml:lang="fr">Institut des Nations unies pour la recherche sur le désarmement</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>27</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2019-01-01" withdrawal-date="2019-12-31" mcd="non-MCD">
             <code>41151</code>
             <name>
                 <narrative>International Agency for Research on Cancer</narrative>
@@ -3093,6 +3753,20 @@
             <category>41000</category>
             <dac:coefficient>51</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2020)16</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="non-MCD">
+            <code>41151</code>
+            <name>
+                <narrative>International Agency for Research on Cancer</narrative>
+                <narrative xml:lang="fr">Centre international de recherche sur le cancer</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>51</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2001-12-31" mcd="MCD">
             <code>41301</code>
@@ -3135,7 +3809,7 @@
             <dac:coefficient>51</dac:coefficient>
             <dac:reference>Request to increase coefficient to 66% was rejected by WP-STAT: DCD/DAC/STAT(2010)5.</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2018-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2018-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41301</code>
             <name>
                 <narrative>Food and Agricultural Organisation</narrative>
@@ -3148,6 +3822,20 @@
             <category>41000</category>
             <dac:coefficient>83</dac:coefficient>
             <dac:reference>Coefficient increased from 51%:  DCD/DAC/STAT(2019)17.</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41301</code>
+            <name>
+                <narrative>Food and Agricultural Organisation</narrative>
+                <narrative xml:lang="fr">Organisation des Nations Unies pour l'alimentation et l'agriculture</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>83</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2008-12-31" mcd="MCD">
             <code>41302</code>
@@ -3176,7 +3864,7 @@
             <dac:coefficient>60</dac:coefficient>
             <dac:reference>Coefficient increased from 15%: DCD/DAC/STAT(2010)5</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41302</code>
             <name>
                 <narrative>International Labour Organisation - Assessed Contributions</narrative>
@@ -3188,6 +3876,20 @@
             </description>
             <category>41000</category>
             <dac:coefficient>60</dac:coefficient>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41302</code>
+            <name>
+                <narrative>International Labour Organisation - Assessed Contributions</narrative>
+                <narrative xml:lang="fr">Organisation internationale du travail - contributions obligatoires</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>60</dac:coefficient>
+            <dac:reference>Coefficient increased from 15%: DCD/DAC/STAT(2010)5</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2009-12-31" mcd="MCD">
             <code>41303</code>
@@ -3201,8 +3903,9 @@
             </description>
             <category>41300</category>
             <dac:coefficient>18</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41303</code>
             <name>
                 <narrative>International Telecommunications Union</narrative>
@@ -3214,6 +3917,20 @@
             </description>
             <category>41000</category>
             <dac:coefficient>18</dac:coefficient>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41303</code>
+            <name>
+                <narrative>International Telecommunications Union</narrative>
+                <narrative xml:lang="fr">Union internationale des télécommunications</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>18</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2007-12-31" mcd="MCD">
             <code>41304</code>
@@ -3256,7 +3973,7 @@
             <dac:coefficient>60</dac:coefficient>
             <dac:reference>Coefficient increased from 44%: DCD/DAC/STAT(2010)5</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41304</code>
             <name>
                 <narrative>United Nations Educational, Scientific and Cultural Organisation</narrative>
@@ -3268,6 +3985,20 @@
             </description>
             <category>41000</category>
             <dac:coefficient>60</dac:coefficient>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41304</code>
+            <name>
+                <narrative>United Nations Educational, Scientific and Cultural Organisation</narrative>
+                <narrative xml:lang="fr">Organisation des Nations Unies pour l’éducation, la science et la culture </narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>60</dac:coefficient>
+            <dac:reference>Coefficient increased from 44%: DCD/DAC/STAT(2010)5</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2009-12-31" mcd="MCD">
             <code>41305</code>
@@ -3296,7 +4027,7 @@
             <category>41000</category>
             <dac:coefficient>12</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="2012-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2012-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41305</code>
             <name>
                 <narrative>United Nations</narrative>
@@ -3309,6 +4040,20 @@
             <category>41000</category>
             <dac:coefficient>18</dac:coefficient>
             <dac:reference>Coefficient increased from 12%: DCD/DAC/STAT(2013)12</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41305</code>
+            <name>
+                <narrative>United Nations</narrative>
+                <narrative xml:lang="fr">Organisation des Nations Unies</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>18</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2001-12-31" mcd="MCD">
             <code>41306</code>
@@ -3337,7 +4082,7 @@
             <dac:coefficient>16</dac:coefficient>
             <dac:reference>Coefficient agreed:  DCD/DAC/STAT(2003)2</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41306</code>
             <name>
                 <narrative>Universal Postal Union </narrative>
@@ -3349,6 +4094,20 @@
             </description>
             <category>41000</category>
             <dac:coefficient>16</dac:coefficient>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41306</code>
+            <name>
+                <narrative>Universal Postal Union </narrative>
+                <narrative xml:lang="fr">Union postale universelle</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>16</dac:coefficient>
+            <dac:reference>Coefficient agreed:  DCD/DAC/STAT(2003)2</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2001-12-31" mcd="MCD">
             <code>41307</code>
@@ -3391,7 +4150,7 @@
             <dac:coefficient>76</dac:coefficient>
             <dac:reference>Revised coefficient agreed: DCD/DAC/STAT(2009)6</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41307</code>
             <name>
                 <narrative>World Health Organisation - assessed contributions</narrative>
@@ -3403,6 +4162,20 @@
             </description>
             <category>41000</category>
             <dac:coefficient>76</dac:coefficient>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41307</code>
+            <name>
+                <narrative>World Health Organisation - assessed contributions</narrative>
+                <narrative xml:lang="fr">Organisation mondiale de la santé - contributions obligatoires</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>76</dac:coefficient>
+            <dac:reference>Revised coefficient agreed: DCD/DAC/STAT(2009)6</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2001-12-31" mcd="MCD">
             <code>41308</code>
@@ -3431,7 +4204,7 @@
             <dac:coefficient>3</dac:coefficient>
             <dac:reference>Coefficient agreed:  DCD/DAC/STAT(2003)2</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41308</code>
             <name>
                 <narrative>World Intellectual Property Organisation </narrative>
@@ -3443,6 +4216,20 @@
             </description>
             <category>41000</category>
             <dac:coefficient>3</dac:coefficient>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41308</code>
+            <name>
+                <narrative>World Intellectual Property Organisation </narrative>
+                <narrative xml:lang="fr">Organisation mondiale de la propriété intellectuelle </narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>3</dac:coefficient>
+            <dac:reference>Coefficient agreed:  DCD/DAC/STAT(2003)2</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2001-12-31" mcd="MCD">
             <code>41309</code>
@@ -3471,7 +4258,7 @@
             <dac:coefficient>4</dac:coefficient>
             <dac:reference>Coefficient agreed:  DCD/DAC/STAT(2003)2</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41309</code>
             <name>
                 <narrative>World Meteorological Organisation </narrative>
@@ -3484,7 +4271,21 @@
             <category>41000</category>
             <dac:coefficient>4</dac:coefficient>
         </codelist-item>
-        <codelist-item status="withdrawn" activation-date="2005-01-01" withdrawal-date="2009-12-31" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41309</code>
+            <name>
+                <narrative>World Meteorological Organisation </narrative>
+                <narrative xml:lang="fr">Organisation météorologique mondiale</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>4</dac:coefficient>
+            <dac:reference>Coefficient agreed:  DCD/DAC/STAT(2003)2</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2005-01-01" withdrawal-date="2005-12-31" mcd="MCD">
             <code>41310</code>
             <name>
                 <narrative>United Nations Department of Peacekeeping Operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
@@ -3511,6 +4312,20 @@
             <category>41300</category>
             <dac:coefficient>7</dac:coefficient>
             <dac:reference>Revised to exclude certain missions: DCD/DAC/STAT(2009)8;</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2009-01-01" withdrawal-date="2009-12-31" mcd="MCD">
+            <code>41310</code>
+            <name>
+                <narrative>United Nations Department of Peacekeeping Operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
+                <narrative xml:lang="fr">Département des opérations de maintien de la paix des Nations unies [seulement MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, MINUAD, FINUL, FISNUA, MINUK, MINUL, UNMISS, ONUCI]. Notifier les contributions mission par mission au format SNPC++.</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>6</dac:coefficient>
+            <dac:reference>Coefficient decreased from 7% and name updated: DCD/DAC/STAT(2010)9. </dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2011-12-31" mcd="MCD">
             <code>41310</code>
@@ -3540,7 +4355,7 @@
             <dac:coefficient>7</dac:coefficient>
             <dac:reference>[only UNIFIL, MINURSO, UNOMIG (terminated June 2009), UNMIK, MONUSCO (named MONUC prior to July 2010), UNMIL, UNOCI, MINUSTAH, UNMIS (terminated July 2011), UNMIT, UNAMID, MINURCAT (terminated December 2010), UNIFSA, UNMISS]. Report contributions mission by mission in CRS++. Coefficient increased from 6%: DCD/DAC/STAT/RD(2013)1/RD6.</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2016-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2016-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41310</code>
             <name>
                 <narrative>United Nations Department of Peacekeeping Operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
@@ -3553,6 +4368,20 @@
             <category>41000</category>
             <dac:coefficient>15</dac:coefficient>
             <dac:reference>Revised coefficient (increased from 7%):  DCD/DAC(2017)24.</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41310</code>
+            <name>
+                <narrative>United Nations Department of Peacekeeping Operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
+                <narrative xml:lang="fr">Département des opérations de maintien de la paix des Nations unies [seulement MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, MINUAD, FINUL, FISNUA, MINUK, MINUL, UNMISS, ONUCI]. Notifier les contributions mission par mission au format SNPC++.</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>15</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2007-01-01" withdrawal-date="2008-12-31" mcd="MCD">
             <code>41311</code>
@@ -3582,7 +4411,7 @@
             <dac:coefficient>89</dac:coefficient>
             <dac:reference>Coefficient increased from 80%: DCD/DAC/STAT(2010)3.</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41311</code>
             <name>
                 <narrative>United Nations Peacebuilding Fund (Window One:  Flexible Contributions Only)</narrative>
@@ -3594,6 +4423,7 @@
             </description>
             <category>41000</category>
             <dac:coefficient>89</dac:coefficient>
+            <dac:reference>Removed: DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2008-01-01" withdrawal-date="2009-12-31" mcd="MCD">
             <code>41312</code>
@@ -3607,9 +4437,9 @@
             </description>
             <category>41300</category>
             <dac:coefficient>33</dac:coefficient>
-            <dac:reference>Added:  DCD/DAC/STAT(2009)6</dac:reference>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41312</code>
             <name>
                 <narrative>International Atomic Energy Agency - assessed contributions</narrative>
@@ -3621,6 +4451,20 @@
             </description>
             <category>41000</category>
             <dac:coefficient>33</dac:coefficient>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41312</code>
+            <name>
+                <narrative>International Atomic Energy Agency - assessed contributions</narrative>
+                <narrative xml:lang="fr">Agence internationale de l'énergie atomique - contributions obligatoires</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>33</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2008-01-01" withdrawal-date="2009-12-31" mcd="MCD">
             <code>41313</code>
@@ -3649,7 +4493,7 @@
             <category>41000</category>
             <dac:coefficient>64</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="2016-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2016-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41313</code>
             <name>
                 <narrative>United Nations High Commissioner for Human Rights (extrabudgetary contributions only)</narrative>
@@ -3663,6 +4507,20 @@
             <dac:coefficient>88</dac:coefficient>
             <dac:reference>Revised coefficient:  DCD/DAC/STAT(2017)13</dac:reference>
         </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41313</code>
+            <name>
+                <narrative>United Nations High Commissioner for Human Rights (extrabudgetary contributions only)</narrative>
+                <narrative xml:lang="fr">Haut-Commissariat des Nations unies aux droits de l'homme (contributions extrabudgétaires uniquement)</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>88</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
         <codelist-item status="withdrawn" activation-date="2008-01-01" withdrawal-date="2009-12-31" mcd="MCD">
             <code>41314</code>
             <name>
@@ -3675,9 +4533,9 @@
             </description>
             <category>41300</category>
             <dac:coefficient>89</dac:coefficient>
-            <dac:reference>Added:  DCD/DAC/STAT(2009)6</dac:reference>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41314</code>
             <name>
                 <narrative>United Nations Economic Commission for Europe (extrabudgetary contributions only)</narrative>
@@ -3689,6 +4547,20 @@
             </description>
             <category>41000</category>
             <dac:coefficient>89</dac:coefficient>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41314</code>
+            <name>
+                <narrative>United Nations Economic Commission for Europe (extrabudgetary contributions only)</narrative>
+                <narrative xml:lang="fr">Commission économique des Nations unies pour l'Europe (contributions extrabudgétaires uniquement)</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>89</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2009-01-01" withdrawal-date="2009-12-31" mcd="MCD">
             <code>41315</code>
@@ -3702,9 +4574,9 @@
             </description>
             <category>41300</category>
             <dac:coefficient>75</dac:coefficient>
-            <dac:reference>Added: DCD/DAC/STAT(2010)5</dac:reference>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41315</code>
             <name>
                 <narrative>United Nations International Strategy for Disaster Reduction</narrative>
@@ -3716,6 +4588,20 @@
             </description>
             <category>41000</category>
             <dac:coefficient>75</dac:coefficient>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41315</code>
+            <name>
+                <narrative>United Nations International Strategy for Disaster Reduction</narrative>
+                <narrative xml:lang="fr">Stratégie internationale des Nations Unies pour la prévention de catastrophes</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>75</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2008-12-31" mcd="MCD">
             <code>41316</code>
@@ -3744,7 +4630,7 @@
             <dac:coefficient>61</dac:coefficient>
             <dac:reference>Coefficient applied and change of channel category (formerly 41118 - under United Nations, Funds and Commissions, 100% ODA-eligible):  DCD/DAC/STAT(2010)5.</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41316</code>
             <name>
                 <narrative>United Nations Framework Convention on Climate Change </narrative>
@@ -3756,6 +4642,20 @@
             </description>
             <category>41000</category>
             <dac:coefficient>61</dac:coefficient>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41316</code>
+            <name>
+                <narrative>United Nations Framework Convention on Climate Change </narrative>
+                <narrative xml:lang="fr">Convention-cadre des Nations unies sur les changements climatiques</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>61</dac:coefficient>
+            <dac:reference>Coefficient applied and change of channel category (formerly 41118 - under United Nations, Funds and Commissions, 100% ODA-eligible):  DCD/DAC/STAT(2010)5.</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2014-01-01" withdrawal-date="2014-12-31" mcd="MCD">
             <code>41317</code>
@@ -3784,7 +4684,7 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Channel category changed:  DCD/DAC/STAT(2016)23/REV1</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2014-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2014-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41318</code>
             <name>
                 <narrative>Global Mechanism</narrative>
@@ -3797,7 +4697,21 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="2016-01-01" mcd="non-MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41318</code>
+            <name>
+                <narrative>Global Mechanism</narrative>
+                <narrative xml:lang="fr">Mécanisme mondial</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41600</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Sub-entity of UNCCD UN Convention to Combat Desertification; Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2016-01-01" withdrawal-date="2019-12-31" mcd="non-MCD">
             <code>41319</code>
             <name>
                 <narrative>World Tourism Organization</narrative>
@@ -3811,7 +4725,21 @@
             <dac:coefficient>89</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2017)13</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2017-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="non-MCD">
+            <code>41319</code>
+            <name>
+                <narrative>World Tourism Organization</narrative>
+                <narrative xml:lang="fr">Organisation mondiale du tourisme</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:coefficient>89</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2017-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41320</code>
             <name>
                 <narrative>Technology Bank for Least Developed Countries</narrative>
@@ -3825,7 +4753,34 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2018)35</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2014-01-01" mcd="non-MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41320</code>
+            <name>
+                <narrative>Technology Bank for Least Developed Countries</narrative>
+                <narrative xml:lang="fr">Banque de Technologies en faveur des Pays les Moins Avancés</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41600</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Sub-entity of the UN Secretariat; Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41401</code>
+            <name>
+                <narrative>UN-Multi Partner Trust Fund Office</narrative>
+                <narrative xml:lang="fr">UN-Multi Partner Trust Fund Office</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41400</category>
+            <dac:reference>New channel in Channel Category:DCD/DAC/STAT(2020)</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2014-01-01" withdrawal-date="2019-12-31" mcd="non-MCD">
             <code>41501</code>
             <name>
                 <narrative>United Nations Reducing Emissions from Deforestation and Forest Degradation</narrative>
@@ -3838,7 +4793,20 @@
             <category>41000</category>
             <dac:reference>Added as part of the Channel pilot: DCD/DAC/STAT(2014)9</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2014-01-01" mcd="non-MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="non-MCD">
+            <code>41501</code>
+            <name>
+                <narrative>United Nations Reducing Emissions from Deforestation and Forest Degradation</narrative>
+                <narrative xml:lang="fr"/>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41600</category>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2014-01-01" withdrawal-date="2019-12-31" mcd="non-MCD">
             <code>41502</code>
             <name>
                 <narrative>United Nations Office for Project Services</narrative>
@@ -3851,7 +4819,20 @@
             <category>41000</category>
             <dac:reference>Added as part of the Channel pilot: DCD/DAC/STAT(2014)9</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2016-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="non-MCD">
+            <code>41502</code>
+            <name>
+                <narrative>United Nations Office for Project Services</narrative>
+                <narrative xml:lang="fr">Le Bureau des Nations Unies pour les services d'appui aux projets </narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41300</category>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2016-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41503</code>
             <name>
                 <narrative>UN-led Country-based Pooled Funds</narrative>
@@ -3863,6 +4844,19 @@
             </description>
             <category>41000</category>
             <dac:reference>Added:  DCD/DAC/STAT(2017)13</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>41503</code>
+            <name>
+                <narrative>UN-led Country-based Pooled Funds</narrative>
+                <narrative xml:lang="fr"/>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41400</category>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
             <code>42001</code>
@@ -4095,7 +5089,7 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added: DCD/DAC/STAT(2008)10</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>45001</code>
             <name>
                 <narrative>World Trade Organisation - International Trade Centre </narrative>
@@ -4108,7 +5102,21 @@
             <category>45000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>45001</code>
+            <name>
+                <narrative>World Trade Organisation - International Trade Centre </narrative>
+                <narrative xml:lang="fr">Centre du commerce international de l'Organisation mondiale du commerce</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>45002</code>
             <name>
                 <narrative>World Trade Organisation - Advisory Centre on WTO Law</narrative>
@@ -4122,7 +5130,21 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Renamed:  DCD/DAC/STAT(2006)15</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>45002</code>
+            <name>
+                <narrative>World Trade Organisation - Advisory Centre on WTO Law</narrative>
+                <narrative xml:lang="fr">Centre consultatif sur la législation de l'Organisation mondiale du commerce</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>45003</code>
             <name>
                 <narrative>World Trade Organisation - Doha Development Agenda Global Trust Fund </narrative>
@@ -4135,6 +5157,20 @@
             <category>45000</category>
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Renamed:  DCD/DAC/STAT(2003)2</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>45003</code>
+            <name>
+                <narrative>World Trade Organisation - Doha Development Agenda Global Trust Fund </narrative>
+                <narrative xml:lang="fr">Organisation mondiale du commerce - Fonds global d'affectation spéciale pour le Programme de Doha pour le développement</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
             <code>46002</code>
@@ -5644,7 +6680,7 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2005)9</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="non-MCD">
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="non-MCD">
             <code>47065</code>
             <name>
                 <narrative>Intergovernmental Oceanographic Commission </narrative>
@@ -5656,6 +6692,20 @@
             </description>
             <category>47000</category>
             <dac:coefficient>100</dac:coefficient>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="non-MCD">
+            <code>47065</code>
+            <name>
+                <narrative>Intergovernmental Oceanographic Commission </narrative>
+                <narrative xml:lang="fr">Commission océanographique intergouvernementale</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41600</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Sub-entity of UNESCO United Nations Educational, Scientific and Cultural Organisation ;Change of Channel Category:DCD/DAC/STAT(2020)47 </dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2017-12-31" mcd="MCD">
             <code>47066</code>
@@ -5670,7 +6720,7 @@
             <category>47000</category>
             <dac:coefficient>100</dac:coefficient>
         </codelist-item>
-        <codelist-item status="active" activation-date="2018-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2018-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>47066</code>
             <name>
                 <narrative>International Organisation for Migration </narrative>
@@ -5683,6 +6733,20 @@
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Change of Channel Category:  DCD/DAC/STAT(2019)17</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>47066</code>
+            <name>
+                <narrative>International Organisation for Migration </narrative>
+                <narrative xml:lang="fr">Organisation internationale des migrations </narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="1998-01-01" mcd="non-MCD">
             <code>47067</code>
@@ -5877,7 +6941,7 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2003)2</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>47078</code>
             <name>
                 <narrative>Multilateral Fund for the Implementation of the Montreal Protocol </narrative>
@@ -5890,6 +6954,20 @@
             <category>47000</category>
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Renamed:  DCD/DAC/STAT(2003)2</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>47078</code>
+            <name>
+                <narrative>Multilateral Fund for the Implementation of the Montreal Protocol </narrative>
+                <narrative xml:lang="fr">Fonds multilatéral pour l’application du Protocole de Montréal </narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41600</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Sub-entity of UNEP United Nations Environment Programme; Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
             <code>47079</code>
@@ -5945,7 +7023,7 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2005)9</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>47083</code>
             <name>
                 <narrative>Pan-American Health Organisation </narrative>
@@ -5957,6 +7035,20 @@
             </description>
             <category>47000</category>
             <dac:coefficient>100</dac:coefficient>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
+            <code>47083</code>
+            <name>
+                <narrative>Pan-American Health Organisation </narrative>
+                <narrative xml:lang="fr">Organisation panaméricaine de la santé</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41100</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="1998-01-01" mcd="non-MCD">
             <code>47084</code>
