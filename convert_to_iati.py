@@ -82,7 +82,7 @@ def add_iati_codelist_xml(codelist, iati_codelist):
     sorted_codes = compare_codes(codelist, iati_codelist)
     new_codelist = etree.Element('codelist-items')
     for item in sorted_codes:
-        remove_empty_narratives(item[1])
+        # remove_empty_narratives(item[1])
         new_codelist.append(item[1])
     codelist.replace(codelist.find('codelist-items'), new_codelist)
     return codelist
