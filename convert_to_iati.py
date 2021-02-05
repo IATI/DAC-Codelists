@@ -45,7 +45,7 @@ def cleanup(codelist):
             codelist_item.attrib.pop('mcd')
         if 'status' in codelist_item.attrib.keys():
             codelist_status = codelist_item.attrib['status']
-            if codelist_status == "Vonlontary basis":
+            if codelist_status == "voluntary basis":
                 codelist_item.attrib['status'] = "active"
         remove_trailing_whitespaces(codelist_item)
     return codelist
