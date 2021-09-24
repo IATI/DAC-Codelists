@@ -27,6 +27,12 @@ def indent(elem, level=0, shift=2):
 
 
 def cleanup(codelist):
+    """Remove acronym in CRS Channel Code"""
+    if codelist.attrib["name"] == "Channel-category":
+        for codelist_item in codelist.find('codelist-items').findall('codelist-item'):
+            for child in codelist_item:
+                if child.tag == "acronym":
+                    child.getparent().remove(child)
     """Remove dac namespaces from the xml."""
     if codelist.attrib["name"] in codelist_dict.keys():
         codelist.attrib["name"] = codelist_dict[codelist.attrib["name"]]
