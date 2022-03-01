@@ -1325,7 +1325,7 @@
             </name>
             <category>41300</category>
         </codelist-item>
-        <codelist-item status="active">
+        <codelist-item status="active" activation-date="2020-01-01">
             <code>41300</code>
             <name>
                 <narrative>Other UN (Core Contributions Reportable in Part)</narrative>
@@ -3113,11 +3113,11 @@
             </name>
             <category>47000</category>
         </codelist-item>
-        <codelist-item status="withdrawn" withdrawal-date="2015-12-31">
+        <codelist-item status="withdrawn" activation-date="2015-12-07" withdrawal-date="2017-05-09">
             <code>50000</code>
             <name>
-                <narrative>Others</narrative>
-                <narrative xml:lang="fr">Autres</narrative>
+                <narrative>Other</narrative>
+                <narrative xml:lang="fr">Autre</narrative>
             </name>
         </codelist-item>
         <codelist-item status="active">
@@ -3136,13 +3136,12 @@
             </name>
             <category>51000</category>
         </codelist-item>
-        <codelist-item status="withdrawn" withdrawal-date="2015-12-31">
+        <codelist-item status="withdrawn" activation-date="2015-12-07" withdrawal-date="2020-02-28">
             <code>52000</code>
             <name>
                 <narrative>Other</narrative>
                 <narrative xml:lang="fr">Autre</narrative>
             </name>
-            <category>50000</category>
         </codelist-item>
         <codelist-item status="active" activation-date="2016-01-01">
             <code>60000</code>
