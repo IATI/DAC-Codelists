@@ -9,6 +9,7 @@ pip install -r requirements.txt
 ## Process
 
 - Create a branch `updates/YYYY-MM-DD`
+- Sync from IATI-Codelist-NonEmbedded repo `rsync -avz --existing ~/Projects/IATI-Codelists-NonEmbedded/xml/ IATI_codelists`
 - Download file and copy to repo: `DAC-CRS-CODES_DDMMYYYY.xml`
 - Extract `python extract_dac.py`
   - Make sure to update filename in code
