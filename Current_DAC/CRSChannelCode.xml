@@ -170,7 +170,7 @@
             </description>
             <category>41000</category>
         </codelist-item>
-        <codelist-item status="active">
+        <codelist-item status="active" activation-date="2020-01-01">
             <code>41300</code>
             <name>
                 <narrative>Other UN (Core Contributions Reportable in Part)</narrative>
@@ -290,18 +290,6 @@
             </description>
             <category>40000</category>
         </codelist-item>
-        <codelist-item status="withdrawn" withdrawal-date="2015-12-31">
-            <code>50000</code>
-            <name>
-                <narrative>Others</narrative>
-                <narrative xml:lang="fr">Autres</narrative>
-            </name>
-            <description>
-                <narrative/>
-                <narrative xml:lang="fr"/>
-            </description>
-            <dac:reference>Deleted, replaced by 90000:  DCD/DAC/STAT/RD(2017)4</dac:reference>
-        </codelist-item>
         <codelist-item status="active">
             <code>51000</code>
             <name>
@@ -313,19 +301,6 @@
                 <narrative xml:lang="fr"/>
             </description>
             <category>50000</category>
-        </codelist-item>
-        <codelist-item status="withdrawn" withdrawal-date="2015-12-31">
-            <code>52000</code>
-            <name>
-                <narrative>Other</narrative>
-                <narrative xml:lang="fr">Autre</narrative>
-            </name>
-            <description>
-                <narrative/>
-                <narrative xml:lang="fr"/>
-            </description>
-            <category>50000</category>
-            <dac:reference>Deleted, replaced by 90000:  DCD/DAC/STAT/RD(2017)4</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2016-01-01">
             <code>60000</code>
