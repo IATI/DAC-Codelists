@@ -331,8 +331,7 @@
                 <narrative xml:lang="fr">Vaccination ;  prévention et lutte contre les maladies infectieuses parasitaires à l’exception du paludisme (12262), de la tuberculose (12263), de la COVID-19 (12264), du VIH/sida et autres MST (13040). Ceci inclus les diarrhées chroniques, les maladies transmises par un vecteur (par exemple onchocercose, bilharziose), les maladies virales, les mycoses, l’helminthiasis, les zoonoses et les maladies provoquées par d’autres bactéries et virus, pédiculose, etc. </narrative>
             </description>
             <category>122</category>
-            <dac:reference>DCD/DAC/STAT(2020)36
-</dac:reference>
+            <dac:reference>DCD/DAC/STAT(2020)36</dac:reference>
         </codelist-item>
         <codelist-item status="active">
             <code>12261</code>
@@ -381,8 +380,7 @@
                 <narrative xml:lang="fr">Toutes les activités liées à la lutte contre la COVID-19, par ex. information, éducation et communication; essai; la prévention; vaccination, traitement, soins.</narrative>
             </description>
             <category>122</category>
-            <dac:reference>DCD/DAC/STAT(2020)36
-</dac:reference>
+            <dac:reference>DCD/DAC/STAT(2020)36</dac:reference>
         </codelist-item>
         <codelist-item status="active">
             <code>12281</code>
