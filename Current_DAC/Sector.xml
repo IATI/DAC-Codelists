@@ -156,7 +156,7 @@
             <category>113</category>
             <dac:reference>DCD/DAC/STAT(2020)17</dac:reference>
         </codelist-item>
-        <codelist-item status="withdrawn">
+        <codelist-item status="withdrawn" withdrawal-date="2019-12-31">
             <code>11321</code>
             <name>
                 <narrative>Lower secondary education</narrative>
