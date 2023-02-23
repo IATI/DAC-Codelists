@@ -170,6 +170,18 @@
             </description>
             <category>41000</category>
         </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2020-01-01">
+            <code>41200</code>
+            <name>
+                <narrative>UN entities (core contributions reportable in TOSSD only)</narrative>
+                <narrative xml:lang="fr">Entités des Nations Unies (contributions de base à déclarer dans TOSSD uniquement)</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <category>41000</category>
+        </codelist-item>
         <codelist-item status="active" activation-date="2020-01-01">
             <code>41300</code>
             <name>
@@ -1858,7 +1870,7 @@
             </acronym>
             <category>23000</category>
             <dac:coefficient>100</dac:coefficient>
-            <dac:reference>  Not a major channel of delivery:  DCD/DAC/STAT(2011)7/REV1.</dac:reference>
+            <dac:reference>Not a major channel of delivery:  DCD/DAC/STAT(2011)7/REV1</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2007-01-01" mcd="non-MCD">
             <code>21053</code>
@@ -1979,7 +1991,7 @@
             </acronym>
             <category>21000</category>
             <dac:coefficient>100</dac:coefficient>
-            <dac:reference>Channel category changed:  DCD/DAC/STAT(2011)7/REV1.</dac:reference>
+            <dac:reference>Not a major channel of delivery:  DCD/DAC/STAT(2011)7/REV1</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2009-01-01" withdrawal-date="2009-12-31" mcd="non-MCD">
             <code>21058</code>
@@ -2086,7 +2098,7 @@
             </acronym>
             <category>22000</category>
             <dac:coefficient>100</dac:coefficient>
-            <dac:reference> Not a major channel of delivery:  DCD/DAC/STAT(2011)7/REV1.  Added:  DCD/DAC/STAT(2011)16</dac:reference>
+            <dac:reference>Not a major channel of delivery:  DCD/DAC/STAT(2011)7/REV1.  Added:  DCD/DAC/STAT(2011)16</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2010-01-01" mcd="non-MCD">
             <code>21061</code>
@@ -2104,7 +2116,7 @@
             </acronym>
             <category>21000</category>
             <dac:coefficient>100</dac:coefficient>
-            <dac:reference> Not a major channel of delivery:  DCD/DAC/STAT(2011)7/REV1.  Added:  DCD/DAC/STAT(2011)16</dac:reference>
+            <dac:reference>Not a major channel of delivery:  DCD/DAC/STAT(2011)7/REV1.  Added:  DCD/DAC/STAT(2011)16</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2014-01-01" mcd="MCD">
             <code>21062</code>
@@ -2122,6 +2134,7 @@
             </acronym>
             <category>21000</category>
             <dac:coefficient>12</dac:coefficient>
+            <dac:reference>Added:  DCD/DAC/STAT(2015)20</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2016-01-01" mcd="MCD">
             <code>21063</code>
@@ -2269,6 +2282,23 @@
             </acronym>
             <category>21000</category>
             <dac:reference>Added as part of the Channel pilot: DCD/DAC/STAT(2014)9</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2022-01-01" mcd="non-MCD">
+            <code>21508</code>
+            <name>
+                <narrative>Sustainable Energy for All</narrative>
+                <narrative xml:lang="fr">Sustainable Energy for All</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <acronym>
+                <narrative>SEforALL</narrative>
+                <narrative xml:lang="fr">SEforALL</narrative>
+            </acronym>
+            <category>21000</category>
+            <dac:reference>Added: DCD/DAC/STAT(2022)47</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2014-01-01" mcd="non-MCD">
             <code>22501</code>
@@ -6424,7 +6454,8 @@
             </acronym>
             <category>42000</category>
             <dac:coefficient>100</dac:coefficient>
-            <dac:reference>Use this code for reporting i) interest subsidies provided to soften the terms of loans administered by the EIB - classified as multilateral ODA and ii) contributions to EIB administered trust funds (FEMIP, NIF, EPTATF, EU AITF and ERI Fund) which are classified as bilateral ODA [cf. DCD/DAC/STAT(2011)16 and DCD/DAC/STAT(2018)35].  Capital subscriptions to the EIB are not reportable.  </dac:reference>
+            <dac:reference>Use this code for reporting i) interest subsidies provided to soften the terms of loans administered by the EIB - classified as multilateral ODA and ii) contributions to EIB administered trust funds (FEMIP, NIF, EPTATF, EU AITF and ERI Fund) which are classified as bilateral ODA [cf. DCD/DAC/STAT(2011)16 and DCD/DAC/STAT(2018)35].  Capital subscriptions to the EIB are not reportable.  
+</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2004-01-01" withdrawal-date="2009-12-31" mcd="">
             <code>42005</code>
@@ -6925,7 +6956,7 @@
         <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
             <code>46008</code>
             <name>
-                <narrative>Development Bank of Latin America </narrative>
+                <narrative>Development Bank of Latin America</narrative>
                 <narrative xml:lang="fr">Banque de développement de l'Amérique latine</narrative>
             </name>
             <description>
@@ -8189,6 +8220,7 @@
             </acronym>
             <category>47000</category>
             <dac:coefficient>77</dac:coefficient>
+            <dac:reference>Coefficient agreed:  DCD/DAC/STAT(2003)2</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2007-01-01" withdrawal-date="2008-12-31" mcd="MCD">
             <code>47044</code>
@@ -8206,6 +8238,7 @@
             </acronym>
             <category>47000</category>
             <dac:coefficient>96</dac:coefficient>
+            <dac:reference>Coefficient updated:  DCD/DAC/STAT(2008)10</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2009-01-01" mcd="MCD">
             <code>47044</code>
@@ -8223,6 +8256,7 @@
             </acronym>
             <category>47000</category>
             <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Coefficient increased from 96%: DCD/DAC/STAT(2010)5</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2002-01-01" withdrawal-date="2002-12-31" mcd="MCD">
             <code>47045</code>
