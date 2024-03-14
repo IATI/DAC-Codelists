@@ -1956,6 +1956,7 @@
             </acronym>
             <category>21000</category>
             <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Added:  DCD/DAC/STAT(2008)10</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
             <code>21056</code>
@@ -2283,7 +2284,7 @@
             <category>21000</category>
             <dac:reference>Added as part of the Channel pilot: DCD/DAC/STAT(2014)9</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2022-01-01" mcd="non-MCD">
+        <codelist-item status="active" activation-date="2022-01-01" withdrawal-date="2022-12-31" mcd="non-MCD">
             <code>21508</code>
             <name>
                 <narrative>Sustainable Energy for All</narrative>
@@ -2298,6 +2299,7 @@
                 <narrative xml:lang="fr">SEforALL</narrative>
             </acronym>
             <category>21000</category>
+            <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added: DCD/DAC/STAT(2022)47</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2014-01-01" mcd="non-MCD">
@@ -2935,8 +2937,8 @@
         <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
             <code>30018</code>
             <name>
-                <narrative>African Finance Corporation</narrative>
-                <narrative xml:lang="fr">African Finance Corporation</narrative>
+                <narrative>Africa Finance Corporation</narrative>
+                <narrative xml:lang="fr">Corporation Financière Africaine</narrative>
             </name>
             <description>
                 <narrative/>
@@ -2948,7 +2950,7 @@
             </acronym>
             <category>31000</category>
             <dac:coefficient>100</dac:coefficient>
-            <dac:reference>Added 24/3/2021: DCD/DAC/STAT(2021)4</dac:reference>
+            <dac:reference>Added:  DCD/DAC/STAT(2021)4</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2020-01-01" mcd="non-MCD">
             <code>30019</code>
@@ -2966,7 +2968,7 @@
             </acronym>
             <category>31000</category>
             <dac:coefficient>100</dac:coefficient>
-            <dac:reference>Added 24/3/2021: DCD/DAC/STAT(2021)4</dac:reference>
+            <dac:reference>Added:  DCD/DAC/STAT(2021)4</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
             <code>30020</code>
@@ -2984,7 +2986,7 @@
             </acronym>
             <category>31000</category>
             <dac:coefficient>100</dac:coefficient>
-            <dac:reference>Added 24/3/2021: DCD/DAC/STAT(2021)4</dac:reference>
+            <dac:reference>Added:  DCD/DAC/STAT(2021)4</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2006-01-01" withdrawal-date="2009-12-31" mcd="MCD">
             <code>31001</code>
@@ -3587,6 +3589,7 @@
             </acronym>
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Added:  DCD/DAC/STAT(2001)6</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
             <code>41111</code>
@@ -4605,7 +4608,7 @@
         <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41145</code>
             <name>
-                <narrative>International Maritime Organisation - Technical Co-operation Fund</narrative>
+                <narrative>International Maritime Organization - Technical Co-operation Fund</narrative>
                 <narrative xml:lang="fr">Organisation maritime internationale - Programme intégré de coopération technique</narrative>
             </name>
             <description>
@@ -4623,7 +4626,7 @@
         <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
             <code>41145</code>
             <name>
-                <narrative>International Maritime Organisation - Technical Co-operation Fund</narrative>
+                <narrative>International Maritime Organization - Technical Co-operation Fund</narrative>
                 <narrative xml:lang="fr">Organisation maritime internationale - Programme intégré de coopération technique</narrative>
             </name>
             <description>
@@ -4714,7 +4717,7 @@
             <code>41148</code>
             <name>
                 <narrative>United Nations Department of Political and Peacebuilding Affairs, Trust Fund in Support of Political Affairs</narrative>
-                <narrative xml:lang="fr">Département des affaires politiques des Nations unies, fonds fiduciaire de soutien aux affaires politiques</narrative>
+                <narrative xml:lang="fr">Département des affaires politiques et de consolidation de la paix des Nations Unies, Fonds d'affectation spéciale à l'appui des affaires politiques</narrative>
             </name>
             <description>
                 <narrative/>
@@ -4732,7 +4735,7 @@
             <code>41148</code>
             <name>
                 <narrative>United Nations Department of Political and Peacebuilding Affairs, Trust Fund in Support of Political Affairs</narrative>
-                <narrative xml:lang="fr">Département des affaires politiques des Nations unies, fonds fiduciaire de soutien aux affaires politiques</narrative>
+                <narrative xml:lang="fr">Département des affaires politiques et de consolidation de la paix des Nations Unies, Fonds d'affectation spéciale à l'appui des affaires politiques</narrative>
             </name>
             <description>
                 <narrative/>
@@ -5562,8 +5565,8 @@
         <codelist-item status="withdrawn" activation-date="2005-01-01" withdrawal-date="2005-12-31" mcd="MCD">
             <code>41310</code>
             <name>
-                <narrative>United Nations Department of Peace Operations - UN Peacekeeping operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
-                <narrative xml:lang="fr">Département des opérations de paix des Nations unies. Opérations de maintien de la paix [seulement MINURSO,MINUSCA,MINUSMA, MINUSTAH,MONUSCO,MINUAD, FINUL,FISNUA,MINUK, MINUL,UNMISS,ONUCI]. Notifier les contributions mission par mission au format SNPC++.</narrative>
+                <narrative>United Nations Department of Peace Operations - UN peacekeeping operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
+                <narrative xml:lang="fr">Département des opérations de paix des Nations unies. Opérations de maintien de la paix [seulement MINURSO,MINUSCA,MINUSMA, MINUSTAH,MONUSCO,MINUAD, FINUL,FISNUA,MINUK, MINUL,UNMISS,ONUCI]. Notifier les contributions mission par mission au format SNPC++</narrative>
             </name>
             <description>
                 <narrative/>
@@ -5580,8 +5583,8 @@
         <codelist-item status="withdrawn" activation-date="2006-01-01" withdrawal-date="2008-12-31" mcd="MCD">
             <code>41310</code>
             <name>
-                <narrative>United Nations Department of Peace Operations - UN Peacekeeping operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
-                <narrative xml:lang="fr">Département des opérations de paix des Nations unies. Opérations de maintien de la paix [seulement MINURSO,MINUSCA,MINUSMA, MINUSTAH,MONUSCO,MINUAD, FINUL,FISNUA,MINUK, MINUL,UNMISS,ONUCI]. Notifier les contributions mission par mission au format SNPC++.</narrative>
+                <narrative>United Nations Department of Peace Operations - UN peacekeeping operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
+                <narrative xml:lang="fr">Département des opérations de paix des Nations unies. Opérations de maintien de la paix [seulement MINURSO,MINUSCA,MINUSMA, MINUSTAH,MONUSCO,MINUAD, FINUL,FISNUA,MINUK, MINUL,UNMISS,ONUCI]. Notifier les contributions mission par mission au format SNPC++</narrative>
             </name>
             <description>
                 <narrative/>
@@ -5598,8 +5601,8 @@
         <codelist-item status="withdrawn" activation-date="2009-01-01" withdrawal-date="2009-12-31" mcd="MCD">
             <code>41310</code>
             <name>
-                <narrative>United Nations Department of Peace Operations - UN Peacekeeping operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
-                <narrative xml:lang="fr">Département des opérations de paix des Nations unies. Opérations de maintien de la paix [seulement MINURSO,MINUSCA,MINUSMA, MINUSTAH,MONUSCO,MINUAD, FINUL,FISNUA,MINUK, MINUL,UNMISS,ONUCI]. Notifier les contributions mission par mission au format SNPC++.</narrative>
+                <narrative>United Nations Department of Peace Operations - UN peacekeeping operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
+                <narrative xml:lang="fr">Département des opérations de paix des Nations unies. Opérations de maintien de la paix [seulement MINURSO,MINUSCA,MINUSMA, MINUSTAH,MONUSCO,MINUAD, FINUL,FISNUA,MINUK, MINUL,UNMISS,ONUCI]. Notifier les contributions mission par mission au format SNPC++</narrative>
             </name>
             <description>
                 <narrative/>
@@ -5616,8 +5619,8 @@
         <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2011-12-31" mcd="MCD">
             <code>41310</code>
             <name>
-                <narrative>United Nations Department of Peace Operations - UN Peacekeeping operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
-                <narrative xml:lang="fr">Département des opérations de paix des Nations unies. Opérations de maintien de la paix [seulement MINURSO,MINUSCA,MINUSMA, MINUSTAH,MONUSCO,MINUAD, FINUL,FISNUA,MINUK, MINUL,UNMISS,ONUCI]. Notifier les contributions mission par mission au format SNPC++.</narrative>
+                <narrative>United Nations Department of Peace Operations - UN peacekeeping operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
+                <narrative xml:lang="fr">Département des opérations de paix des Nations unies. Opérations de maintien de la paix [seulement MINURSO,MINUSCA,MINUSMA, MINUSTAH,MONUSCO,MINUAD, FINUL,FISNUA,MINUK, MINUL,UNMISS,ONUCI]. Notifier les contributions mission par mission au format SNPC++</narrative>
             </name>
             <description>
                 <narrative/>
@@ -5634,8 +5637,8 @@
         <codelist-item status="withdrawn" activation-date="2012-01-01" withdrawal-date="2015-12-31" mcd="MCD">
             <code>41310</code>
             <name>
-                <narrative>United Nations Department of Peace Operations - UN Peacekeeping operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
-                <narrative xml:lang="fr">Département des opérations de paix des Nations unies. Opérations de maintien de la paix [seulement MINURSO,MINUSCA,MINUSMA, MINUSTAH,MONUSCO,MINUAD, FINUL,FISNUA,MINUK, MINUL,UNMISS,ONUCI]. Notifier les contributions mission par mission au format SNPC++.</narrative>
+                <narrative>United Nations Department of Peace Operations - UN peacekeeping operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
+                <narrative xml:lang="fr">Département des opérations de paix des Nations unies. Opérations de maintien de la paix [seulement MINURSO,MINUSCA,MINUSMA, MINUSTAH,MONUSCO,MINUAD, FINUL,FISNUA,MINUK, MINUL,UNMISS,ONUCI]. Notifier les contributions mission par mission au format SNPC++</narrative>
             </name>
             <description>
                 <narrative/>
@@ -5652,8 +5655,8 @@
         <codelist-item status="withdrawn" activation-date="2016-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41310</code>
             <name>
-                <narrative>United Nations Department of Peace Operations - UN Peacekeeping operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
-                <narrative xml:lang="fr">Département des opérations de paix des Nations unies. Opérations de maintien de la paix [seulement MINURSO,MINUSCA,MINUSMA, MINUSTAH,MONUSCO,MINUAD, FINUL,FISNUA,MINUK, MINUL,UNMISS,ONUCI]. Notifier les contributions mission par mission au format SNPC++.</narrative>
+                <narrative>United Nations Department of Peace Operations - UN peacekeeping operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
+                <narrative xml:lang="fr">Département des opérations de paix des Nations unies. Opérations de maintien de la paix [seulement MINURSO,MINUSCA,MINUSMA, MINUSTAH,MONUSCO,MINUAD, FINUL,FISNUA,MINUK, MINUL,UNMISS,ONUCI]. Notifier les contributions mission par mission au format SNPC++</narrative>
             </name>
             <description>
                 <narrative/>
@@ -5670,8 +5673,8 @@
         <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
             <code>41310</code>
             <name>
-                <narrative>United Nations Department of Peace Operations - UN Peacekeeping operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
-                <narrative xml:lang="fr">Département des opérations de paix des Nations unies. Opérations de maintien de la paix [seulement MINURSO,MINUSCA,MINUSMA, MINUSTAH,MONUSCO,MINUAD, FINUL,FISNUA,MINUK, MINUL,UNMISS,ONUCI]. Notifier les contributions mission par mission au format SNPC++.</narrative>
+                <narrative>United Nations Department of Peace Operations - UN peacekeeping operations [only MINURSO, MINUSCA, MINUSMA, MINUJUSTH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</narrative>
+                <narrative xml:lang="fr">Département des opérations de paix des Nations unies. Opérations de maintien de la paix [seulement MINURSO,MINUSCA,MINUSMA, MINUSTAH,MONUSCO,MINUAD, FINUL,FISNUA,MINUK, MINUL,UNMISS,ONUCI]. Notifier les contributions mission par mission au format SNPC++</narrative>
             </name>
             <description>
                 <narrative/>
@@ -5701,7 +5704,7 @@
             </acronym>
             <category>41300</category>
             <dac:coefficient>80</dac:coefficient>
-            <dac:reference>Added: DCD/DAC/STAT(2008)10</dac:reference>
+            <dac:reference>Added:  DCD/DAC/STAT(2008)10</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2009-01-01" withdrawal-date="2009-12-31" mcd="MCD">
             <code>41311</code>
@@ -5719,7 +5722,7 @@
             </acronym>
             <category>41300</category>
             <dac:coefficient>89</dac:coefficient>
-            <dac:reference>Coefficient increased from 80%: DCD/DAC/STAT(2010)3.</dac:reference>
+            <dac:reference>Coefficient increased from 80%:  DCD/DAC/STAT(2010)3.</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41311</code>
@@ -5737,7 +5740,7 @@
             </acronym>
             <category>41000</category>
             <dac:coefficient>89</dac:coefficient>
-            <dac:reference>Removed: DCD/DAC/STAT(2020)47</dac:reference>
+            <dac:reference>Removed:  DCD/DAC/STAT(2020)47 (use 41141)</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2008-01-01" withdrawal-date="2009-12-31" mcd="MCD">
             <code>41312</code>
@@ -5937,7 +5940,7 @@
         <codelist-item status="withdrawn" activation-date="2009-01-01" withdrawal-date="2009-12-31" mcd="MCD">
             <code>41315</code>
             <name>
-                <narrative>United Nations Office for Disaster Reduction</narrative>
+                <narrative>United Nations Office for Disaster Risk Reduction</narrative>
                 <narrative xml:lang="fr">Bureau des Nations Unies pour la prévention de catastrophes</narrative>
             </name>
             <description>
@@ -5955,7 +5958,7 @@
         <codelist-item status="withdrawn" activation-date="2010-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41315</code>
             <name>
-                <narrative>United Nations Office for Disaster Reduction</narrative>
+                <narrative>United Nations Office for Disaster Risk Reduction</narrative>
                 <narrative xml:lang="fr">Bureau des Nations Unies pour la prévention de catastrophes</narrative>
             </name>
             <description>
@@ -5972,7 +5975,7 @@
         <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
             <code>41315</code>
             <name>
-                <narrative>United Nations Office for Disaster Reduction</narrative>
+                <narrative>United Nations Office for Disaster Risk Reduction</narrative>
                 <narrative xml:lang="fr">Bureau des Nations Unies pour la prévention de catastrophes</narrative>
             </name>
             <description>
@@ -6073,6 +6076,7 @@
             </acronym>
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Added:  DCD/DAC/STAT(2015)20</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2015-01-01" mcd="MCD">
             <code>41317</code>
@@ -6108,6 +6112,7 @@
             </acronym>
             <category>41000</category>
             <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Added:  DCD/DAC/STAT(2015)22</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
             <code>41318</code>
@@ -6130,7 +6135,7 @@
         <codelist-item status="withdrawn" activation-date="2016-01-01" withdrawal-date="2019-12-31" mcd="non-MCD">
             <code>41319</code>
             <name>
-                <narrative>World Tourism Organisation</narrative>
+                <narrative>World Tourism Organization</narrative>
                 <narrative xml:lang="fr">Organisation mondiale du tourisme</narrative>
             </name>
             <description>
@@ -6148,7 +6153,7 @@
         <codelist-item status="active" activation-date="2020-01-01" mcd="non-MCD">
             <code>41319</code>
             <name>
-                <narrative>World Tourism Organisation</narrative>
+                <narrative>World Tourism Organization</narrative>
                 <narrative xml:lang="fr">Organisation mondiale du tourisme</narrative>
             </name>
             <description>
@@ -6232,7 +6237,7 @@
                 <narrative xml:lang="fr">UN-MPTFO</narrative>
             </acronym>
             <category>41400</category>
-            <dac:reference>New channel in Channel Category:DCD/DAC/STAT(2020)</dac:reference>
+            <dac:reference>added: DCD/DAC/STAT(2020)47</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2021-01-01" mcd="">
             <code>41402</code>
@@ -6454,8 +6459,7 @@
             </acronym>
             <category>42000</category>
             <dac:coefficient>100</dac:coefficient>
-            <dac:reference>Use this code for reporting i) interest subsidies provided to soften the terms of loans administered by the EIB - classified as multilateral ODA and ii) contributions to EIB administered trust funds (FEMIP, NIF, EPTATF, EU AITF and ERI Fund) which are classified as bilateral ODA [cf. DCD/DAC/STAT(2011)16 and DCD/DAC/STAT(2018)35].  Capital subscriptions to the EIB are not reportable.  
-</dac:reference>
+            <dac:reference>Use this code for reporting i) interest subsidies provided to soften the terms of loans administered by the EIB - classified as multilateral ODA and ii) contributions to EIB administered trust funds (FEMIP, NIF, EPTATF, EU AITF and ERI Fund) which are classified as bilateral ODA [cf. DCD/DAC/STAT(2011)16 and DCD/DAC/STAT(2018)35].  Capital subscriptions to the EIB are not reportable.</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2004-01-01" withdrawal-date="2009-12-31" mcd="">
             <code>42005</code>
@@ -6582,6 +6586,24 @@
             <category>43000</category>
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2016)23/REV1</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-01-01" mcd="MCD">
+            <code>43007</code>
+            <name>
+                <narrative>IMF’s Resilience and Sustainability Trust</narrative>
+                <narrative xml:lang="fr">Fonds fiduciaire pour la résilience et la durabilité</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <acronym>
+                <narrative>IMF-RST</narrative>
+                <narrative xml:lang="fr">IMF-RST</narrative>
+            </acronym>
+            <category>43000</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Added:  DCD/DAC/STAT(2023)6/REV1</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="1998-01-01" mcd="MCD">
             <code>44001</code>
@@ -6720,7 +6742,7 @@
             </acronym>
             <category>44000</category>
             <dac:coefficient>100</dac:coefficient>
-            <dac:reference>Added 24/3/2021: DCD/DAC/STAT(2021)4</dac:reference>
+            <dac:reference>Added:  DCD/DAC/STAT(2021)4</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>45001</code>
@@ -8991,7 +9013,7 @@
             </acronym>
             <category>51000</category>
             <dac:coefficient>100</dac:coefficient>
-            <dac:reference>Change of Channel Category:  DCD/DAC/STAT(2012)6/REV1.5</dac:reference>
+            <dac:reference>Change of Channel Category:  DCD/DAC/STAT(2012)6/REV1.</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2001-01-01" mcd="non-MCD">
             <code>47073</code>
@@ -9439,16 +9461,16 @@
         <codelist-item status="active" activation-date="2000-01-01" mcd="non-MCD">
             <code>47095</code>
             <name>
-                <narrative>South Pacific Board for Educational Assessment </narrative>
-                <narrative xml:lang="fr">Conseil d’évaluation du Pacifique Sud pour l'éducation </narrative>
+                <narrative>Educational Quality and Assessment Programme</narrative>
+                <narrative xml:lang="fr">Programme d'évaluation et de qualité de l'éducation</narrative>
             </name>
             <description>
                 <narrative/>
                 <narrative xml:lang="fr"/>
             </description>
             <acronym>
-                <narrative>SPBEA</narrative>
-                <narrative xml:lang="fr">SPBEA</narrative>
+                <narrative>EQAP</narrative>
+                <narrative xml:lang="fr">EQAP</narrative>
             </acronym>
             <category>47000</category>
             <dac:coefficient>100</dac:coefficient>
@@ -9859,7 +9881,7 @@
             </acronym>
             <category>47000</category>
             <dac:coefficient>100</dac:coefficient>
-            <dac:reference>Added 24/3/2021: DCD/DAC/STAT(2021)4</dac:reference>
+            <dac:reference>Added:  DCD/DAC/STAT(2021)4</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2007-01-01" mcd="non-MCD">
             <code>47116</code>
@@ -10057,7 +10079,7 @@
             </acronym>
             <category>47000</category>
             <dac:coefficient>100</dac:coefficient>
-            <dac:reference>Added 24/3/2021: DCD/DAC/STAT(2021)4</dac:reference>
+            <dac:reference>Added:  DCD/DAC/STAT(2021)4</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
             <code>47125</code>
@@ -10075,7 +10097,7 @@
             </acronym>
             <category>47000</category>
             <dac:coefficient>26</dac:coefficient>
-            <dac:reference>Added 24/3/2021: DCD/DAC/STAT(2021)4</dac:reference>
+            <dac:reference>Added:  DCD/DAC/STAT(2021)4</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2008-01-01" mcd="non-MCD">
             <code>47127</code>
@@ -10169,8 +10191,8 @@
         <codelist-item status="active" activation-date="2010-01-01" mcd="MCD">
             <code>47131</code>
             <name>
-                <narrative>Organisation for Security and Co-operation in Europe</narrative>
-                <narrative xml:lang="fr">Organisation pour la sécurité et la oopération en Europe</narrative>
+                <narrative>Organization for Security and Co-operation in Europe</narrative>
+                <narrative xml:lang="fr">Organisation pour la sécurité et la coopération en Europe</narrative>
             </name>
             <description>
                 <narrative/>
@@ -10290,7 +10312,7 @@
         <codelist-item status="active" activation-date="2013-01-01" mcd="non-MCD">
             <code>47139</code>
             <name>
-                <narrative>World Customs Organisation Customs Co-operation Fund</narrative>
+                <narrative>World Customs Organization Customs Co-operation Fund</narrative>
                 <narrative xml:lang="fr">Organisation Mondiale des Douanes Fonds de coopération douanière</narrative>
             </name>
             <description>
@@ -10481,7 +10503,7 @@
             </acronym>
             <category>47000</category>
             <dac:coefficient>100</dac:coefficient>
-            <dac:reference>Added 08/3/2022: DCD/DAC/STAT(2021)25</dac:reference>
+            <dac:reference>Added:  DCD/DAC/STAT(2021)25</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2017-01-01" mcd="">
             <code>47400</code>
