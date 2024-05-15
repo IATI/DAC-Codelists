@@ -2284,7 +2284,7 @@
             <category>21000</category>
             <dac:reference>Added as part of the Channel pilot: DCD/DAC/STAT(2014)9</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2022-01-01" withdrawal-date="2022-12-31" mcd="non-MCD">
+        <codelist-item status="active" activation-date="2022-01-01" mcd="non-MCD">
             <code>21508</code>
             <name>
                 <narrative>Sustainable Energy for All</narrative>
@@ -2301,6 +2301,24 @@
             <category>21000</category>
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added: DCD/DAC/STAT(2022)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2023-01-01" mcd="non-MCD">
+            <code>21509</code>
+            <name>
+                <narrative>AmplifyChange</narrative>
+                <narrative xml:lang="fr">AmplifyChange</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <acronym>
+                <narrative>AC</narrative>
+                <narrative xml:lang="fr">AC</narrative>
+            </acronym>
+            <category>21000</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Added: DCD/DAC/STAT(2023)43</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2014-01-01" mcd="non-MCD">
             <code>22501</code>
@@ -3146,11 +3164,11 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Not a major channel of delivery, channel category changed:  DCD/DAC/STAT(2011)7/REV1.</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2017-01-01" mcd="">
+        <codelist-item status="withdrawn" activation-date="2017-01-01" withdrawal-date="2021-12-31" mcd="MCD">
             <code>31006</code>
             <name>
                 <narrative>Coalition for Epidemic Preparedness Innovations</narrative>
-                <narrative xml:lang="fr">Coalition pour les innovations en matière de préparation</narrative>
+                <narrative xml:lang="fr">Coalition pour les innovations en matière de préparation aux épidémies</narrative>
             </name>
             <description>
                 <narrative/>
@@ -3163,6 +3181,23 @@
             <category>31000</category>
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>ODA-eligible but not added to Annex 2 List; channel code created in single table [DCD/DAC/STAT(2018)35].</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2022-01-01" mcd="">
+            <code>31006</code>
+            <name>
+                <narrative>Coalition for Epidemic Preparedness Innovations</narrative>
+                <narrative xml:lang="fr">Coalition pour les innovations en matière de préparation aux épidémies</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <acronym>
+                <narrative>CEPI</narrative>
+                <narrative xml:lang="fr">CIPE</narrative>
+            </acronym>
+            <category>31000</category>
+            <dac:coefficient>88</dac:coefficient>
         </codelist-item>
         <codelist-item status="active" activation-date="2021-01-01" mcd="">
             <code>31007</code>
@@ -3181,6 +3216,24 @@
             <category>32000</category>
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added: DCD/DAC/STAT(2021)30</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2023-01-01" mcd="non-MCD">
+            <code>31008</code>
+            <name>
+                <narrative>Foundation for Innovative New Diagnostics</narrative>
+                <narrative xml:lang="fr">Fondation pour les nouveaux diagnostics innovants</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <acronym>
+                <narrative>FIND</narrative>
+                <narrative xml:lang="fr">FIND</narrative>
+            </acronym>
+            <category>32000</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Added: DCD/DAC/STAT(2023)43</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41101</code>
@@ -3789,7 +3842,7 @@
         <codelist-item status="withdrawn" activation-date="1998-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41121</code>
             <name>
-                <narrative>United Nations Office of the United Nations High Commissioner for Refugees </narrative>
+                <narrative>United Nations Office of the High Commissioner for Refugees</narrative>
                 <narrative xml:lang="fr">Haut Commissariat des Nations Unies pour les réfugiés</narrative>
             </name>
             <description>
@@ -3806,7 +3859,7 @@
         <codelist-item status="active" activation-date="2020-01-01" mcd="MCD">
             <code>41121</code>
             <name>
-                <narrative>United Nations Office of the United Nations High Commissioner for Refugees </narrative>
+                <narrative>United Nations Office of the High Commissioner for Refugees</narrative>
                 <narrative xml:lang="fr">Haut Commissariat des Nations Unies pour les réfugiés</narrative>
             </name>
             <description>
@@ -4803,7 +4856,7 @@
             <dac:coefficient>27</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2019)17</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2020-01-01" mcd="">
+        <codelist-item status="withdrawn" activation-date="2020-01-01" withdrawal-date="2022-12-31" mcd="MCD">
             <code>41150</code>
             <name>
                 <narrative>United Nations Institute for Disarmament Research</narrative>
@@ -4820,6 +4873,24 @@
             <category>41300</category>
             <dac:coefficient>27</dac:coefficient>
             <dac:reference>Change of Channel Category:DCD/DAC/STAT(2020)47</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2023-01-01" mcd="">
+            <code>41150</code>
+            <name>
+                <narrative>United Nations Institute for Disarmament Research</narrative>
+                <narrative xml:lang="fr">Institut des Nations unies pour la recherche sur le désarmement</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <acronym>
+                <narrative>UNIDIR</narrative>
+                <narrative xml:lang="fr">UNIDIR</narrative>
+            </acronym>
+            <category>41300</category>
+            <dac:coefficient>36</dac:coefficient>
+            <dac:reference>Coefficient increased: DCD/DAC/STAT(2023)43</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2019-01-01" withdrawal-date="2019-12-31" mcd="non-MCD">
             <code>41151</code>
@@ -5596,7 +5667,7 @@
             </acronym>
             <category>41300</category>
             <dac:coefficient>7</dac:coefficient>
-            <dac:reference>Revised to exclude certain missions: DCD/DAC/STAT(2009)8;</dac:reference>
+            <dac:reference>Revised to exclude certain missions: DCD/DAC/STAT(2009)8</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2009-01-01" withdrawal-date="2009-12-31" mcd="MCD">
             <code>41310</code>
@@ -5650,7 +5721,7 @@
             </acronym>
             <category>41000</category>
             <dac:coefficient>7</dac:coefficient>
-            <dac:reference>[only UNIFIL, MINURSO, UNOMIG (terminated June 2009), UNMIK, MONUSCO (named MONUC prior to July 2010), UNMIL, UNOCI, MINUSTAH, UNMIS (terminated July 2011), UNMIT, UNAMID, MINURCAT (terminated December 2010), UNIFSA, UNMISS]. Report contributions mission by mission in CRS++. Coefficient increased from 6%: DCD/DAC/STAT/RD(2013)1/RD6.</dac:reference>
+            <dac:reference>MINUSCA added:  DCD/DAC/STAT(2015)20</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2016-01-01" withdrawal-date="2019-12-31" mcd="MCD">
             <code>41310</code>
@@ -6587,7 +6658,7 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2016)23/REV1</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2015-01-01" mcd="MCD">
+        <codelist-item status="active" activation-date="2022-01-01" mcd="MCD">
             <code>43007</code>
             <name>
                 <narrative>IMF’s Resilience and Sustainability Trust</narrative>
@@ -6599,7 +6670,7 @@
             </description>
             <acronym>
                 <narrative>IMF-RST</narrative>
-                <narrative xml:lang="fr">IMF-RST</narrative>
+                <narrative xml:lang="fr">FMI-RST</narrative>
             </acronym>
             <category>43000</category>
             <dac:coefficient>100</dac:coefficient>
@@ -7046,7 +7117,7 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference> Name updated after consulation with IDB, June 2012.</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2009-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2009-01-01" withdrawal-date="2022-12-31" mcd="MCD">
             <code>46015</code>
             <name>
                 <narrative>European Bank for Reconstruction and Development</narrative>
@@ -7063,6 +7134,24 @@
             <category>46000</category>
             <dac:coefficient>43</dac:coefficient>
             <dac:reference>Added DCD/DAC/STAT(2010)5</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2023-01-01" mcd="MCD">
+            <code>46015</code>
+            <name>
+                <narrative>European Bank for Reconstruction and Development</narrative>
+                <narrative xml:lang="fr">Banque européenne pour la reconstruction et le développement</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <acronym>
+                <narrative>EBRD</narrative>
+                <narrative xml:lang="fr">BERD</narrative>
+            </acronym>
+            <category>46000</category>
+            <dac:coefficient>71</dac:coefficient>
+            <dac:reference>Coefficient increased: DCD/DAC/STAT(2023)43</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2009-01-01" mcd="MCD">
             <code>46016</code>
@@ -7082,7 +7171,7 @@
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added DCD/DAC/STAT(2010)5</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2009-01-01" mcd="MCD">
+        <codelist-item status="withdrawn" activation-date="2009-01-01" withdrawal-date="2022-12-31" mcd="MCD">
             <code>46017</code>
             <name>
                 <narrative>European Bank for Reconstruction and Development - technical co-operation and special funds (all EBRD countries of operations)</narrative>
@@ -7099,6 +7188,24 @@
             <category>46000</category>
             <dac:coefficient>43</dac:coefficient>
             <dac:reference>Added DCD/DAC/STAT(2010)5</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2023-01-01" mcd="MCD">
+            <code>46017</code>
+            <name>
+                <narrative>European Bank for Reconstruction and Development - technical co-operation and special funds (all EBRD countries of operations)</narrative>
+                <narrative xml:lang="fr">Banque européenne pour la reconstruction et le développement - coopération technique et fonds spéciaux (tous pays)</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <acronym>
+                <narrative>EBRD TFs - All Countries</narrative>
+                <narrative xml:lang="fr">BERD-CTFS tous pays</narrative>
+            </acronym>
+            <category>46000</category>
+            <dac:coefficient>71</dac:coefficient>
+            <dac:reference>Coefficient increased: DCD/DAC/STAT(2023)43</dac:reference>
         </codelist-item>
         <codelist-item status="withdrawn" activation-date="2004-01-01" withdrawal-date="2008-12-31" mcd="MCD">
             <code>46018</code>
@@ -10480,8 +10587,8 @@
                 <narrative xml:lang="fr"/>
             </description>
             <acronym>
-                <narrative>OIE</narrative>
-                <narrative xml:lang="fr">OIE</narrative>
+                <narrative>WOAH</narrative>
+                <narrative xml:lang="fr">WOAH</narrative>
             </acronym>
             <category>47000</category>
             <dac:coefficient>61</dac:coefficient>
@@ -10504,6 +10611,24 @@
             <category>47000</category>
             <dac:coefficient>100</dac:coefficient>
             <dac:reference>Added:  DCD/DAC/STAT(2021)25</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2023-01-01" mcd="non-MCD">
+            <code>47150</code>
+            <name>
+                <narrative>Secretaría General Iberoamericana</narrative>
+                <narrative xml:lang="fr">Secretaría General Iberoamericana</narrative>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <acronym>
+                <narrative>SEGIB</narrative>
+                <narrative xml:lang="fr">SEGIB</narrative>
+            </acronym>
+            <category>47000</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Added: DCD/DAC/STAT(2023)43</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2017-01-01" mcd="">
             <code>47400</code>
@@ -10553,7 +10678,7 @@
             <category>47000</category>
             <dac:reference>Added as part of the Channel pilot: DCD/DAC/STAT(2014)9</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2014-01-01" mcd="non-MCD">
+        <codelist-item status="withdrawn" activation-date="2014-01-01" withdrawal-date="2022-12-31" mcd="non-MCD">
             <code>47503</code>
             <name>
                 <narrative>Global Agriculture and Food Security Program</narrative>
@@ -10569,6 +10694,24 @@
             </acronym>
             <category>47000</category>
             <dac:reference>Added as part of the Channel pilot: DCD/DAC/STAT(2014)9</dac:reference>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2023-01-01" mcd="non-MCD">
+            <code>47503</code>
+            <name>
+                <narrative>Global Agriculture and Food Security Program</narrative>
+                <narrative xml:lang="fr"/>
+            </name>
+            <description>
+                <narrative/>
+                <narrative xml:lang="fr"/>
+            </description>
+            <acronym>
+                <narrative>GAFSP</narrative>
+                <narrative xml:lang="fr"/>
+            </acronym>
+            <category>47000</category>
+            <dac:coefficient>100</dac:coefficient>
+            <dac:reference>Coefficient assessed: DCD/DAC/STAT(2023)43</dac:reference>
         </codelist-item>
         <codelist-item status="active" activation-date="2014-01-01" mcd="non-MCD">
             <code>47504</code>
