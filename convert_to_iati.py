@@ -4,6 +4,17 @@ import os
 
 DAC_CODELISTS_DIR = "Current_DAC"
 IATI_CODELISTS_DIR = "IATI_codelists"
+DAC_IATI_CODELISTS = [
+    ("Co-operation modality", "AidType", "not(@Heading)"),
+    ("Co-operation modality", "AidType-category", "@Heading=1"),
+    ("Channel of delivery", "CRSChannelCode", None),
+    ("Bi_Multi", "CollaborationType", None),
+    ("Type of finance", "FinanceType", "not(@Heading)"),
+    ("Type of finance", "FinanceType-category", "@Heading=1"),
+    ("Type of flow", "FlowType", None),
+    ("Purpose code", "Sector", "not(@Heading)"),
+    ("Purpose code", "SectorCategory", "@Heading=1"),
+]
 OUTPUTDIR = "DAC_to_IATI"
 namespaces = {"dac": "http://www.oecd.org/dac/stats/dacandcrscodelists"}
 codelist_dict = {"Channel-category": "CRSChannelCode"}
@@ -26,14 +37,32 @@ def indent(elem, level=0, shift=2):
             elem.tail = i
 
 
+def filter_codelist(codelist, condition):
+    codelist_items = codelist.find("codelist-items")
+
+    if condition:
+        for codelist_item in codelist_items.findall("codelist-item"):
+            if not codelist_item.xpath(condition):
+                codelist_items.remove(codelist_item)
+
+    # Also remove non CRS items
+    for codelist_item in codelist_items.findall("codelist-item"):
+        if codelist_item.find("crs").text == "0":
+            codelist_items.remove(codelist_item)
+
+    return codelist
+
+
 def cleanup(codelist):
-    """Remove acronym in CRS Channel Code"""
-    if codelist.attrib["name"] == "Channel-category":
-        for codelist_item in codelist.find("codelist-items").findall("codelist-item"):
-            for child in codelist_item:
-                if child.tag == "acronym":
-                    child.getparent().remove(child)
-    """Remove dac namespaces from the xml."""
+    """Clean up the xml by removing tags, namespaces, anchors and attributes."""
+
+    # Remove some tags
+    for codelist_item in codelist.find("codelist-items").findall("codelist-item"):
+        for child in codelist_item:
+            if child.tag in ["acronym", "crs", "tossd"]:
+                child.getparent().remove(child)
+
+    # Remove dac namespaces from the xml.
     if codelist.attrib["name"] in codelist_dict.keys():
         codelist.attrib["name"] = codelist_dict[codelist.attrib["name"]]
     for elem in codelist.getiterator():
@@ -43,17 +72,38 @@ def cleanup(codelist):
         if i >= 0:
             elem.tag = elem.tag[i + 1]
     objectify.deannotate(codelist, cleanup_namespaces=True)
+
+    # Remove anchors
     anchors = codelist.xpath("//a")
     for anchor in anchors:
         anchor.getparent().remove(anchor)
+
+    # Remove some attributes
+    for key in ["CRS", "TOSSD"]:
+        codelist.attrib.pop(key, None)
     for codelist_item in codelist.find("codelist-items").findall("codelist-item"):
-        if "mcd" in codelist_item.attrib.keys():
-            codelist_item.attrib.pop("mcd")
+        for key in ["mcd", "Heading", "Particularity", "modality"]:
+            codelist_item.attrib.pop(key, None)
+        remove_trailing_whitespaces(codelist_item)
+    return codelist
+
+
+def renames(codelist):
+    """Rename some tags and values"""
+
+    # Rename some tags
+    for codelist_item in codelist.find("codelist-items").findall("codelist-item"):
+        child = codelist_item.find("parent-code")
+        if child is not None:
+            child.tag = "category"
+
+    # Rename some status values
+    for codelist_item in codelist.find("codelist-items").findall("codelist-item"):
         if "status" in codelist_item.attrib.keys():
             codelist_status = codelist_item.attrib["status"]
-            if codelist_status == "voluntary basis":
+            if codelist_status in ["Active", "voluntary basis"]:
                 codelist_item.attrib["status"] = "active"
-        remove_trailing_whitespaces(codelist_item)
+
     return codelist
 
 
@@ -101,7 +151,12 @@ def compare_codes(codelist, iati_codelist):
     for iati_code in iati_codelist.find("codelist-items").findall("codelist-item"):
         iati_codes[iati_code.find("code").text] = iati_code
     for code in codelist.find("codelist-items").findall("codelist-item"):
-        dac_codes[code.find("code").text] = code
+        code_text = code.find("code").text
+        if code_text in dac_codes:
+            print(f"Code `{code_text}` appears more than once")
+        else:
+            dac_codes[code_text] = code
+
     for key, element in iati_codes.items():
         if key not in dac_codes.keys():
             if element.attrib["status"] != "withdrawn":
@@ -113,17 +168,17 @@ def compare_codes(codelist, iati_codelist):
 
 
 parser = etree.XMLParser(remove_blank_text=True)
-for a, b, codelists in os.walk(DAC_CODELISTS_DIR):
-    for codelist_string in codelists:
-        codelist = etree.parse("{}/{}".format(DAC_CODELISTS_DIR, codelist_string))
-        clean_codelist = cleanup(codelist.getroot())
-        iati_format = etree.ElementTree(
-            add_iati_codelist_xml(
-                clean_codelist, etree.parse("{}/{}".format(IATI_CODELISTS_DIR, codelist_string)).getroot()
-            )
-        )
-        indent(iati_format.getroot(), 0, 4)
-        try:
-            iati_format.write(os.path.join(OUTPUTDIR, "{}".format(codelist_string)), encoding="utf-8")
-        except AttributeError:
-            print(codelist_string)
+for dac_name, iati_name, condition in DAC_IATI_CODELISTS:
+    print(f"Processing {dac_name} -> {iati_name}")
+    codelist = etree.parse(f"{DAC_CODELISTS_DIR}/{dac_name}.xml").getroot()
+    codelist.attrib["name"] = iati_name
+    filtered_codelist = renames(filter_codelist(codelist, condition))
+    clean_codelist = cleanup(filtered_codelist)
+    iati_format = etree.ElementTree(
+        add_iati_codelist_xml(clean_codelist, etree.parse(f"{IATI_CODELISTS_DIR}/{iati_name}.xml").getroot())
+    )
+    indent(iati_format.getroot(), 0, 4)
+    try:
+        iati_format.write(os.path.join(OUTPUTDIR, f"{iati_name}.xml"), encoding="utf-8")
+    except AttributeError:
+        print(codelist_string)
