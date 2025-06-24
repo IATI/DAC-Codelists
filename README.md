@@ -11,6 +11,7 @@ pip install -r requirements.txt
 - Create a branch `updates/YYYY-MM-DD`
 - Sync from IATI-Codelist-NonEmbedded repo `rsync -avz --existing ~/Projects/IATI-Codelists-NonEmbedded/xml/ IATI_codelists`
 - Download the XML from https://development-finance-codelists.oecd.org/CodesList.aspx and copy to this repo
+  - Make sure Active, Heading and Withdrawn are selected
 - Extract `python extract_dac.py`
   - Make sure to update filename in code
  Update this line in `convert_to_iati.py` with the date DAC updated files: `element.attrib['withdrawal-date'] = "2022-01-21"`

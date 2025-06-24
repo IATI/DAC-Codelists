@@ -19,6 +19,20 @@
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>20</code>
+            <name>
+                <narrative>OOF</narrative>
+                <narrative xml:lang="fr">AASP</narrative>
+            </name>
+            <description>
+                <narrative>Other Official Flows</narrative>
+                <narrative xml:lang="fr">Autres Apports du Secteur Public</narrative>
+            </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
         <codelist-item status="Active" activation-date="2016-01-01">
             <code>21</code>
             <name>
@@ -59,6 +73,20 @@
             </description>
             <crs>1</crs>
             <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>35</code>
+            <name>
+                <narrative>Private Market</narrative>
+                <narrative xml:lang="fr">Apports privés aux conditions du marché</narrative>
+            </name>
+            <description>
+                <narrative>Private long-term (i.e. over one-year maturity) capital transactions made by residents of DAC countries</narrative>
+                <narrative xml:lang="fr">Apports privés aux conditions du marché</narrative>
+            </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
         </codelist-item>
         <codelist-item status="Active" activation-date="2016-01-01">
             <code>36</code>

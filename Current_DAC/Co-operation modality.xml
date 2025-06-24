@@ -876,6 +876,34 @@
             <crs>0</crs>
             <tossd>1</tossd>
         </codelist-item>
+        <codelist-item status="Withdrawn" activation-date="2019-01-01" withdrawal-date="2021-12-31">
+            <code>I03</code>
+            <name>
+                <narrative>Support to refugees/protected persons - in other countries of asylum</narrative>
+                <narrative xml:lang="fr">Support to refugees/protected persons - in other countries of asylum</narrative>
+            </name>
+            <description>
+                <narrative>Financial, material or technical support to asylum seekers, refugees and protected persons in other host countries. Reportable under Pillar I.</narrative>
+                <narrative xml:lang="fr">Financial, material or technical support to asylum seekers, refugees and protected persons in other host countries. Reportable under Pillar I.</narrative>
+            </description>
+            <parent-code>I</parent-code>
+            <crs>0</crs>
+            <tossd>1</tossd>
+        </codelist-item>
+        <codelist-item status="Withdrawn" activation-date="2019-01-01" withdrawal-date="2021-12-31">
+            <code>I04</code>
+            <name>
+                <narrative>Support to refugees/protected persons - voluntary returns</narrative>
+                <narrative xml:lang="fr">Support to refugees/protected persons - voluntary returns</narrative>
+            </name>
+            <description>
+                <narrative>Support to refugees, asylum seekers and protected persons voluntarily returning to their countries of origin, nationality or last habitual residence.  Excluding pre-departure assistance. Reportable under Pillar I.</narrative>
+                <narrative xml:lang="fr">Support to refugees, asylum seekers and protected persons voluntarily returning to their countries of origin, nationality or last habitual residence.  Excluding pre-departure assistance. Reportable under Pillar I.</narrative>
+            </description>
+            <parent-code>I</parent-code>
+            <crs>0</crs>
+            <tossd>1</tossd>
+        </codelist-item>
         <codelist-item status="Active" activation-date="2020-01-01">
             <code>I05</code>
             <name>

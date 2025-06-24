@@ -1,4 +1,5 @@
 from lxml import etree, objectify
+import datetime
 import os
 
 
@@ -103,6 +104,8 @@ def renames(codelist):
             codelist_status = codelist_item.attrib["status"]
             if codelist_status in ["Active", "voluntary basis"]:
                 codelist_item.attrib["status"] = "active"
+            if codelist_status in ["Withdrawn"]:
+                codelist_item.attrib["status"] = "withdrawn"
 
     return codelist
 
@@ -153,7 +156,15 @@ def compare_codes(codelist, iati_codelist):
     for code in codelist.find("codelist-items").findall("codelist-item"):
         code_text = code.find("code").text
         if code_text in dac_codes:
-            print(f"Code `{code_text}` appears more than once")
+            code2 = dac_codes[code_text]
+            if datetime.date.fromisoformat(code.attrib["activation-date"]) < datetime.date.fromisoformat(code.attrib["activation-date"]):
+                earlier_code = code
+                later_code = code2
+            else:
+                earlier_code = code2
+                later_code = code
+            later_code.attrib["activation-date"] = earlier_code.attrib["activation-date"]
+            dac_codes[code_text] = later_code
         else:
             dac_codes[code_text] = code
 
