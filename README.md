@@ -1,3 +1,15 @@
+# DAC-Codelists
+
+This repository holds scripts to process Codelists downloaded from DAC and turn them into IATI codelists.
+
+Files/Directories/process:
+
+* The data downloaded from DAC is in the files in the root directory
+* The `extract_dac.py` script extracts information from the DAC Downloads into a more structured form in `Current_DAC` directory
+* The `IATI_codelists` directory holds current IATI codelists. These should be copied from https://github.com/IATI/IATI-Codelists-NonEmbedded . These are used as part of the processing to try and preserve order.
+* The `convert_to_iati.py` script uses information from `Current_DAC` and `IATI_codelists` and writes the new codelists to `DAC_to_IATI`
+* The new codelists in `DAC_to_IATI` should be synced back to https://github.com/IATI/IATI-Codelists-NonEmbedded
+
 ## Python Environment Setup
 
 ```
