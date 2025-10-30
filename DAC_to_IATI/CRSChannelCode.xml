@@ -1361,7 +1361,7 @@
             </name>
             <category>41300</category>
         </codelist-item>
-        <codelist-item status="withdrawn" activation-date="2020-01-01" withdrawal-date="2023-08-29">
+        <codelist-item status="withdrawn" activation-date="2020-01-01" withdrawal-date="2025-10-30">
             <code>41200</code>
             <name>
                 <narrative>UN entities (core contributions reportable in TOSSD only)</narrative>
@@ -1617,7 +1617,7 @@
             </name>
             <category>41000</category>
         </codelist-item>
-        <codelist-item status="withdrawn" activation-date="2021-01-01" withdrawal-date="2023-08-29">
+        <codelist-item status="withdrawn" activation-date="2021-01-01" withdrawal-date="2025-10-30">
             <code>41700</code>
             <name>
                 <narrative>UN entities, non-core contributions</narrative>
@@ -1625,7 +1625,7 @@
             </name>
             <category>41000</category>
         </codelist-item>
-        <codelist-item status="withdrawn" activation-date="2021-01-01" withdrawal-date="2023-08-29">
+        <codelist-item status="withdrawn" activation-date="2021-01-01" withdrawal-date="2025-10-30">
             <code>41701</code>
             <name>
                 <narrative>International Labour Organisation - non-core</narrative>
@@ -1633,7 +1633,7 @@
             </name>
             <category>41700</category>
         </codelist-item>
-        <codelist-item status="withdrawn" activation-date="2021-01-01" withdrawal-date="2023-08-29">
+        <codelist-item status="withdrawn" activation-date="2021-01-01" withdrawal-date="2025-10-30">
             <code>41702</code>
             <name>
                 <narrative>World Health Organisation - non-core</narrative>
@@ -1817,7 +1817,7 @@
             </name>
             <category>44000</category>
         </codelist-item>
-        <codelist-item status="withdrawn" withdrawal-date="2023-08-29">
+        <codelist-item status="withdrawn" withdrawal-date="2025-10-30">
             <code>45000</code>
             <name>
                 <narrative>World Trade Organisation (WTO)</narrative>

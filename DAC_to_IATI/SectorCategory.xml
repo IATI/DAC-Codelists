@@ -19,8 +19,8 @@
         <codelist-item status="active">
             <code>111</code>
             <name>
-                <narrative>I.1.a. Education, Level Unspecified</narrative>
-                <narrative xml:lang="fr">I.1.a. Education, Niveau non spécifié</narrative>
+                <narrative>I.1.a. Education, level nnspecified</narrative>
+                <narrative xml:lang="fr">I.1.a. Education, niveau non spécifié</narrative>
             </name>
             <description>
                 <narrative>The codes in this category are to be used only when level of education is unspecified or unknown (e.g. training of primary school teachers should be coded under 11220).</narrative>
@@ -31,24 +31,24 @@
         <codelist-item status="active">
             <code>112</code>
             <name>
-                <narrative>I.1.b. Basic Education</narrative>
-                <narrative xml:lang="fr">I.1.b. Education de Base</narrative>
+                <narrative>I.1.b. Basic education</narrative>
+                <narrative xml:lang="fr">I.1.b. Education de base</narrative>
             </name>
             <category>110</category>
         </codelist-item>
         <codelist-item status="active">
             <code>113</code>
             <name>
-                <narrative>I.1.c. Upper Secondary Education</narrative>
-                <narrative xml:lang="fr">I.1.c. Education Secondaire</narrative>
+                <narrative>I.1.c. Upper secondary education</narrative>
+                <narrative xml:lang="fr">I.1.c. Education secondaire</narrative>
             </name>
             <category>110</category>
         </codelist-item>
         <codelist-item status="active">
             <code>114</code>
             <name>
-                <narrative>I.1.d. Post-Secondary Education</narrative>
-                <narrative xml:lang="fr">I.1.d. Education Post Secondaire</narrative>
+                <narrative>I.1.d. Post-secondary education</narrative>
+                <narrative xml:lang="fr">I.1.d. Education post secondaire</narrative>
             </name>
             <category>110</category>
         </codelist-item>
@@ -62,15 +62,15 @@
         <codelist-item status="active">
             <code>121</code>
             <name>
-                <narrative>I.2.a. Health, General</narrative>
-                <narrative xml:lang="fr">I.2.a. Santé, Général</narrative>
+                <narrative>I.2.a. Health, general</narrative>
+                <narrative xml:lang="fr">I.2.a. Santé, général</narrative>
             </name>
             <category>120</category>
         </codelist-item>
         <codelist-item status="active">
             <code>122</code>
             <name>
-                <narrative>I.2.b. Basic Health</narrative>
+                <narrative>I.2.b. Basic health</narrative>
                 <narrative xml:lang="fr">I.2.b. Santé de Base</narrative>
             </name>
             <category>120</category>
@@ -85,29 +85,29 @@
         <codelist-item status="active">
             <code>130</code>
             <name>
-                <narrative>I.3. Population Policies/Programmes and Reproductive Health</narrative>
+                <narrative>I.3. Population policies/programmes and reproductive health</narrative>
                 <narrative xml:lang="fr">I.3. Politique en Matière de Population/Santé&amp;Fertilité</narrative>
             </name>
         </codelist-item>
         <codelist-item status="active">
             <code>140</code>
             <name>
-                <narrative>I.4. Water Supply and Sanitation</narrative>
+                <narrative>I.4. Water supply and sanitation</narrative>
                 <narrative xml:lang="fr">I.4. Distribution d'Eau et Assainissement</narrative>
             </name>
         </codelist-item>
         <codelist-item status="active">
             <code>150</code>
             <name>
-                <narrative>I.5. Government and Civil Society</narrative>
-                <narrative xml:lang="fr">I.5. Gouvernement &amp; Société Civile</narrative>
+                <narrative>I.5. Government and civil society</narrative>
+                <narrative xml:lang="fr">I.5. Gouvernement &amp; société civile</narrative>
             </name>
         </codelist-item>
         <codelist-item status="active">
             <code>151</code>
             <name>
-                <narrative>I.5.a. Government and Civil Society - general</narrative>
-                <narrative xml:lang="fr">I.5.a. Gouvernement &amp; Société Civile-général</narrative>
+                <narrative>I.5.a. Government and civil society, general</narrative>
+                <narrative xml:lang="fr">I.5.a. Gouvernement &amp; société civile, général</narrative>
             </name>
             <description>
                 <narrative>N.B. Use code 51010 for general budget support.</narrative>
@@ -118,8 +118,8 @@
         <codelist-item status="active">
             <code>152</code>
             <name>
-                <narrative>I.5.b. Conflict, Peace and Security</narrative>
-                <narrative xml:lang="fr">I.5.b. Conflits, Paix et Sécurité</narrative>
+                <narrative>I.5.b. Conflict, peace and security</narrative>
+                <narrative xml:lang="fr">I.5.b. Conflits, paix et sécurité</narrative>
             </name>
             <description>
                 <narrative>N.B. Further notes on ODA eligibility (and exclusions) of conflict, peace and security related activities are given in paragraphs 76-81 of the Directives.</narrative>
@@ -130,15 +130,15 @@
         <codelist-item status="active">
             <code>160</code>
             <name>
-                <narrative>I.6. Other Social Infrastructure and Services</narrative>
-                <narrative xml:lang="fr">I.6. Infrastructure et Services Sociaux Divers</narrative>
+                <narrative>I.6. Other social infrastructure and services</narrative>
+                <narrative xml:lang="fr">I.6. Infrastructure et services sociaux divers</narrative>
             </name>
         </codelist-item>
         <codelist-item status="active">
             <code>210</code>
             <name>
-                <narrative>II.1. Transport and Storage</narrative>
-                <narrative xml:lang="fr">II.1. Transports et Entreposage</narrative>
+                <narrative>II.1. Transport and storage</narrative>
+                <narrative xml:lang="fr">II.1. Transports et entreposage</narrative>
             </name>
             <description>
                 <narrative>Note: Manufacturing of transport equipment should be included under code 32172.</narrative>
@@ -166,7 +166,7 @@
         <codelist-item status="active">
             <code>231</code>
             <name>
-                <narrative>II.3.a. Energy Policy</narrative>
+                <narrative>II.3.a. Energy policy</narrative>
                 <narrative xml:lang="fr">II.3.a. Politique de l'énergie</narrative>
             </name>
         </codelist-item>
@@ -208,22 +208,22 @@
         <codelist-item status="active">
             <code>240</code>
             <name>
-                <narrative>II.4. Banking and Financial Services</narrative>
-                <narrative xml:lang="fr">II.4. Banques et Services Financiers</narrative>
+                <narrative>II.4. Banking and financial services</narrative>
+                <narrative xml:lang="fr">II.4. Banques et services financiers</narrative>
             </name>
         </codelist-item>
         <codelist-item status="active">
             <code>250</code>
             <name>
-                <narrative>II.5. Business and Other Services</narrative>
+                <narrative>II.5. Business and other services</narrative>
                 <narrative xml:lang="fr">II.5. Entreprises et Autres Services</narrative>
             </name>
         </codelist-item>
         <codelist-item status="active">
             <code>310</code>
             <name>
-                <narrative>III.1. Agriculture, Forestry, Fishing</narrative>
-                <narrative xml:lang="fr">III.1. Agriculture, Sylviculture, Pêche</narrative>
+                <narrative>III.1. Agriculture, forestry, fishing</narrative>
+                <narrative xml:lang="fr">III.1. Agriculture, sylviculture, pêche</narrative>
             </name>
         </codelist-item>
         <codelist-item status="active">
@@ -250,22 +250,22 @@
         <codelist-item status="active">
             <code>320</code>
             <name>
-                <narrative>III.2. Industry, Mining, Construction</narrative>
-                <narrative xml:lang="fr">III.2. Industries Manufacturières, Extractives, Construct</narrative>
+                <narrative>III.2. Industry, mining, construction</narrative>
+                <narrative xml:lang="fr">III.2. Industries manufacturières, extractives, construction</narrative>
             </name>
         </codelist-item>
         <codelist-item status="active">
             <code>321</code>
             <name>
                 <narrative>III.2.a. Industry</narrative>
-                <narrative xml:lang="fr">III.2.a. Industries Manufacturières</narrative>
+                <narrative xml:lang="fr">III.2.a. Industries manufacturières</narrative>
             </name>
         </codelist-item>
         <codelist-item status="active">
             <code>322</code>
             <name>
-                <narrative>III.2.b. Mineral Resources and Mining</narrative>
-                <narrative xml:lang="fr">III.2.b. Industries Extractives</narrative>
+                <narrative>III.2.b. Mineral resources and mining</narrative>
+                <narrative xml:lang="fr">III.2.b. Industries extractives</narrative>
             </name>
         </codelist-item>
         <codelist-item status="active">

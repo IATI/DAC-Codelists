@@ -489,6 +489,17 @@
             <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
         </codelist-item>
+        <codelist-item status="Active" activation-date="2024-01-01">
+            <code>434</code>
+            <name>
+                <narrative>Multilateral hybrid capital: hybrid capital instruments issued by multilateral institutions</narrative>
+                <narrative xml:lang="fr">Capital hybride multilatéral : instruments de capital hybride émis par des institutions multilatérales</narrative>
+            </name>
+            <parent-code>430</parent-code>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference> DCD/DAC/STAT(2024)24/REV2</dac:reference>
+        </codelist-item>
         <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
             <code>451</code>
             <name>
@@ -525,8 +536,8 @@
         <codelist-item status="Active" Heading="1">
             <code>500</code>
             <name>
-                <narrative>EQUITY  AND SHARES IN COLLECTIVE INVESTMENT VEHICLES</narrative>
-                <narrative xml:lang="fr">ACTIONS ET  PARTS DANS DES VEHICULES COLLECTIFS D'INVESTISSEMENT</narrative>
+                <narrative>EQUITY AND SHARES IN COLLECTIVE INVESTMENT VEHICLES</narrative>
+                <narrative xml:lang="fr">ACTIONS ET PARTS DANS DES VEHICULES COLLECTIFS D'INVESTISSEMENT</narrative>
             </name>
             <crs>1</crs>
             <tossd>1</tossd>
@@ -1060,7 +1071,7 @@
             <code>1000</code>
             <name>
                 <narrative>GUARANTEES AND OTHER UNFUNDED CONTINGENT LIABILITIES</narrative>
-                <narrative xml:lang="fr">GARANTIES ET AUTRES ENGAGEMENTS CONDITIONNELS NON PROVISIONNÉS </narrative>
+                <narrative xml:lang="fr">GARANTIES ET AUTRES ENGAGEMENTS CONDITIONNELS NON PROVISIONNÉS</narrative>
             </name>
             <crs>1</crs>
             <tossd>1</tossd>
