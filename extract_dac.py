@@ -1,7 +1,7 @@
 from lxml import etree
 import os
 
-DAC_CRS_FILE = 'DAC-CRS-CODES_2023-08-29.xml'
+DAC_CRS_FILE = 'DAC-CRS-CODES_2024-04-23.xml'
 DAC_CODELISTS = ['AidType', 'AidType-category', 'Channel-category', 'Channelcode', 'CollaborationType', 'FinanceType', 'FinanceType-category', 'FlowType', 'Sector', 'SectorCategory']
 OUTPUTDIR = 'Current_DAC'
 

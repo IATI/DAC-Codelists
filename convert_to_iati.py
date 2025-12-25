@@ -107,7 +107,7 @@ def compare_codes(codelist, iati_codelist):
             if element.attrib['status'] != 'withdrawn':
                 element.attrib['status'] = 'withdrawn'
             if "withdrawal-date" not in element.attrib.keys():
-                element.attrib['withdrawal-date'] = "2023-08-29"
+                element.attrib['withdrawal-date'] = "2024-04-23"
             dac_codes[key] = element
     return sorted(dac_codes.items())
 
