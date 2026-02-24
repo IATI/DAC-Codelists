@@ -1,4 +1,4 @@
-<codelist name="AidType" xml:lang="en" complete="1" embedded="0">
+<codelist name="AidType" xml:lang="en" complete="1" category-codelist="AidType-category" embedded="0">
     <metadata>
         <name>
             <narrative>Aid Type</narrative>

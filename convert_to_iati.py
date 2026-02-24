@@ -184,11 +184,14 @@ def compare_codes(codelist, iati_codelist):
 parser = etree.XMLParser(remove_blank_text=True)
 for dac_name, iati_name, condition in DAC_IATI_CODELISTS:
     print(f"Processing {dac_name} -> {iati_name}")
+    iati_codelist = etree.parse(f"{IATI_CODELISTS_DIR}/{iati_name}.xml").getroot()
     codelist = etree.parse(f"{DAC_CODELISTS_DIR}/{dac_name}.xml").getroot()
     codelist.attrib["name"] = iati_name
+    if "category-codelist" in iati_codelist.attrib:
+        codelist.attrib["category-codelist"] = iati_codelist.attrib["category-codelist"]
     filtered_codelist = renames(filter_codelist(codelist, condition))
     iati_format = etree.ElementTree(
-        add_iati_codelist_xml(filtered_codelist, etree.parse(f"{IATI_CODELISTS_DIR}/{iati_name}.xml").getroot())
+        add_iati_codelist_xml(filtered_codelist, iati_codelist)
     )
     indent(cleanup(iati_format.getroot()), 0, 4)
     try:
