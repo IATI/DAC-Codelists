@@ -9,6 +9,18 @@
         </category>
     </metadata>
     <codelist-items>
+        <codelist-item status="active" activation-date="2019-01-01">
+            <code>A00</code>
+            <name>
+                <narrative>Budget support</narrative>
+                <narrative xml:lang="fr">Budget support</narrative>
+            </name>
+            <description>
+                <narrative>Identifies contributions from the provider to the government budget of a recipient country, which has exclusive responsibility for the use of and accountability for the funds. Budget support can be generic (not sector allocated) or sectoral (e.g. energy, agriculture).</narrative>
+                <narrative xml:lang="fr">Identifies contributions from the provider to the government budget of a recipient country, which has exclusive responsibility for the use of and accountability for the funds. Budget support can be generic (not sector allocated) or sectoral (e.g. energy, agriculture).</narrative>
+            </description>
+            <category>A</category>
+        </codelist-item>
         <codelist-item status="active">
             <code>A01</code>
             <name>
@@ -78,6 +90,30 @@
             <description>
                 <narrative>Contributions to global funds classified as multilateral including Financial Intermediary Funds for which the World Bank is the Trustee and which have gone through the Annex 2 process (GEF, CIFs) as well as some UN inter-agency pooled funds, e.g. CERF and the UN Peacebuilding Fund.</narrative>
                 <narrative xml:lang="fr">Contributions à des fonds mondiaux classés comme multilatéraux, y compris les fonds d'intermédiation financière dont la Banque mondiale est l'administrateur et qui sont passés par le processus de l'annexe 2 (FEM, FIC), ainsi que certains fonds communs inter-institutions des Nations unies, par exemple le CERF et le Fonds de consolidation de la paix des Nations unies.</narrative>
+            </description>
+            <category>B02</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2021-01-01">
+            <code>B02a</code>
+            <name>
+                <narrative>Assessed contributions to multilateral institutions</narrative>
+                <narrative xml:lang="fr">Assessed contributions to multilateral institutions</narrative>
+            </name>
+            <description>
+                <narrative>Fixed contributions calculated based on agreed formula that members of multilateral institutions commit to when joining an institution.</narrative>
+                <narrative xml:lang="fr">Fixed contributions calculated based on agreed formula that members of multilateral institutions commit to when joining an institution.</narrative>
+            </description>
+            <category>B02</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2021-01-01">
+            <code>B02b</code>
+            <name>
+                <narrative>Voluntary core contributions to multilateral institutions</narrative>
+                <narrative xml:lang="fr">Voluntary core contributions to multilateral institutions</narrative>
+            </name>
+            <description>
+                <narrative>Voluntary unearmarked contributions to the general budgets of multilateral institutions.</narrative>
+                <narrative xml:lang="fr">Voluntary unearmarked contributions to the general budgets of multilateral institutions.</narrative>
             </description>
             <category>B02</category>
         </codelist-item>
@@ -177,6 +213,42 @@
             </description>
             <category>D</category>
         </codelist-item>
+        <codelist-item status="active" activation-date="2021-01-01">
+            <code>D011</code>
+            <name>
+                <narrative>(for SSC providers only) In-kind technical cooperation. Experts costs</narrative>
+                <narrative xml:lang="fr">(for SSC providers only) In-kind technical cooperation. Experts costs</narrative>
+            </name>
+            <description>
+                <narrative>Expenses related to hiring specialists, technical hours of government officials and opportunity costs, directly associated with the technical co-operation activity.</narrative>
+                <narrative xml:lang="fr">Expenses related to hiring specialists, technical hours of government officials and opportunity costs, directly associated with the technical co-operation activity.</narrative>
+            </description>
+            <category>D01</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2021-01-01">
+            <code>D012</code>
+            <name>
+                <narrative>(for SSC providers only) In-kind technical cooperation experts. Travel related costs</narrative>
+                <narrative xml:lang="fr">(for SSC providers only) In-kind technical cooperation experts. Travel related costs</narrative>
+            </name>
+            <description>
+                <narrative>Expenses related to per diems, daily allowances and airfares, that are directly associated with the technical co-operation activity. Also includes expenditures for travel-related costs of volunteers.</narrative>
+                <narrative xml:lang="fr">Expenses related to per diems, daily allowances and airfares, that are directly associated with the technical co-operation activity. Also includes expenditures for travel-related costs of volunteers.</narrative>
+            </description>
+            <category>D01</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2021-01-01">
+            <code>D013</code>
+            <name>
+                <narrative>(for SSC providers only) In-kind technical cooperation. Services, materials, equipment and supplies.</narrative>
+                <narrative xml:lang="fr">(for SSC providers only) In-kind technical cooperation. Services, materials, equipment and supplies.</narrative>
+            </name>
+            <description>
+                <narrative>Expenses regarding the acquisition of services, materials, equipment and supplies that are needed to deliver technical co-operation activities/projects between developing countries.</narrative>
+                <narrative xml:lang="fr">Expenses regarding the acquisition of services, materials, equipment and supplies that are needed to deliver technical co-operation activities/projects between developing countries.</narrative>
+            </description>
+            <category>D01</category>
+        </codelist-item>
         <codelist-item status="active">
             <code>D02</code>
             <name>
@@ -188,6 +260,18 @@
                 <narrative xml:lang="fr">Cette catégorie couvre l’apport de savoir-faire en dehors de projets tels qu’ils sont définis dans la catégorie C01 (sauf l’assistance technique fournie par des experts des pays donneurs couverte sous D01, et les bourses/formations dans le pays donneur couvertes sous E01.) Sont inclues les activités de formation et de recherche, les formations linguistiques, les études Sud-Sud, les études pour la recherche, les activités de recherche impliquant une collaboration entre des universités ou organismes du pays donneur et du pays bénéficiaire, les bourses locales, et les programmes sociaux et culturels à des fins de développement. La catégorie couvre également les contributions ponctuelles telles les conférences, séminaires et ateliers, échanges, publications, etc.</narrative>
             </description>
             <category>D</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2021-01-01">
+            <code>D021</code>
+            <name>
+                <narrative>(for SSC providers only) Training</narrative>
+                <narrative xml:lang="fr">(for SSC providers only) Training</narrative>
+            </name>
+            <description>
+                <narrative>Includes the provision of training using internationally or locally recruited experts. This category also covers various capacity building activities such as conferences, seminars, workshops, exchange visits.</narrative>
+                <narrative xml:lang="fr">Includes the provision of training using internationally or locally recruited experts. This category also covers various capacity building activities such as conferences, seminars, workshops, exchange visits.</narrative>
+            </description>
+            <category>D02</category>
         </codelist-item>
         <codelist-item status="active">
             <code>E01</code>
@@ -225,6 +309,30 @@
             </description>
             <category>F</category>
         </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01">
+            <code>F02</code>
+            <name>
+                <narrative>Debt relief - principal (original loan not recorded in TOSSD)</narrative>
+                <narrative xml:lang="fr">Debt relief - principal (original loan not recorded in TOSSD)</narrative>
+            </name>
+            <description>
+                <narrative>Principal component of a debt relief operation, in cases where the loans concerned were not previously recorded in TOSSD (private claims or official claims not previously recorded in TOSSD).</narrative>
+                <narrative xml:lang="fr">Principal component of a debt relief operation, in cases where the loans concerned were not previously recorded in TOSSD (private claims or official claims not previously recorded in TOSSD).</narrative>
+            </description>
+            <category>F</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01">
+            <code>F03</code>
+            <name>
+                <narrative>Debt relief - interest</narrative>
+                <narrative xml:lang="fr">Debt relief - interest</narrative>
+            </name>
+            <description>
+                <narrative>Interest component of a debt relief operation (interests in arrears and late interests).</narrative>
+                <narrative xml:lang="fr">Interest component of a debt relief operation (interests in arrears and late interests).</narrative>
+            </description>
+            <category>F</category>
+        </codelist-item>
         <codelist-item status="active">
             <code>G01</code>
             <name>
@@ -236,6 +344,18 @@
                 <narrative xml:lang="fr">Frais d'administration des programmes d'aide au développement qui ne sont pas déjà inclus dans d'autres rubriques comme partie intégrante du coût de l’acheminement ou de la mise en œuvre de l’aide fournie. Cette catégorie comprend les analyses de situation et les activités d’audit.En ce qui concerne la composante salariale des frais administratifs, elle se rapporte uniquement au personnel et contractuels de l’agence ; les coûts associés aux experts/consultants du pays donneur sont à notifier sous les catégories C ou D01.</narrative>
             </description>
             <category>G</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2019-01-01">
+            <code>H00</code>
+            <name>
+                <narrative>Expenditures in the provider country</narrative>
+                <narrative xml:lang="fr">Expenditures in the provider country</narrative>
+            </name>
+            <description>
+                <narrative>Expenditures in the provider country not included elsewhere.</narrative>
+                <narrative xml:lang="fr">Expenditures in the provider country not included elsewhere.</narrative>
+            </description>
+            <category>H</category>
         </codelist-item>
         <codelist-item status="active">
             <code>H01</code>
@@ -308,6 +428,138 @@
                 <narrative xml:lang="fr">Coûts encourus dans d'autres pays fournisseurs non éligibles à l'APD pour l'assistance de base aux demandeurs d'asile et aux réfugiés des pays en développement, jusqu'à 12 mois. Le pays d'accueil et d'origine des réfugiés/demandeurs d'asile doit être précisé dans l'un des champs descriptifs du SNPC (champs 14 ou 19).</narrative>
             </description>
             <category>H</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2019-01-01">
+            <code>I01</code>
+            <name>
+                <narrative>Support to refugees/protected persons in the provider country (up to 12 months of their stay)</narrative>
+                <narrative xml:lang="fr">Support to refugees/protected persons in the provider country (up to 12 months of their stay)</narrative>
+            </name>
+            <description>
+                <narrative>Costs incurred in provider countries for basic assistance to asylum seekers, refugees and protected persons from TOSSD-eligible countries, up to 12 months. Reportable under Pillar II.</narrative>
+                <narrative xml:lang="fr">Costs incurred in provider countries for basic assistance to asylum seekers, refugees and protected persons from TOSSD-eligible countries, up to 12 months. Reportable under Pillar II.</narrative>
+            </description>
+            <category>I</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2019-01-01">
+            <code>I02</code>
+            <name>
+                <narrative>Support to refugees/protected persons in the provider country (beyond the 12-month period)</narrative>
+                <narrative xml:lang="fr">Support to refugees/protected persons in the provider country (beyond the 12-month period)</narrative>
+            </name>
+            <description>
+                <narrative>Costs incurred in provider countries for basic assistance to asylum seekers, refugees and protected persons from TOSSD-eligible countries, beyond the 12-month period, to the extent that the individual is not recognised by the competent authorities of the country in which he/she has sought asylum as having the rights and obligations which are attached to the possession of residency or nationality of that country. Reportable under Pillar II.</narrative>
+                <narrative xml:lang="fr">Costs incurred in provider countries for basic assistance to asylum seekers, refugees and protected persons from TOSSD-eligible countries, beyond the 12-month period, to the extent that the individual is not recognised by the competent authorities of the country in which he/she has sought asylum as having the rights and obligations which are attached to the possession of residency or nationality of that country. Reportable under Pillar II.</narrative>
+            </description>
+            <category>I</category>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2019-01-01" withdrawal-date="2021-12-31">
+            <code>I03</code>
+            <name>
+                <narrative>Support to refugees/protected persons - in other countries of asylum</narrative>
+                <narrative xml:lang="fr">Support to refugees/protected persons - in other countries of asylum</narrative>
+            </name>
+            <description>
+                <narrative>Financial, material or technical support to asylum seekers, refugees and protected persons in other host countries. Reportable under Pillar I.</narrative>
+                <narrative xml:lang="fr">Financial, material or technical support to asylum seekers, refugees and protected persons in other host countries. Reportable under Pillar I.</narrative>
+            </description>
+            <category>I</category>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2019-01-01" withdrawal-date="2021-12-31">
+            <code>I04</code>
+            <name>
+                <narrative>Support to refugees/protected persons - voluntary returns</narrative>
+                <narrative xml:lang="fr">Support to refugees/protected persons - voluntary returns</narrative>
+            </name>
+            <description>
+                <narrative>Support to refugees, asylum seekers and protected persons voluntarily returning to their countries of origin, nationality or last habitual residence.  Excluding pre-departure assistance. Reportable under Pillar I.</narrative>
+                <narrative xml:lang="fr">Support to refugees, asylum seekers and protected persons voluntarily returning to their countries of origin, nationality or last habitual residence.  Excluding pre-departure assistance. Reportable under Pillar I.</narrative>
+            </description>
+            <category>I</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01">
+            <code>I05</code>
+            <name>
+                <narrative>Support to refugees/protected persons/migrants for their integration in the economy of provider countries</narrative>
+                <narrative xml:lang="fr">Support to refugees/protected persons/migrants for their integration in the economy of provider countries</narrative>
+            </name>
+            <description>
+                <narrative>Costs incurred in provider countries for promoting the integration in their economy of asylum seekers, refugees, protected persons and migrants from TOSSD-eligible countries. Covers activities that promote the integration in the economy and culture of the provider country (including language training, vocational training, social protection schemes, employment programmes, awareness on national culture), up to the first 5 years of stay. Temporary sustenance/basic assistance is covered under modalities I01 and I02. Reportable under Pillar II.</narrative>
+                <narrative xml:lang="fr">Costs incurred in provider countries for promoting the integration in their economy of asylum seekers, refugees, protected persons and migrants from TOSSD-eligible countries. Covers activities that promote the integration in the economy and culture of the provider country (including language training, vocational training, social protection schemes, employment programmes, awareness on national culture), up to the first 5 years of stay. Temporary sustenance/basic assistance is covered under modalities I01 and I02. Reportable under Pillar II.</narrative>
+            </description>
+            <category>I</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2021-01-01">
+            <code>J01</code>
+            <name>
+                <narrative>(for SSC providers only) In-kind donations</narrative>
+                <narrative xml:lang="fr">(for SSC providers only) In-kind donations</narrative>
+            </name>
+            <description>
+                <narrative>Donation of goods and materials. Includes food, equipment (including medical equipment), materials, and motor vehicles. Materials and supplies necessary to deliver technical co-operation activities are reportable under D013.</narrative>
+                <narrative xml:lang="fr">Donation of goods and materials. Includes food, equipment (including medical equipment), materials, and motor vehicles. Materials and supplies necessary to deliver technical co-operation activities are reportable under D013.</narrative>
+            </description>
+            <category>J</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2021-01-01">
+            <code>K01</code>
+            <name>
+                <narrative>(for SSC providers only) Research and development</narrative>
+                <narrative xml:lang="fr">(for SSC providers only) Research and development</narrative>
+            </name>
+            <description>
+                <narrative>Disbursements for joint research projects between two or more developing countries, covering the working time and opportunity costs of scientists/specialists and other research personnel from the reporting country as well as expenses for scientific-related infrastructure and services (labs, equipment, materials, supplies) directly associated with the research activity.</narrative>
+                <narrative xml:lang="fr">Disbursements for joint research projects between two or more developing countries, covering the working time and opportunity costs of scientists/specialists and other research personnel from the reporting country as well as expenses for scientific-related infrastructure and services (labs, equipment, materials, supplies) directly associated with the research activity.</narrative>
+            </description>
+            <category>K</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2021-01-01">
+            <code>K011</code>
+            <name>
+                <narrative>(for SSC providers only) Scientific-related infrastructure</narrative>
+                <narrative xml:lang="fr">(for SSC providers only) Scientific-related infrastructure</narrative>
+            </name>
+            <description>
+                <narrative>Laboratories, equipment and supplies directly associated with research and development activities.</narrative>
+                <narrative xml:lang="fr">Laboratories, equipment and supplies directly associated with research and development activities.</narrative>
+            </description>
+            <category>K01</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2021-01-01">
+            <code>K012</code>
+            <name>
+                <narrative>(for SSC providers only) Research personnel</narrative>
+                <narrative xml:lang="fr">(for SSC providers only) Research personnel</narrative>
+            </name>
+            <description>
+                <narrative>Covers working hours and opportunity costs of scientists/specialists and other research personnel from the reporting country.</narrative>
+                <narrative xml:lang="fr">Covers working hours and opportunity costs of scientists/specialists and other research personnel from the reporting country.</narrative>
+            </description>
+            <category>K01</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2022-01-01">
+            <code>K02</code>
+            <name>
+                <narrative>RESEARCH AND DEVELOPMENT (R&amp;D)</narrative>
+                <narrative xml:lang="fr">RESEARCH AND DEVELOPMENT (R&amp;D)</narrative>
+            </name>
+            <description>
+                <narrative>Research and experimental development comprising creative and systematic work undertaken in order to increase the stock of knowledge – including knowledge of humankind, culture and society – and to devise new applications of available knowledge.</narrative>
+                <narrative xml:lang="fr">Research and experimental development comprising creative and systematic work undertaken in order to increase the stock of knowledge – including knowledge of humankind, culture and society – and to devise new applications of available knowledge.</narrative>
+            </description>
+            <category>K</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2021-01-01">
+            <code>L01</code>
+            <name>
+                <narrative>(for SSC providers only) Direct cash transfers under social development public programmes in partner countries</narrative>
+                <narrative xml:lang="fr">(for SSC providers only) Direct cash transfers under social development public programmes in partner countries</narrative>
+            </name>
+            <description>
+                <narrative>Direct cash transfers expenditure benefiting individuals, in the context of public programmes of sustainable development in partner countries (with the consent and support of the partner country).</narrative>
+                <narrative xml:lang="fr">Direct cash transfers expenditure benefiting individuals, in the context of public programmes of sustainable development in partner countries (with the consent and support of the partner country).</narrative>
+            </description>
+            <category>L</category>
         </codelist-item>
     </codelist-items>
 </codelist>

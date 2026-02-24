@@ -895,6 +895,42 @@
             </description>
             <category>151</category>
         </codelist-item>
+        <codelist-item status="active" activation-date="2019-01-01">
+            <code>1513010</code>
+            <name>
+                <narrative>Fight against transnational organised crime</narrative>
+                <narrative xml:lang="fr">Fight against transnational organised crime</narrative>
+            </name>
+            <description>
+                <narrative>Activities that support law enforcement agencies in the fight against all forms of transnational organised crime, including trafficking in cultural property, money laundering and illicit financial flows; trafficking of wild fauna and flora and forest products; maritime piracy; illegal mining, trafficking in precious metals; crimes related to fishing; illicit trafficking in firearms; human trafficking and migrant smuggling. Activities should be aligned with the United Nations Convention against Transnational Organised Crime (UNTOC). The provision, or training on the use, of lethal equipment is excluded even if related to the above-mentioned crimes. [Use code 16063 for counter-narcotics and code 1513030 for cyber security].</narrative>
+                <narrative xml:lang="fr">Activities that support law enforcement agencies in the fight against all forms of transnational organised crime, including trafficking in cultural property, money laundering and illicit financial flows; trafficking of wild fauna and flora and forest products; maritime piracy; illegal mining, trafficking in precious metals; crimes related to fishing; illicit trafficking in firearms; human trafficking and migrant smuggling. Activities should be aligned with the United Nations Convention against Transnational Organised Crime (UNTOC). The provision, or training on the use, of lethal equipment is excluded even if related to the above-mentioned crimes. [Use code 16063 for counter-narcotics and code 1513030 for cyber security].</narrative>
+            </description>
+            <category>151</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2019-01-01">
+            <code>1513020</code>
+            <name>
+                <narrative>Countering violent extremism</narrative>
+                <narrative xml:lang="fr">Countering violent extremism</narrative>
+            </name>
+            <description>
+                <narrative>Activities aimed at combating terrorism. The activities reported here should be aligned with the United Nations Global Counter-Terrorism Strategy and the 19 international legal instruments to prevent terrorist acts. Examples include the facilitation of the implementation of the relevant legal instruments, combating money laundering and financing of terrorism, capacity-building programmes to strengthen transport security and border management systems, and assistance in developing an effective and rule of law-based criminal justice system. The provision, or training on the use, of lethal equipment is excluded.</narrative>
+                <narrative xml:lang="fr">Activities aimed at combating terrorism. The activities reported here should be aligned with the United Nations Global Counter-Terrorism Strategy and the 19 international legal instruments to prevent terrorist acts. Examples include the facilitation of the implementation of the relevant legal instruments, combating money laundering and financing of terrorism, capacity-building programmes to strengthen transport security and border management systems, and assistance in developing an effective and rule of law-based criminal justice system. The provision, or training on the use, of lethal equipment is excluded.</narrative>
+            </description>
+            <category>151</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2019-01-01">
+            <code>1513030</code>
+            <name>
+                <narrative>Cyber security</narrative>
+                <narrative xml:lang="fr">Cyber security</narrative>
+            </name>
+            <description>
+                <narrative>Operational policing to protect computer systems from theft or damage covering hardware, software and electronic data.</narrative>
+                <narrative xml:lang="fr">Operational policing to protect computer systems from theft or damage covering hardware, software and electronic data.</narrative>
+            </description>
+            <category>151</category>
+        </codelist-item>
         <codelist-item status="active">
             <code>15131</code>
             <name>
@@ -1113,6 +1149,30 @@
             </description>
             <category>151</category>
         </codelist-item>
+        <codelist-item status="active" activation-date="2019-01-01">
+            <code>1516010</code>
+            <name>
+                <narrative>Transitional justice</narrative>
+                <narrative xml:lang="fr">Transitional justice</narrative>
+            </name>
+            <description>
+                <narrative>Support beyond the regular justice system to address large-scale or systematic human rights violations.</narrative>
+                <narrative xml:lang="fr">Support beyond the regular justice system to address large-scale or systematic human rights violations.</narrative>
+            </description>
+            <category>151</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2019-01-01">
+            <code>1516020</code>
+            <name>
+                <narrative>International criminal justice</narrative>
+                <narrative xml:lang="fr">International criminal justice</narrative>
+            </name>
+            <description>
+                <narrative>Support to international mechanisms aimed at ensuring accountability for serious crimes such as genocide, crimes against humanity and war crimes as defined in international law.</narrative>
+                <narrative xml:lang="fr">Support to international mechanisms aimed at ensuring accountability for serious crimes such as genocide, crimes against humanity and war crimes as defined in international law.</narrative>
+            </description>
+            <category>151</category>
+        </codelist-item>
         <codelist-item status="withdrawn" withdrawal-date="2020-02-28">
             <code>15161</code>
             <name>
@@ -1212,6 +1272,30 @@
                 <narrative xml:lang="fr">Collecte, production, gestion et diffusion de statistiques et de données relatives au gouvernement et à la société civile. Comprend les statistiques macroéconomiques, les finances publiques, les statistiques fiscales et du secteur public, le soutien au développement de l'infrastructure de données administratives, les enquêtes de la société civile.</narrative>
             </description>
             <category>15110</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2019-01-01">
+            <code>1520010</code>
+            <name>
+                <narrative>Disarmament of Weapons of Mass Destruction (WMD)</narrative>
+                <narrative xml:lang="fr">Disarmament of Weapons of Mass Destruction (WMD)</narrative>
+            </name>
+            <description>
+                <narrative>Activities intended at supporting disarmament and non-proliferation of biological, chemical and nuclear weapons.</narrative>
+                <narrative xml:lang="fr">Activities intended at supporting disarmament and non-proliferation of biological, chemical and nuclear weapons.</narrative>
+            </description>
+            <category>152</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2019-01-01">
+            <code>1520020</code>
+            <name>
+                <narrative>Prevention of Violent Extremism</narrative>
+                <narrative xml:lang="fr">Prevention of Violent Extremism</narrative>
+            </name>
+            <description>
+                <narrative>Actions intended at addressing the drivers of violent extremism such as those outlined in the United Nations Secretary General Plan of Action to Prevent Violent Extremism: dialogue and conflict prevention; strengthening good governance, human rights and the rule of law; engaging communities; empowering youth; gender equality and empowering women; education, skills development and employment facilitation; strategic communications, the Internet and social media.</narrative>
+                <narrative xml:lang="fr">Actions intended at addressing the drivers of violent extremism such as those outlined in the United Nations Secretary General Plan of Action to Prevent Violent Extremism: dialogue and conflict prevention; strengthening good governance, human rights and the rule of law; engaging communities; empowering youth; gender equality and empowering women; education, skills development and employment facilitation; strategic communications, the Internet and social media.</narrative>
+            </description>
+            <category>152</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15210</code>

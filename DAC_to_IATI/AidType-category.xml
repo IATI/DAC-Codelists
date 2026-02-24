@@ -88,5 +88,37 @@
                 <narrative xml:lang="fr">Regroupe diverses contributions qui n’entraînent pas de mouvement de fonds transnationaux.</narrative>
             </description>
         </codelist-item>
+        <codelist-item status="active" activation-date="2019-01-01">
+            <code>I</code>
+            <name>
+                <narrative>Support to refugees / protected persons</narrative>
+                <narrative xml:lang="fr">Support to refugees / protected persons</narrative>
+            </name>
+            <description>
+                <narrative>Covers expenses on the temporary sustenance of refugees and protected persons in refugee-like situations in the provider country as well as financial, material or technical support to refugees in other host countries. Also includes support to refugees returning to their countries of origin.</narrative>
+                <narrative xml:lang="fr">Covers expenses on the temporary sustenance of refugees and protected persons in refugee-like situations in the provider country as well as financial, material or technical support to refugees in other host countries. Also includes support to refugees returning to their countries of origin.</narrative>
+            </description>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2021-01-01">
+            <code>J</code>
+            <name>
+                <narrative>In-kind ddonations</narrative>
+                <narrative xml:lang="fr">In-kind ddonations</narrative>
+            </name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2021-01-01">
+            <code>K</code>
+            <name>
+                <narrative>Research and development</narrative>
+                <narrative xml:lang="fr">Research and development</narrative>
+            </name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2021-01-01">
+            <code>L</code>
+            <name>
+                <narrative>Direct cash transfers to developing countries</narrative>
+                <narrative xml:lang="fr">Direct cash transfers to developing countries</narrative>
+            </name>
+        </codelist-item>
     </codelist-items>
 </codelist>

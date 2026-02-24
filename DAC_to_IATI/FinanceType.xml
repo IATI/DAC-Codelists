@@ -175,6 +175,14 @@
             </description>
             <category>100</category>
         </codelist-item>
+        <codelist-item status="active">
+            <code>2100</code>
+            <name>
+                <narrative>Direct provider spending</narrative>
+                <narrative xml:lang="fr">Direct provider spending</narrative>
+            </name>
+            <category>2000</category>
+        </codelist-item>
         <codelist-item status="withdrawn" withdrawal-date="2015-12-31">
             <code>211</code>
             <name>
@@ -213,6 +221,18 @@
                 <narrative xml:lang="fr">Versements aux agences multilatérales sous forme de billets à ordre et effets similaires encaissables à vue sans condition par l'institution bénéficiaire.</narrative>
             </description>
             <category>100</category>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2020-01-01">
+            <code>3100</code>
+            <name>
+                <narrative>Subsidies and similar transfers</narrative>
+                <narrative xml:lang="fr">Subsidies and similar transfers</narrative>
+            </name>
+            <description>
+                <narrative>This category includes subsidies and social benefits to households as defined in the System of National Accounts (SNA). Subsidies are unrequited payments that government units, including non-resident government units, make to enterprises on the basis of the levels of their production activities or the quantities or values of the goods or services which they produce, sell or import. Subsidies prohibited by the WTO are not reportable in TOSSD. Social benefits to households are current transfers received by households that are intended to provide for the needs that arise from certain events or circumstances, for example housing. Subsidies and similar transfers can be used by governments to promote sustainable development objectives, for example by supporting research activities carried out by pharmaceutical firms or efforts by households to improve the energy efficiency of their housing. According to the United Nations System of Environmental-Economic Accounting (SEEA), an environmental subsidy or similar transfer is a transfer intended to support activities that protect the environment or reduce the use and extraction of natural resources.</narrative>
+                <narrative xml:lang="fr">This category includes subsidies and social benefits to households as defined in the System of National Accounts (SNA). Subsidies are unrequited payments that government units, including non-resident government units, make to enterprises on the basis of the levels of their production activities or the quantities or values of the goods or services which they produce, sell or import. Subsidies prohibited by the WTO are not reportable in TOSSD. Social benefits to households are current transfers received by households that are intended to provide for the needs that arise from certain events or circumstances, for example housing. Subsidies and similar transfers can be used by governments to promote sustainable development objectives, for example by supporting research activities carried out by pharmaceutical firms or efforts by households to improve the energy efficiency of their housing. According to the United Nations System of Environmental-Economic Accounting (SEEA), an environmental subsidy or similar transfer is a transfer intended to support activities that protect the environment or reduce the use and extraction of natural resources.</narrative>
+            </description>
+            <category>3000</category>
         </codelist-item>
         <codelist-item status="active">
             <code>311</code>

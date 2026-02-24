@@ -2,7 +2,6 @@ from lxml import etree, objectify
 import datetime
 import os
 
-
 DAC_CODELISTS_DIR = "Current_DAC"
 IATI_CODELISTS_DIR = "IATI_codelists"
 DAC_IATI_CODELISTS = [
@@ -45,11 +44,6 @@ def filter_codelist(codelist, condition):
         for codelist_item in codelist_items.findall("codelist-item"):
             if not codelist_item.xpath(condition):
                 codelist_items.remove(codelist_item)
-
-    # Also remove non CRS items
-    for codelist_item in codelist_items.findall("codelist-item"):
-        if codelist_item.find("crs").text == "0":
-            codelist_items.remove(codelist_item)
 
     return codelist
 
@@ -157,13 +151,22 @@ def compare_codes(codelist, iati_codelist):
         code_text = code.find("code").text
         if code_text in dac_codes:
             code2 = dac_codes[code_text]
-            if datetime.date.fromisoformat(code.attrib["activation-date"]) < datetime.date.fromisoformat(code.attrib["activation-date"]):
+            # Prefer the <crs>1</crs> entries
+            if code.find("crs").text == "0" and code2.find("crs").text == "1":
+                continue
+            if code.find("crs").text == "1" and code2.find("crs").text == "0":
+                dac_codes[code_text] = code
+                continue
+            if datetime.date.fromisoformat(
+                code.attrib.get("activation-date", "1900-01-01")
+            ) < datetime.date.fromisoformat(code.attrib.get("activation-date", "1900-01-02")):
                 earlier_code = code
                 later_code = code2
             else:
                 earlier_code = code2
                 later_code = code
-            later_code.attrib["activation-date"] = earlier_code.attrib["activation-date"]
+            if "activation-date" in earlier_code:
+                later_code.attrib["activation-date"] = earlier_code.attrib["activation-date"]
             dac_codes[code_text] = later_code
         else:
             dac_codes[code_text] = code
@@ -184,11 +187,10 @@ for dac_name, iati_name, condition in DAC_IATI_CODELISTS:
     codelist = etree.parse(f"{DAC_CODELISTS_DIR}/{dac_name}.xml").getroot()
     codelist.attrib["name"] = iati_name
     filtered_codelist = renames(filter_codelist(codelist, condition))
-    clean_codelist = cleanup(filtered_codelist)
     iati_format = etree.ElementTree(
-        add_iati_codelist_xml(clean_codelist, etree.parse(f"{IATI_CODELISTS_DIR}/{iati_name}.xml").getroot())
+        add_iati_codelist_xml(filtered_codelist, etree.parse(f"{IATI_CODELISTS_DIR}/{iati_name}.xml").getroot())
     )
-    indent(iati_format.getroot(), 0, 4)
+    indent(cleanup(iati_format.getroot()), 0, 4)
     try:
         iati_format.write(os.path.join(OUTPUTDIR, f"{iati_name}.xml"), encoding="utf-8")
     except AttributeError:
