@@ -163,7 +163,7 @@
                 <narrative>Second cycle systematic instruction at junior level.</narrative>
                 <narrative xml:lang="fr">Éducation secondaire généralisée pour le premier cycle.</narrative>
             </description>
-            <category>11320</category>
+            <category>113</category>
         </codelist-item>
         <codelist-item status="withdrawn" withdrawal-date="2019-12-31">
             <code>11322</code>
@@ -175,7 +175,7 @@
                 <narrative>Second cycle systematic instruction at senior level.</narrative>
                 <narrative xml:lang="fr">Éducation secondaire généralisée pour le dernier cycle.</narrative>
             </description>
-            <category>11320</category>
+            <category>113</category>
         </codelist-item>
         <codelist-item status="active">
             <code>11330</code>
@@ -271,7 +271,7 @@
                 <narrative>Collection, production, management and dissemination of statistics and data related to health. Includes health surveys, establishment of health databases, data collection on epidemics, etc.</narrative>
                 <narrative xml:lang="fr">Collecte, production, gestion et diffusion de statistiques et de données relatives à la santé. Comprend les enquêtes sur la santé, la création de bases de données sur la santé, la collecte de données sur les épidémies, etc.</narrative>
             </description>
-            <category>12110</category>
+            <category>121</category>
         </codelist-item>
         <codelist-item status="active">
             <code>12220</code>
@@ -523,7 +523,7 @@
                 <narrative>Collection, production, management and dissemination of statistics and data related to Population and Reproductive Health. Includes census work, vital registration, migration data collection, demographic data, etc.</narrative>
                 <narrative xml:lang="fr">Collecte, production, gestion et diffusion de statistiques et de données relatives à la population et à la santé génésique. Comprend les travaux de recensement, l'état civil, la collecte de données sur la migration, les données démographiques, etc.</narrative>
             </description>
-            <category>13010</category>
+            <category>130</category>
         </codelist-item>
         <codelist-item status="active">
             <code>14010</code>
@@ -727,7 +727,7 @@
                 <narrative>Operation of the inland revenue authority.</narrative>
                 <narrative xml:lang="fr">Fonctionnement de l'autorité nationale de recouvrement des impôts.</narrative>
             </description>
-            <category>15114</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15117</code>
@@ -739,7 +739,7 @@
                 <narrative>Operation of the budget office and planning as part of the budget process.</narrative>
                 <narrative xml:lang="fr">Fonctionnement des services de préparation du budget.</narrative>
             </description>
-            <category>15111</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15118</code>
@@ -751,7 +751,7 @@
                 <narrative>Operation of the accounting and audit services.</narrative>
                 <narrative xml:lang="fr">Administration et fonctionnement des services de vérification.</narrative>
             </description>
-            <category>15111</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15119</code>
@@ -763,7 +763,7 @@
                 <narrative>Management of public debt and foreign aid received (in the partner country). For reporting on debt reorganisation, use codes 600xx.</narrative>
                 <narrative xml:lang="fr">Gestion de la dette publique et de l'aide étrangère reçue (par le pays partenaire). Pour rapporter des ré-échelonnements de dette, utiliser les codes 600xx.</narrative>
             </description>
-            <category>15111</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="withdrawn" withdrawal-date="2020-02-28">
             <code>15120</code>
@@ -785,7 +785,7 @@
                 <narrative>Administration of external affairs and services.</narrative>
                 <narrative xml:lang="fr">Administration des affaires étrangères et services associés.</narrative>
             </description>
-            <category>15110</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15122</code>
@@ -797,7 +797,7 @@
                 <narrative>Operation of diplomatic and consular missions stationed abroad or at offices of international organisations.</narrative>
                 <narrative xml:lang="fr">Fonctionnement des missions diplomatiques ou consulaires à l'étranger ou auprès d'organisations internationales.</narrative>
             </description>
-            <category>15110</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15123</code>
@@ -809,7 +809,7 @@
                 <narrative>Support to administration of developing countries' foreign aid (including triangular and south-south cooperation).</narrative>
                 <narrative xml:lang="fr">Soutien à la gestion de l'aide étrangère offerte par les pays en développement (y compris la cooperation triangulaire et sud-sud).</narrative>
             </description>
-            <category>15110</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15124</code>
@@ -821,7 +821,7 @@
                 <narrative>Administration and operation of the civil service including policies, procedures and regulations.</narrative>
                 <narrative xml:lang="fr">Administration et fonctionnement de services généraux de personnel, y compris les politiques, réglements et procédures.</narrative>
             </description>
-            <category>15110</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15125</code>
@@ -845,7 +845,7 @@
                 <narrative>Maintenance and storage of government records and archives, operation of government-owned or occupied buildings, central motor vehicle pools, government-operated printing offices, centralised computer and data processing services, etc.</narrative>
                 <narrative xml:lang="fr">Tenue et stockage de dossiers et archives des administrations publiques, exploitation d'immeubles dont des administrations publiques sont propriétaires ou occupants, parcs centraux de véhicules, imprimeries exploitées par des administrations publiques, services centraux de calcul et d'informatique, etc.</narrative>
             </description>
-            <category>15110</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15127</code>
@@ -857,7 +857,7 @@
                 <narrative>Operation or support of institutions providing national monitoring and evaluation.</narrative>
                 <narrative xml:lang="fr">Administration ou fonctionnement des services s'occupant de suivi et d'évaluation au niveau national.</narrative>
             </description>
-            <category>15110</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15128</code>
@@ -869,7 +869,7 @@
                 <narrative>Financial transfers to local government; support to institutions managing such transfers. (Use specific sector codes for sector-related transfers.)</narrative>
                 <narrative xml:lang="fr">Transferts financiers aux gouvernements locaux; soutien aux institutions administrant ces transferts. (Pour des transferts concernant des secteurs particuliers, utiliser les codes sectoriels appropriés.)</narrative>
             </description>
-            <category>15112</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15129</code>
@@ -881,7 +881,7 @@
                 <narrative>Transfers to non sector-specific autonomous bodies or state-owned enterprises outside of local government finance; support to institutions managing such transfers. (Use specific sector codes for sector-related transfers.)</narrative>
                 <narrative xml:lang="fr">Transferts aux organisations autonomes ou entreprises d'États non inclus dans le financement des gouvernements locaux; soutien aux institutions administrant ces transferts. (Pour des transferts concernant des secteurs particuliers, utiliser les codes sectoriels appropriés.)</narrative>
             </description>
-            <category>15112</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15130</code>
@@ -941,7 +941,7 @@
                 <narrative>Judicial law and order sectors; policy development within ministries of justice or equivalents.</narrative>
                 <narrative xml:lang="fr">Justice et maintien de l'ordre; développement des politiques dans les ministères de la justice ou leur équivalent.</narrative>
             </description>
-            <category>15130</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15132</code>
@@ -953,7 +953,7 @@
                 <narrative>Police affairs and services.</narrative>
                 <narrative xml:lang="fr">Administration des affaires et services de police.</narrative>
             </description>
-            <category>15130</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15133</code>
@@ -965,7 +965,7 @@
                 <narrative>Fire-prevention and fire-fighting affairs and services.</narrative>
                 <narrative xml:lang="fr">Administration des affaires et services de protection et de lutte contre l'incendie.</narrative>
             </description>
-            <category>15130</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15134</code>
@@ -977,7 +977,7 @@
                 <narrative>Civil and criminal law courts and the judicial system, including enforcement of fines and legal settlements imposed by the courts and operation of parole and probation systems.</narrative>
                 <narrative xml:lang="fr">Administration, fonctionnement ou soutien des tribunaux civils et pénals et du système judiciaire, y compris mise à exécution des amendes et des obligations imposées par les tribunaux, et suivi des programmes de mise en liberté conditionnelle et de mise à l'épreuve.</narrative>
             </description>
-            <category>15130</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15135</code>
@@ -989,7 +989,7 @@
                 <narrative>Independent service representing the interests of the public by investigating and addressing complaints of unfair treatment or maladministration.</narrative>
                 <narrative xml:lang="fr">Officier indépendant représentant les intérêts du public en faisant enquête et en remédiant aux plaintes de traitement inéquitable ou de mauvaise gestion.</narrative>
             </description>
-            <category>15130</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15136</code>
@@ -1001,7 +1001,7 @@
                 <narrative>Immigration affairs and services, including alien registration, issuing work and travel documents to immigrants.</narrative>
                 <narrative xml:lang="fr">Administration des affaires et services d'immigration, y compris l'enregistrement des étrangers et la délivrance de documents de travail et de voyage aux immigrants.</narrative>
             </description>
-            <category>15130</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15137</code>
@@ -1009,7 +1009,7 @@
                 <narrative>Prisons</narrative>
                 <narrative xml:lang="fr">Prisons</narrative>
             </name>
-            <category>15130</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="withdrawn" withdrawal-date="2020-02-28">
             <code>15140</code>
@@ -1043,7 +1043,7 @@
                 <narrative>Operation or support of institutions dealing with weather forecasting.</narrative>
                 <narrative xml:lang="fr">Administration ou fonctionnement des institutions s'occupant de météorologie.</narrative>
             </description>
-            <category>15110</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15144</code>
@@ -1055,7 +1055,7 @@
                 <narrative>Operation or support of institutions dealing with national standards development. (Use code 16062 for statistical capacity-building.)</narrative>
                 <narrative xml:lang="fr">Administration ou fonctionnement des institutions s'occupant des normes nationales. (Utiliser le code 16062 pour le renforcement des capacités statistiques)</narrative>
             </description>
-            <category>15110</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15150</code>
@@ -1115,7 +1115,7 @@
                 <narrative>Administration, operation or support of executive office. Includes office of the chief executive at all levels of government (monarch, governor-general, president, prime minister, governor, mayor, etc.).</narrative>
                 <narrative xml:lang="fr">Administration, fonctionnement des organes exécutifs, y compris le cabinet du chef de l'exécutif à tous les niveaux de gouvernement (monarque, gouverneur général, président, premier ministre, gouverneur, maire, etc.).</narrative>
             </description>
-            <category>15110</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15155</code>
@@ -1123,7 +1123,7 @@
                 <narrative>Tax policy and administration support</narrative>
                 <narrative xml:lang="fr">Politique et administration fiscales</narrative>
             </name>
-            <category>15114</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15156</code>
@@ -1135,7 +1135,7 @@
                 <narrative>Non-tax public revenue, which includes line ministries, revenue authorities or other local, regional or national public bodies.</narrative>
                 <narrative xml:lang="fr">Recettes non-fiscales incluant les ministères de tutelle, les autorités fiscales ou autres institutions publiques locales, régionales ou nationales.</narrative>
             </description>
-            <category>15114</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15160</code>
@@ -1247,7 +1247,7 @@
                 <narrative>Decentralisation processes (including political, administrative and fiscal dimensions); intergovernmental relations and federalism; strengthening local authorities.</narrative>
                 <narrative xml:lang="fr">Processus de décentralisation (y compris aspects politiques, administratifs et budgétaires) ; relations intergouvernementales et fédéralisme ; renforcement des autorités locales.</narrative>
             </description>
-            <category>15112</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active">
             <code>15190</code>
@@ -1271,7 +1271,7 @@
                 <narrative>Collection, production, management and dissemination of statistics and data related to Government &amp; Civil Society. Includes macroeconomic statistics, government finance, fiscal and public sector statistics, support to development of administrative data infrastructure, civil society surveys.</narrative>
                 <narrative xml:lang="fr">Collecte, production, gestion et diffusion de statistiques et de données relatives au gouvernement et à la société civile. Comprend les statistiques macroéconomiques, les finances publiques, les statistiques fiscales et du secteur public, le soutien au développement de l'infrastructure de données administratives, les enquêtes de la société civile.</narrative>
             </description>
-            <category>15110</category>
+            <category>151</category>
         </codelist-item>
         <codelist-item status="active" activation-date="2019-01-01">
             <code>1520010</code>
@@ -1391,7 +1391,7 @@
                 <narrative>Administration of overall social protection policies, plans, programmes and budgets including legislation, standards and statistics on social protection.</narrative>
                 <narrative xml:lang="fr">Administration des politiques, plans, programmes et budgets généraux de protection sociale y compris les lois, normes et statistiques sur la protection sociale.</narrative>
             </description>
-            <category>16010</category>
+            <category>160</category>
         </codelist-item>
         <codelist-item status="active">
             <code>16012</code>
@@ -1403,7 +1403,7 @@
                 <narrative>Social protection shemes in the form of cash or in-kind benefits to people unable to work due to sickness or injury.</narrative>
                 <narrative xml:lang="fr">Protection sociale sous forme de prestations en espèces ou en nature aux personnes inaptes au travail pour cause de maladie ou par suite d'un accident.</narrative>
             </description>
-            <category>16010</category>
+            <category>160</category>
         </codelist-item>
         <codelist-item status="active">
             <code>16013</code>
@@ -1415,7 +1415,7 @@
                 <narrative>Social protection schemes in the form of cash or in-kind benefits, including pensions, against the risks linked to old age.</narrative>
                 <narrative xml:lang="fr">Protection sociale sous forme de prestations en espèces et en nature contre les risques liés à la vieillesse.</narrative>
             </description>
-            <category>16010</category>
+            <category>160</category>
         </codelist-item>
         <codelist-item status="active">
             <code>16014</code>
@@ -1427,7 +1427,7 @@
                 <narrative>Pension schemes for government personnel.</narrative>
                 <narrative xml:lang="fr">Les régimes de pension des fonctionnaires.</narrative>
             </description>
-            <category>16010</category>
+            <category>160</category>
         </codelist-item>
         <codelist-item status="active">
             <code>16015</code>
@@ -1439,7 +1439,7 @@
                 <narrative>Social protection schemes in the form of cash or in-kind benefits to households with dependent children, including parental leave benefits.</narrative>
                 <narrative xml:lang="fr">Protection sociale sous forme de prestations en espèces et en nature aux ménages ayant des enfants à charge, y compris les prestations de congé parental.</narrative>
             </description>
-            <category>16010</category>
+            <category>160</category>
         </codelist-item>
         <codelist-item status="active">
             <code>16020</code>
@@ -1547,7 +1547,7 @@
                 <narrative>Development-oriented social and cultural programmes that contribute to promote inclusion and empowerment of nationals of developing countries. This includes the provision of materials (e.g. books, sport equipment), educational services (e.g. language courses), recreational facilities and equipment, as well as the organisation of tournaments and sporting events taking place in developing countries with participation of their nationals.</narrative>
                 <narrative xml:lang="fr">Programmes sociaux et culturels axés sur le développement qui contribuent à promouvoir l’inclusion et l’autonomisation des ressortissants des pays en développement. Cela comprend la fourniture de matériel (par exemple livres, équipements sportifs), de services éducatifs (par exemple cours de langue), d'installations et d'équipements de loisirs, ainsi que l'organisation de tournois et d'événements sportifs ayant lieu dans les pays en développement avec la participation de leurs ressortissants.</narrative>
             </description>
-            <category>16061</category>
+            <category>160</category>
         </codelist-item>
         <codelist-item status="active">
             <code>16066</code>
@@ -1559,7 +1559,7 @@
                 <narrative>Programmes to strengthen the cultural sector (cinema, music, dance, painting, literature, etc.) of developing countries; measures to promote or protect the diversity of cultural expressions. This includes support to cultural industries, construction and reparation of facilities; capacity-building for artists and other persons working in the cultural sector; activities to support the production or the dissemination of artistic works of developing country nationals (e.g. artistic or musical events). Preservation of tangible (artefacts, monuments, sites, museums) and intangible (arts, social practices, knowledge and skills, shared values, traditions, performances) cultural heritage that has a diversity of values including symbolic, historic, artistic, aesthetic, ethnological or anthropological, scientific and social significance. Use code 99820 – promotion of development awareness for activities in the field of culture in the donor country that are designed to increase public support and awareness of development co-operation efforts in the donor country.</narrative>
                 <narrative xml:lang="fr">Programmes de renforcement du secteur culturel (cinéma, musique, danse, peinture, littérature, etc.) des pays en développement ; mesures visant à promouvoir ou à protéger la diversité des expressions culturelles. Cela comprend le soutien aux industries culturelles, à la construction et à la réparation des installations ; le renforcement des capacités des artistes et autres personnes travaillant dans le secteur culturel ; activités visant à soutenir la production ou la diffusion d’œuvres artistiques de ressortissants de pays en développement (par exemple événements artistiques ou musicaux). Préservation du patrimoine culturel matériel (objets, monuments, sites, musées) et immatériel (arts, pratiques sociales, connaissances et compétences, valeurs partagées, traditions, performances) qui a une diversité de valeurs, notamment symboliques, historiques, artistiques, esthétiques, ethnologiques ou une signification anthropologique, scientifique et sociale. Utilisez le code 99820 – promotion de la sensibilisation au développement pour les activités dans le domaine de la culture dans le pays donateur qui sont conçues pour accroître le soutien du public et la sensibilisation aux efforts de coopération au développement dans le pays donateur.</narrative>
             </description>
-            <category>16061</category>
+            <category>160</category>
         </codelist-item>
         <codelist-item status="active" activation-date="2018-01-01">
             <code>16070</code>
@@ -1607,7 +1607,7 @@
                 <narrative>Administration of affairs and services concerning transport systems.</narrative>
                 <narrative xml:lang="fr">Administration et fonctionnement des services reliés aux politiques de transport.</narrative>
             </description>
-            <category>21010</category>
+            <category>210</category>
         </codelist-item>
         <codelist-item status="active">
             <code>21012</code>
@@ -1619,7 +1619,7 @@
                 <narrative>Administration of affairs and services concerning public transport.</narrative>
                 <narrative xml:lang="fr">Administration des affaires et services concernant les transports en commun.</narrative>
             </description>
-            <category>21010</category>
+            <category>210</category>
         </codelist-item>
         <codelist-item status="active">
             <code>21013</code>
@@ -1631,7 +1631,7 @@
                 <narrative>Supervision and regulation of users, operations, construction and maintenance of transport systems (registration, licensing, inspection of equipment, operator skills and training; safety standards, franchises, tariffs, levels of service, etc.).</narrative>
                 <narrative xml:lang="fr">Contrôle et réglementation des utilisateurs de systèmes de transport (immatriculation, permis, inspection du matériel, compétences et formation des agents, normes de sûreté, licences, tarifs, niveau des services, etc.).</narrative>
             </description>
-            <category>21010</category>
+            <category>210</category>
         </codelist-item>
         <codelist-item status="active">
             <code>21020</code>
@@ -1655,7 +1655,7 @@
                 <narrative>Construction or operation of feeder road transport systems and facilities.</narrative>
                 <narrative xml:lang="fr">Construction ou exploitation des voies de desserte et systèmes afférents.</narrative>
             </description>
-            <category>21020</category>
+            <category>210</category>
         </codelist-item>
         <codelist-item status="active">
             <code>21022</code>
@@ -1667,7 +1667,7 @@
                 <narrative>Maintenance of feeder road transport systems and facilities.</narrative>
                 <narrative xml:lang="fr">Entretien des voies de desserte et systèmes afférents.</narrative>
             </description>
-            <category>21020</category>
+            <category>210</category>
         </codelist-item>
         <codelist-item status="active">
             <code>21023</code>
@@ -1679,7 +1679,7 @@
                 <narrative>Construction or operation of national road transport systems and facilities.</narrative>
                 <narrative xml:lang="fr">Construction ou exploitation des routes nationales et systèmes afférents.</narrative>
             </description>
-            <category>21020</category>
+            <category>210</category>
         </codelist-item>
         <codelist-item status="active">
             <code>21024</code>
@@ -1691,7 +1691,7 @@
                 <narrative>Maintenance of national road transport systems and facilities.</narrative>
                 <narrative xml:lang="fr">Entretien des routes nationales et systèmes afférents.</narrative>
             </description>
-            <category>21020</category>
+            <category>210</category>
         </codelist-item>
         <codelist-item status="active">
             <code>21030</code>
@@ -1767,7 +1767,7 @@
                 <narrative>Communications policy, planning and administration</narrative>
                 <narrative xml:lang="fr">Politiques, planification et administration des communications</narrative>
             </name>
-            <category>22010</category>
+            <category>220</category>
         </codelist-item>
         <codelist-item status="active">
             <code>22012</code>
@@ -1779,7 +1779,7 @@
                 <narrative>Development and operation of postal services.</narrative>
                 <narrative xml:lang="fr">Développement et fonctionnement des services postaux.</narrative>
             </description>
-            <category>22010</category>
+            <category>220</category>
         </codelist-item>
         <codelist-item status="active">
             <code>22013</code>
@@ -1791,7 +1791,7 @@
                 <narrative>Provision of information services.</narrative>
                 <narrative xml:lang="fr">Prestation de services d'information.</narrative>
             </description>
-            <category>22010</category>
+            <category>220</category>
         </codelist-item>
         <codelist-item status="active">
             <code>22020</code>
@@ -2051,7 +2051,7 @@
                 <narrative>Energy sector policy, planning and administration</narrative>
                 <narrative xml:lang="fr">Politiques, planification et administration du secteur de l'énergie</narrative>
             </name>
-            <category>23110</category>
+            <category>231</category>
         </codelist-item>
         <codelist-item status="active">
             <code>23112</code>
@@ -2063,7 +2063,7 @@
                 <narrative>Regulation of the energy sector, including wholesale and retail electricity provision.</narrative>
                 <narrative xml:lang="fr">Réglementation du secteur de l'énergie, y compris l'approvisionnement d'électricité en gros et au détail.</narrative>
             </description>
-            <category>23110</category>
+            <category>231</category>
         </codelist-item>
         <codelist-item status="active">
             <code>23181</code>
@@ -3363,7 +3363,7 @@
                 <narrative>Urban development and planning; urban management, land information systems.</narrative>
                 <narrative xml:lang="fr">Planification et gestion du territoire urbain; gestion urbaine, systèmes d'information.</narrative>
             </description>
-            <category>43030</category>
+            <category>430</category>
         </codelist-item>
         <codelist-item status="active">
             <code>43032</code>
@@ -3375,7 +3375,7 @@
                 <narrative>Integrated urban development projects; local development; urban infrastructure and services; municipal finances; urban environment systems; urban renewal and urban housing.</narrative>
                 <narrative xml:lang="fr">Projets intégrés de développement urbain; développement local; infrastructure et services urbains; finances municipales; gestion environnementale urbaine; rénovation urbaine, habitat.</narrative>
             </description>
-            <category>43030</category>
+            <category>430</category>
         </codelist-item>
         <codelist-item status="active">
             <code>43040</code>
@@ -3399,7 +3399,7 @@
                 <narrative>Regional development planning; promotion of decentralised and multi-sectoral competence for planning, co-ordination and management; land management; land use planning; geographical information systems.</narrative>
                 <narrative xml:lang="fr">Planification du développement régional; encouragement à la décentralisation des compétences plurisectorielles concernant la planification, la coordination et la gestion; gestion des terres; systèmes d'information géographique.</narrative>
             </description>
-            <category>43040</category>
+            <category>430</category>
         </codelist-item>
         <codelist-item status="active">
             <code>43042</code>
@@ -3411,7 +3411,7 @@
                 <narrative>Integrated rural development projects; implementation of regional development and measures (including natural reserve management); land settlement and resettlement activities [excluding resettlement of refugees and internally displaced persons (72010)]; functional integration of rural and urban areas.</narrative>
                 <narrative xml:lang="fr">Projets intégrés de développement rural; mise en oeuvre du développement régional (y compris la gestion des réserves naturelles) ; peuplement et réinstallation [à l'exclusion de la réinstallation des réfugiés et des personnes déplacées à l'intérieur du pays (72030)]; intégration des zones rurales et urbaines.</narrative>
             </description>
-            <category>43040</category>
+            <category>430</category>
         </codelist-item>
         <codelist-item status="active">
             <code>43050</code>
@@ -3643,7 +3643,7 @@
                 <narrative>Provision of health services (basic health services, mental health, sexual and reproductive health), medical nutritional intervention (therapeutic feeding and medical interventions for treating malnutrition) and supply of medicines for the benefit of affected people. Excludes supplemental feeding (72040).</narrative>
                 <narrative xml:lang="fr">Prestation de services de santé (services de santé de base, santé mentale, santé sexuelle et génésique), intervention nutritionnelle médicale (alimentation thérapeutique et interventions médicales pour traiter la malnutrition) et fourniture de médicaments au profit des personnes touchées. Exclut l'alimentation complémentaire (72040).</narrative>
             </description>
-            <category>72010</category>
+            <category>720</category>
         </codelist-item>
         <codelist-item status="active" activation-date="2019-01-01">
             <code>72012</code>
@@ -3655,7 +3655,7 @@
                 <narrative>Support for education facilities (including restoring pre-existing essential infrastructure and school facilities), teaching, training and learning materials (including digital technologies, as appropriate) and immediate access to quality basic and primary education (including formal and non-formal education), and secondary education (including vocational training and secondary level technical education) in emergencies for the benefit of affected children and youth, particularly targeting girls and women and refugees, life skills for youth and adults, and vocational training for youth and adults</narrative>
                 <narrative xml:lang="fr">Soutien aux établissements d'enseignement (y compris la restauration des infrastructures essentielles et des installations scolaires préexistantes), du matériel d'enseignement, de formation et d'apprentissage (y compris les technologies numériques, le cas échéant) et un accès immédiat à une éducation de base et primaire de qualité (y compris l'éducation formelle et non formelle), et l'enseignement secondaire (y compris la formation professionnelle et l'enseignement technique de niveau secondaire) dans les situations d'urgence au profit des enfants et des jeunes touchés, en ciblant en particulier les filles et les femmes et les réfugiés, les compétences de vie pour les jeunes et les adultes, et la formation professionnelle pour les jeunes et les adultes</narrative>
             </description>
-            <category>72010</category>
+            <category>720</category>
         </codelist-item>
         <codelist-item status="active">
             <code>72040</code>
@@ -3774,7 +3774,7 @@
                 <narrative>Costs incurred in donor countries for basic assistance to asylum seekers and refugees from developing countries, up to 12 months – food and shelter: - Food and other essential temporary sustenance provisions such as clothing. - Temporary accommodation facilities (e.g. reception centres, containers, tent camps). In respect of buildings, only the costs of maintenance and upkeep may be reported as ODA. The cost of renting temporary accommodation facilities is eligible. (All construction costs are excluded).</narrative>
                 <narrative xml:lang="fr">Coûts encourus dans les pays donneurs au titre de l'aide de base apportée aux demandeurs d'asile et aux réfugiés en provenance des pays en développement pendant une période pouvant aller jusqu'à 12 mois – nourriture et hébergement : - Nourriture et autres éléments essentiels pour l'entretien temporaire, tels qu'habillement. - Installations temporaires d'hébergement (par exemple, centres d'accueil, conteneurs, camps de tentes). S'agissant des bâtiments, seuls les coûts d'entretien et de maintenance peuvent être comptabilisés dans l'APD. Les coûts liés à la location de locaux d'hébergement temporaire sont éligibles. (Tous les coûts de construction sont exclus).</narrative>
             </description>
-            <category>93010</category>
+            <category>930</category>
         </codelist-item>
         <codelist-item status="active" activation-date="2018-01-01">
             <code>93012</code>
@@ -3786,7 +3786,7 @@
                 <narrative>Costs incurred in donor countries for basic assistance to asylum seekers and refugees from developing countries, up to 12 months – training: - Early childhood education, primary and secondary education for children (this includes school costs but excludes vocational training), as part of temporary sustenance. - Language training and other ad-hoc basic training for refugees e.g. basic life skills for youth and adults (literacy and numeracy training).</narrative>
                 <narrative xml:lang="fr">Coûts encourus dans les pays donneurs au titre de l'aide de base apportée aux demandeurs d'asile et aux réfugiés en provenance des pays en développement pendant une période pouvant aller jusqu'à 12 mois – formation: - Éducation de la petite enfance, enseignement primaire et enseignement secondaire pour les enfants (dont les coûts liés à la scolarité, hors formation professionnelle), dans le cadre de l'entretien temporaire. - Formation linguistique et autre formation spécifique pour les réfugiés, par exemple, compétences nécessaires à la vie courante pour les jeunes et les adultes (cours d'alphabétisation et de maîtrise des chiffres).</narrative>
             </description>
-            <category>93010</category>
+            <category>930</category>
         </codelist-item>
         <codelist-item status="active" activation-date="2018-01-01">
             <code>93013</code>
@@ -3798,7 +3798,7 @@
                 <narrative>Costs incurred in donor countries for basic assistance to asylum seekers and refugees from developing countries, up to 12 months: basic health care and psycho-social support for persons with specific needs e.g. unaccompanied minors, persons with disabilities, survivors of violence and torture.</narrative>
                 <narrative xml:lang="fr">Coûts encourus dans les pays donneurs au titre de l'aide de base apportée aux demandeurs d'asile et aux réfugiés en provenance des pays en développement pendant une période pouvant aller jusqu'à 12 mois : soins de santé de base et soutien psychosocial pour les personnes présentant des besoins spécifiques, par exemple les mineurs non accompagnés, les personnes souffrant d'un handicap, les personnes ayant survécu à des actes de violence et de torture.</narrative>
             </description>
-            <category>93010</category>
+            <category>930</category>
         </codelist-item>
         <codelist-item status="active" activation-date="2018-01-01">
             <code>93014</code>
@@ -3810,7 +3810,7 @@
                 <narrative>Costs incurred in donor countries for basic assistance to asylum seekers and refugees from developing countries, up to 12 months: temporary sustenance other than food and shelter (code 93011), training (93012) and health (93013), i.e.  cash 'pocket money' to cover subsistence costs and assistance in the asylum procedure: translation of documents, legal and administrative counselling, interpretation services.</narrative>
                 <narrative xml:lang="fr">Coûts encourus dans les pays donneurs au titre de l'aide de base apportée aux demandeurs d'asile et aux réfugiés en provenance des pays en développement pendant une période pouvant aller jusqu'à 12 mois : entretien temporaire autre que nourriture et hébergement (code 93011), formation (93012) et santé (93013), i.e. « argent de poche » en espèces pour la prise en charge des frais d'entretien et accompagnement lors de la procédure de demande d'asile : traduction des documents, conseil juridique et administratif, services d'interprétation.</narrative>
             </description>
-            <category>93010</category>
+            <category>930</category>
         </codelist-item>
         <codelist-item status="active" activation-date="2018-01-01">
             <code>93015</code>
@@ -3822,7 +3822,7 @@
                 <narrative>Costs incurred in donor countries for basic assistance to asylum seekers and refugees from developing countries, up to 12 months: voluntary repatriation of refugees to a developing country during first twelve months.</narrative>
                 <narrative xml:lang="fr">Coûts encourus dans les pays donneurs au titre de l'aide de base apportée aux demandeurs d'asile et aux réfugiés en provenance des pays en développement pendant une période pouvant aller jusqu'à 12 mois : dépenses liées au retour volontaire des réfugiés vers un pays en développement au cours des douze premiers mois.</narrative>
             </description>
-            <category>93010</category>
+            <category>930</category>
         </codelist-item>
         <codelist-item status="active" activation-date="2018-01-01">
             <code>93016</code>
@@ -3834,7 +3834,7 @@
                 <narrative>Costs incurred in donor countries for basic assistance to asylum seekers and refugees from developing countries, up to 12 months: transport to the host country in the case of resettlement programmes and transport within the host country.</narrative>
                 <narrative xml:lang="fr">Coûts encourus dans les pays donneurs au titre de l'aide de base apportée aux demandeurs d'asile et aux réfugiés en provenance des pays en développement pendant une période pouvant aller jusqu'à 12 mois : transport vers le pays d'accueil dans le cas des programmes de réinstallation et transport au sein du pays d'accueil.</narrative>
             </description>
-            <category>93010</category>
+            <category>930</category>
         </codelist-item>
         <codelist-item status="active" activation-date="2018-01-01">
             <code>93017</code>
@@ -3846,7 +3846,7 @@
                 <narrative>Costs incurred in donor countries for basic assistance to asylum seekers and refugees from developing countries, up to 12 months: rescue of refugees at sea when it is the main purpose of the operation. Only the additional costs related to the operation may be counted.</narrative>
                 <narrative xml:lang="fr">Coûts encourus dans les pays donneurs au titre de l'aide de base apportée aux demandeurs d'asile et aux réfugiés en provenance des pays en développement pendant une période pouvant aller jusqu'à 12 mois : opérations de sauvetage de réfugiés en mer dans le cadre d'interventions dédiées. Seuls les coûts supplémentaires liés à ces interventions peuvent être comptabilisés.</narrative>
             </description>
-            <category>93010</category>
+            <category>930</category>
         </codelist-item>
         <codelist-item status="active" activation-date="2018-01-01">
             <code>93018</code>
@@ -3858,7 +3858,7 @@
                 <narrative>Costs incurred in donor countries for basic assistance to asylum seekers and refugees from developing countries, up to 12 months: administrative costs. Only overhead costs attached to the direct provision of temporary sustenance to refugees are eligible. This includes costs of personnel assigned to provide eligible services to refugees, but does not include costs of personnel who are not involved in the direct execution of these services, e.g. management, human resources, information technology.</narrative>
                 <narrative xml:lang="fr">Coûts encourus dans les pays donneurs au titre de l'aide de base apportée aux demandeurs d'asile et aux réfugiés en provenance des pays en développement pendant une période pouvant aller jusqu'à 12 mois : coûts administratifs. Seuls les frais généraux en lien avec la mise à disposition directe d'un entretien temporaire aux réfugiés sont admissibles. Il s'agit notamment des coûts du personnel affecté à la fourniture des services aux réfugiés (services éligibles uniquement), mais pas des coûts du personnel qui n'intervient pas dans la fourniture directe de ces services, à savoir, les effectifs affectés à la gestion, aux ressources humaines ou aux technologies de l'information.</narrative>
             </description>
-            <category>93010</category>
+            <category>930</category>
         </codelist-item>
         <codelist-item status="active">
             <code>99810</code>

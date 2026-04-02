@@ -99,11 +99,11 @@
                 <narrative xml:lang="fr">Covers expenses on the temporary sustenance of refugees and protected persons in refugee-like situations in the provider country as well as financial, material or technical support to refugees in other host countries. Also includes support to refugees returning to their countries of origin.</narrative>
             </description>
         </codelist-item>
-        <codelist-item status="active" activation-date="2021-01-01">
+        <codelist-item status="active" activation-date="2025-01-01">
             <code>J</code>
             <name>
-                <narrative>In-kind ddonations</narrative>
-                <narrative xml:lang="fr">In-kind ddonations</narrative>
+                <narrative>In-kind donations</narrative>
+                <narrative xml:lang="fr">Dons en nature</narrative>
             </name>
         </codelist-item>
         <codelist-item status="active" activation-date="2021-01-01">

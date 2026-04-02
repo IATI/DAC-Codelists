@@ -489,15 +489,15 @@
             </description>
             <category>I</category>
         </codelist-item>
-        <codelist-item status="active" activation-date="2021-01-01">
+        <codelist-item status="active" activation-date="2025-01-01">
             <code>J01</code>
             <name>
-                <narrative>(for SSC providers only) In-kind donations</narrative>
-                <narrative xml:lang="fr">(for SSC providers only) In-kind donations</narrative>
+                <narrative>In-kind donations of goods</narrative>
+                <narrative xml:lang="fr">Dons en nature de biens</narrative>
             </name>
             <description>
-                <narrative>Donation of goods and materials. Includes food, equipment (including medical equipment), materials, and motor vehicles. Materials and supplies necessary to deliver technical co-operation activities are reportable under D013.</narrative>
-                <narrative xml:lang="fr">Donation of goods and materials. Includes food, equipment (including medical equipment), materials, and motor vehicles. Materials and supplies necessary to deliver technical co-operation activities are reportable under D013.</narrative>
+                <narrative>Donation of goods and materials. Includes food, equipment (including medical equipment), materials, and motor vehicles.</narrative>
+                <narrative xml:lang="fr">Dons de biens et de matériel. Cela comprend des denrées alimentaires, de l'équipement (y compris du matériel médical), des matériaux et des véhicules motorisés.</narrative>
             </description>
             <category>J</category>
         </codelist-item>

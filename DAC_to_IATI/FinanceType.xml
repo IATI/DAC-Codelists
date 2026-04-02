@@ -424,9 +424,13 @@
         <codelist-item status="active" activation-date="2024-01-01">
             <code>434</code>
             <name>
-                <narrative>Multilateral hybrid capital: hybrid capital instruments issued by multilateral institutions</narrative>
-                <narrative xml:lang="fr">Capital hybride multilatéral : instruments de capital hybride émis par des institutions multilatérales</narrative>
+                <narrative>Multilateral hybrid capital</narrative>
+                <narrative xml:lang="fr">Capital hybride multilatéral</narrative>
             </name>
+            <description>
+                <narrative>Hybrid capital instruments issued by multilateral institutions</narrative>
+                <narrative xml:lang="fr">Instruments de capital hybride émis par des institutions multilatérales</narrative>
+            </description>
             <category>430</category>
         </codelist-item>
         <codelist-item status="withdrawn" withdrawal-date="2015-12-31">

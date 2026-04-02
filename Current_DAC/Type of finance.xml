@@ -25,7 +25,7 @@
                 <narrative>GNI: Gross National Income</narrative>
                 <narrative xml:lang="fr">RNB : Revenu national brut</narrative>
             </name>
-            <parent-code>0</parent-code>
+            <category>0</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -35,7 +35,7 @@
                 <narrative>ODA % GNI</narrative>
                 <narrative xml:lang="fr">APD en % du RNB</narrative>
             </name>
-            <parent-code>0</parent-code>
+            <category>0</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -45,7 +45,7 @@
                 <narrative>Total Flows % GNI</narrative>
                 <narrative xml:lang="fr">Apports totaux en % du RNB</narrative>
             </name>
-            <parent-code>0</parent-code>
+            <category>0</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -55,7 +55,7 @@
                 <narrative>Population</narrative>
                 <narrative xml:lang="fr">Population</narrative>
             </name>
-            <parent-code>0</parent-code>
+            <category>0</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -79,7 +79,7 @@
                 <narrative>Grants are transfers in cash or in kind for which no legal debt is incurred by the recipient.</narrative>
                 <narrative xml:lang="fr">Transferts en espèces ou en nature qui n'entraînent pas d'obligation juridique de remboursement pour le bénéficiaire.</narrative>
             </description>
-            <parent-code>100</parent-code>
+            <category>100</category>
             <crs>1</crs>
             <tossd>1</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -90,7 +90,7 @@
                 <narrative>Subsidies to national private investors</narrative>
                 <narrative xml:lang="fr">Don hors réorganisation de la dette (y compris quasi-dons)</narrative>
             </name>
-            <parent-code>100</parent-code>
+            <category>100</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -119,7 +119,7 @@
                 <narrative>A payment to soften the terms of private export credits, or loans or credits by the banking sector.</narrative>
                 <narrative xml:lang="fr">Subventions visant à assouplir les conditions des crédits à l’exportation ou des prêts/crédits du secteur bancaire.</narrative>
             </description>
-            <parent-code>100</parent-code>
+            <category>100</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -130,7 +130,7 @@
                 <narrative>Interest subsidy to national private exporters</narrative>
                 <narrative xml:lang="fr">Bonification d’intérêt octroyée aux exportateurs privés nationaux</narrative>
             </name>
-            <parent-code>100</parent-code>
+            <category>100</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -159,7 +159,7 @@
                 <narrative>Payments to multilateral agencies in the form of notes and similar instruments, unconditionally encashable at sight by the recipient institutions.</narrative>
                 <narrative xml:lang="fr">Versements aux agences multilatérales sous forme de billets à ordre et effets similaires encaissables à vue sans condition par l'institution bénéficiaire.</narrative>
             </description>
-            <parent-code>100</parent-code>
+            <category>100</category>
             <crs>1</crs>
             <tossd>1</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -174,7 +174,7 @@
                 <narrative>Payments to multilateral agencies in the form of notes and similar instruments, unconditionally encashable at sight by the recipient institutions.</narrative>
                 <narrative xml:lang="fr">Versements aux agences multilatérales sous forme de billets à ordre et effets similaires encaissables à vue sans condition par l'institution bénéficiaire.</narrative>
             </description>
-            <parent-code>100</parent-code>
+            <category>100</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -199,7 +199,7 @@
                 <narrative>Aid loan excluding debt reorganisation</narrative>
                 <narrative xml:lang="fr">Prêt d’aide hors réorganisation de la dette</narrative>
             </name>
-            <parent-code>400</parent-code>
+            <category>400</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -210,7 +210,7 @@
                 <narrative>Investment-related loan to developing countries</narrative>
                 <narrative xml:lang="fr">Prêt lié à un investissement dans les pays en développement</narrative>
             </name>
-            <parent-code>400</parent-code>
+            <category>400</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -221,7 +221,7 @@
                 <narrative>Loan in a joint venture with the recipient</narrative>
                 <narrative xml:lang="fr">Prêt dans une coentreprise avec le pays bénéficiaire</narrative>
             </name>
-            <parent-code>400</parent-code>
+            <category>400</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -232,7 +232,7 @@
                 <narrative>Loan to national private investor</narrative>
                 <narrative xml:lang="fr">Prêt à un investisseur privé national</narrative>
             </name>
-            <parent-code>400</parent-code>
+            <category>400</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -243,7 +243,7 @@
                 <narrative>Loan to national private exporter</narrative>
                 <narrative xml:lang="fr">Prêt à un exportateur privé national</narrative>
             </name>
-            <parent-code>400</parent-code>
+            <category>400</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -268,7 +268,7 @@
                 <narrative>Loans are transfers in cash or in kind for which the recipient incurs legal debt (and the resulting claim is not intended to be traded). This includes loans repayable in the borrower’s currency whether the lender intends to repatriate the repayments or to use them in the borrowing country. Loans also include ‘instalment sale’ and ‘istisna’a’ of Islamic finance.</narrative>
                 <narrative xml:lang="fr">Loans are transfers in cash or in kind for which the recipient incurs legal debt (and the resulting claim is not intended to be traded). This includes loans repayable in the borrower’s currency whether the lender intends to repatriate the repayments or to use them in the borrowing country. Loans also include ‘instalment sale’ and ‘istisna’a’ of Islamic finance.</narrative>
             </description>
-            <parent-code>420</parent-code>
+            <category>420</category>
             <crs>0</crs>
             <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -283,7 +283,7 @@
                 <narrative>Transfers in cash or in kind for which the recipient incurs legal debt (and the resulting claim is not intended to be traded).  Since payment obligations on standard loan are senior obligations, i.e. creditors are entitled to receive payments against their claims before anyone else, they are also referred to as senior loans.</narrative>
                 <narrative xml:lang="fr">Transferts en espèce ou en nature qui entraînent une obligation juridique de remboursement pour le bénéficiaire (dont la créance n'est pas échangeable.) Lorsque les obligations de remboursement sur les prêts ordinaires sont senior, càd que le créditeur est éligible à percevoir le remboursement de sa créance avant quiconque, on parle de prêt senior.</narrative>
             </description>
-            <parent-code>420</parent-code>
+            <category>420</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -298,7 +298,7 @@
                 <narrative>A contribution provided to a recipient institution for investment purposes, with the expectation of long-term reflows at conditions specified in the financing agreement. The provider assumes the risk of total or partial failure of the investment; it can also decide if and when to reclaim its investment.  </narrative>
                 <narrative xml:lang="fr">Contribution fournie à une institution bénéficiaire à des fins d'investissement, dans une perspective de remboursement à long-terme à des conditions spécifiées dans l'accord de financement. Le fournisseur assume le risque partiel ou total de faillite de l'investissement ; il peut aussi décider si et quand il récupère son investissement.</narrative>
             </description>
-            <parent-code>420</parent-code>
+            <category>420</category>
             <crs>1</crs>
             <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -313,7 +313,7 @@
                 <narrative>A contribution provided to a recipient institution for investment purposes, for which the conditions - including a concrete repayment schedule – are specified in the financing agreement.</narrative>
                 <narrative xml:lang="fr">Contribution fournie à une institution bénéficiaire à des fins d'investissement, dont les conditions – y compris un calendrier de remboursement concret – sont précisées dans l'accord de financement.</narrative>
             </description>
-            <parent-code>420</parent-code>
+            <category>420</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
@@ -328,7 +328,7 @@
                 <narrative>A contribution provided to a recipient institution for investment purposes, for which the details on reflows are unknown at the time of investment as they depend on the performance of the underlying investments.</narrative>
                 <narrative xml:lang="fr">Contribution fournie à une institution bénéficiaire à des fins d'investissement, pour laquelle les détails des remboursements sont inconnus au moment de l'investissement car ils dépendent de la performance des investissements sous-jacents.</narrative>
             </description>
-            <parent-code>420</parent-code>
+            <category>420</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
@@ -343,7 +343,7 @@
                 <narrative>Fixed-interest debt instruments, issued by governments, public utilities, banks or companies, tradable in financial markets.</narrative>
                 <narrative xml:lang="fr">Instruments de dette à intérêts fixes émis par des gouvernements, entités publiques, banques ou sociétés, échangeables sur les marchés financiers.</narrative>
             </description>
-            <parent-code>420</parent-code>
+            <category>420</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -358,7 +358,7 @@
                 <narrative>Bonds are fixed-interest debt instruments, issued by governments, public utilities, banks or companies, tradable in financial markets. The issuer of a coupon bond pledges to pay the par value of the bond to the bondholder on a fixed date (maturity date) as well as specified interest over the life of the bond. Alternatively, bonds can be issued at a price lower than their par value in lieu of the periodic interest, with the full par value being paid to the bondholder on maturity (discount bonds).</narrative>
                 <narrative xml:lang="fr">Bonds are fixed-interest debt instruments, issued by governments, public utilities, banks or companies, tradable in financial markets. The issuer of a coupon bond pledges to pay the par value of the bond to the bondholder on a fixed date (maturity date) as well as specified interest over the life of the bond. Alternatively, bonds can be issued at a price lower than their par value in lieu of the periodic interest, with the full par value being paid to the bondholder on maturity (discount bonds).</narrative>
             </description>
-            <parent-code>420</parent-code>
+            <category>420</category>
             <crs>0</crs>
             <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -373,7 +373,7 @@
                 <narrative>Asset-backed securities are securities whose value and income payments are derived from and backed by a specific pool of underlying assets. The Sukuks of Islamic finance are also categorised as debt securities.</narrative>
                 <narrative xml:lang="fr">Asset-backed securities are securities whose value and income payments are derived from and backed by a specific pool of underlying assets. The Sukuks of Islamic finance are also categorised as debt securities.</narrative>
             </description>
-            <parent-code>420</parent-code>
+            <category>420</category>
             <crs>0</crs>
             <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -388,7 +388,7 @@
                 <narrative>Securities whose value and income payments are derived from and backed by a specific pool of underlying assets.</narrative>
                 <narrative xml:lang="fr">Actifs dont la valeur et les revenus sont dérivés de et adossés à un panier d'actifs sous-jacents.</narrative>
             </description>
-            <parent-code>420</parent-code>
+            <category>420</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -399,7 +399,7 @@
                 <narrative>Other debt securities</narrative>
                 <narrative xml:lang="fr">Autres actifs de dette</narrative>
             </name>
-            <parent-code>420</parent-code>
+            <category>420</category>
             <crs>1</crs>
             <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -424,7 +424,7 @@
                 <narrative>A loan that, in the event of default, will only be repaid after all senior obligations have been satisfied.  In compensation for the increased risk, mezzanine debt holders require a higher return for their investment than secured or more senior lenders.</narrative>
                 <narrative xml:lang="fr">Prêt qui, en cas de défaut, ne sera remboursé qu'après que les obligations senior soient satisfaites.  En compensation du risque accru, les détenteurs de dette mezzanine exigent un retour sur investissement plus élevé que les prêteurs garantis ou senior.</narrative>
             </description>
-            <parent-code>430</parent-code>
+            <category>430</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -439,7 +439,7 @@
                 <narrative>A subordinated (or junior) loan, in the event of default, will only be repaid after all senior obligations have been satisfied.</narrative>
                 <narrative xml:lang="fr">A subordinated (or junior) loan, in the event of default, will only be repaid after all senior obligations have been satisfied.</narrative>
             </description>
-            <parent-code>430</parent-code>
+            <category>430</category>
             <crs>0</crs>
             <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -454,7 +454,7 @@
                 <narrative>Preferred equity, in the event of default, will be repaid after all senior obligations and subordinated loans have been satisfied; and will be paid before other equity holders.</narrative>
                 <narrative xml:lang="fr">Preferred equity, in the event of default, will be repaid after all senior obligations and subordinated loans have been satisfied; and will be paid before other equity holders.</narrative>
             </description>
-            <parent-code>430</parent-code>
+            <category>430</category>
             <crs>0</crs>
             <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -469,7 +469,7 @@
                 <narrative>Equity that, in the event of default, will be repaid after all senior obligations and subordinated loans have been satisfied; and will be paid before common equity holders. It is a more expensive source of finance than senior debt, a less expensive source than equity.</narrative>
                 <narrative xml:lang="fr">Action qui, en cas de défaut, ne sera remboursé qu'après que les obligations senior soient satisfaites ; mais avant les détenteurs d'actions ordinaires.  Il s'agit d'une source de financement plus onéreuse que la dette senior mais moins coûteuse que les actions.</narrative>
             </description>
-            <parent-code>430</parent-code>
+            <category>430</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -484,7 +484,7 @@
                 <narrative>Including convertible debt or equity.</narrative>
                 <narrative xml:lang="fr">Incluant les dettes convertibles et les actions.</narrative>
             </description>
-            <parent-code>430</parent-code>
+            <category>430</category>
             <crs>1</crs>
             <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -492,12 +492,16 @@
         <codelist-item status="Active" activation-date="2024-01-01">
             <code>434</code>
             <name>
-                <narrative>Multilateral hybrid capital: hybrid capital instruments issued by multilateral institutions</narrative>
-                <narrative xml:lang="fr">Capital hybride multilatéral : instruments de capital hybride émis par des institutions multilatérales</narrative>
+                <narrative>Multilateral hybrid capital</narrative>
+                <narrative xml:lang="fr">Capital hybride multilatéral</narrative>
             </name>
-            <parent-code>430</parent-code>
+            <description>
+                <narrative> Hybrid capital instruments issued by multilateral institutions</narrative>
+                <narrative xml:lang="fr">Instruments de capital hybride émis par des institutions multilatérales</narrative>
+            </description>
+            <category>430</category>
             <crs>1</crs>
-            <tossd>0</tossd>
+            <tossd>1</tossd>
             <dac:reference> DCD/DAC/STAT(2024)24/REV2</dac:reference>
         </codelist-item>
         <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
@@ -506,7 +510,7 @@
                 <narrative>Non-banks guaranteed export credits</narrative>
                 <narrative xml:lang="fr">Crédits à l'exportation garantis du secteur non bancaire</narrative>
             </name>
-            <parent-code>450</parent-code>
+            <category>450</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -517,7 +521,7 @@
                 <narrative>Non-banks non-guaranteed portions of guaranteed export credits</narrative>
                 <narrative xml:lang="fr">Fraction non garantie des crédits à l'exportation garantis du secteur bancaire</narrative>
             </name>
-            <parent-code>400</parent-code>
+            <category>400</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -528,7 +532,7 @@
                 <narrative>Bank export credits</narrative>
                 <narrative xml:lang="fr">Crédits à l'exportation du secteur bancaire</narrative>
             </name>
-            <parent-code>400</parent-code>
+            <category>400</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -553,7 +557,7 @@
                 <narrative>A share in the ownership of a corporation that gives the owner claims on the residual value of the corporation after creditors’ claims have been met.</narrative>
                 <narrative xml:lang="fr">Part de propriété dans une société donnant à son détenteur une créance sur la valeurs résiduelle de la société une fois que les créances de ses créditeurs ont été satisfaites.</narrative>
             </description>
-            <parent-code>500</parent-code>
+            <category>500</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -568,7 +572,7 @@
                 <narrative>Common equity is a share in the ownership of a corporation that gives the owner a claim on the residual value of the corporation after creditors’ claims have been met. This category also covers the profit-sharing agreements (Musharaka) of Islamic finance.</narrative>
                 <narrative xml:lang="fr">Common equity is a share in the ownership of a corporation that gives the owner a claim on the residual value of the corporation after creditors’ claims have been met. This category also covers the profit-sharing agreements (Musharaka) of Islamic finance.</narrative>
             </description>
-            <parent-code>500</parent-code>
+            <category>500</category>
             <crs>0</crs>
             <tossd>1</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -579,7 +583,7 @@
                 <narrative>Acquisition of equity not part of joint venture in developing countries</narrative>
                 <narrative xml:lang="fr">Acquisition de prises de participation en dehors des coentreprises avec les pays en développement</narrative>
             </name>
-            <parent-code>500</parent-code>
+            <category>500</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -590,7 +594,7 @@
                 <narrative>Other acquisition of equity</narrative>
                 <narrative xml:lang="fr">Autre acquisition de prises de participation</narrative>
             </name>
-            <parent-code>500</parent-code>
+            <category>500</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -605,7 +609,7 @@
                 <narrative>Shares in collective investment vehicles refer to collective undertakings through which investors pool funds for investment in financial or nonfinancial assets or both. These vehicles issue shares (if a corporate structure is used) or units (if a trust structure is used).</narrative>
                 <narrative xml:lang="fr">Shares in collective investment vehicles refer to collective undertakings through which investors pool funds for investment in financial or nonfinancial assets or both. These vehicles issue shares (if a corporate structure is used) or units (if a trust structure is used).</narrative>
             </description>
-            <parent-code>500</parent-code>
+            <category>500</category>
             <crs>0</crs>
             <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -620,7 +624,7 @@
                 <narrative>Collective undertakings through which investors pool funds for investment in financial or nonfinancial assets or both. These vehicles issue shares (if a corporate structure is used) or units (if a trust structure is used).</narrative>
                 <narrative xml:lang="fr">Placement collectif par lequel un groupe d'investisseurs abonde un fond d'actifs financiers ou non financiers ou les deux. Ces véhicules émettent des parts (en cas de structure d'entreprise) ou des unités de compte (en cas de structure fiduciaire.)</narrative>
             </description>
-            <parent-code>500</parent-code>
+            <category>500</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -635,7 +639,7 @@
                 <narrative>This item is only applicable to Foreign Direct Investment (FDI). Reinvested earnings on FDI consist of the retained earnings of a direct foreign investment enterprise which are treated as if they were distributed and remitted to foreign direct investors in proportion to their ownership of the equity of the enterprise and then reinvested by them in the enterprise. </narrative>
                 <narrative xml:lang="fr">Cet item n'est applicable qu'aux investissement direct étrangers (IDE). Les bénéfices réinvestis sur des IDE consistent en des bénéfices retenus d'un investissement direct à l'étranger qui sont traités comme s'ils étaient redistribués et versés aux investisseurs en proportion de leur part dans l'actionnariat puis réinvestis par eux dans l'entreprise.</narrative>
             </description>
-            <parent-code>500</parent-code>
+            <category>500</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -659,7 +663,7 @@
                 <narrative>Debt forgiveness:  ODA claims (P)</narrative>
                 <narrative xml:lang="fr">Annulation/conversion de la dette : créance APD (P)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -669,7 +673,7 @@
                 <narrative>Debt forgiveness: ODA claims (I)</narrative>
                 <narrative xml:lang="fr">Annulation/conversion de la dette : créance APD (I)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -679,7 +683,7 @@
                 <narrative>Debt forgiveness: OOF claims (P)</narrative>
                 <narrative xml:lang="fr">Annulation/conversion de la dette : créance AASP (P)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -689,7 +693,7 @@
                 <narrative>Debt forgiveness: OOF claims (I)</narrative>
                 <narrative xml:lang="fr">Annulation/conversion de la dette : créance AASP (I)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -699,7 +703,7 @@
                 <narrative>Debt forgiveness:  Private claims (P)</narrative>
                 <narrative xml:lang="fr">Annulation/conversion de la dette : créance du secteur privé (P)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -709,7 +713,7 @@
                 <narrative>Debt forgiveness:  Private claims (I)</narrative>
                 <narrative xml:lang="fr">Annulation/conversion de la dette : créance du secteur privé (I)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -719,7 +723,7 @@
                 <narrative>Debt forgiveness: OOF claims (DSR)</narrative>
                 <narrative xml:lang="fr">Annulation/conversion de la dette : créance AASP (DSR)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -729,7 +733,7 @@
                 <narrative>Debt forgiveness:  Private claims (DSR)</narrative>
                 <narrative xml:lang="fr">Annulation/conversion de la dette : créance du secteur privé (DSR)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -739,7 +743,7 @@
                 <narrative>Debt forgiveness: Other</narrative>
                 <narrative xml:lang="fr">Annulation/conversion de la dette : autre</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -749,7 +753,7 @@
                 <narrative>Debt rescheduling: ODA claims (P)</narrative>
                 <narrative xml:lang="fr">Rééchelonnement de la dette : créance APD (P)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -759,7 +763,7 @@
                 <narrative>Debt rescheduling: ODA claims (I)</narrative>
                 <narrative xml:lang="fr">Rééchelonnement de la dette : créance APD (I)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -769,7 +773,7 @@
                 <narrative>Debt rescheduling: OOF claims (P)</narrative>
                 <narrative xml:lang="fr">Rééchelonnement de la dette : créance AASP (P)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -779,7 +783,7 @@
                 <narrative>Debt rescheduling: OOF claims (I)</narrative>
                 <narrative xml:lang="fr">Rééchelonnement de la dette : créance AASP (I)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -789,7 +793,7 @@
                 <narrative>Debt rescheduling:  Private claims (P)</narrative>
                 <narrative xml:lang="fr">Rééchelonnement de la dette : créance du secteur privé (P)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -799,7 +803,7 @@
                 <narrative>Debt rescheduling:  Private claims (I)</narrative>
                 <narrative xml:lang="fr">Rééchelonnement de la dette : créance du secteur privé (I)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -809,7 +813,7 @@
                 <narrative>Debt rescheduling: OOF claims (DSR)</narrative>
                 <narrative xml:lang="fr">Rééchelonnement de la dette : créance AASP (RSD)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -819,7 +823,7 @@
                 <narrative>Debt rescheduling:  Private claims (DSR)</narrative>
                 <narrative xml:lang="fr">Rééchelonnement de la dette : créance du secteur privé (RSD)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -829,7 +833,7 @@
                 <narrative>Debt rescheduling: OOF claim (DSR – original loan principal) </narrative>
                 <narrative xml:lang="fr">Rééchelonnement de la dette : créance AASP (RSD – principal du prêt d’origine)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -839,7 +843,7 @@
                 <narrative>Debt rescheduling: OOF claim (DSR – original loan interest)</narrative>
                 <narrative xml:lang="fr">Rééchelonnement de la dette : créance AASP (RSD – intérêts du prêt d’origine)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -849,7 +853,7 @@
                 <narrative>Debt rescheduling: Private claim (DSR – original loan principal)</narrative>
                 <narrative xml:lang="fr">Rééchelonnement de la dette : créance du secteur privé (RSD – principal du prêt d’origine)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
         </codelist-item>
@@ -859,7 +863,7 @@
                 <narrative>Debt forgiveness/conversion: export credit claims (P)</narrative>
                 <narrative xml:lang="fr">Annulation/conversion de la dette : créance de crédit à l'exportation (P)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -870,7 +874,7 @@
                 <narrative>Debt forgiveness/conversion:  export credit claims (I)</narrative>
                 <narrative xml:lang="fr">Annulation/conversion de la dette : créance de crédit à l'exportation (I)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -881,7 +885,7 @@
                 <narrative>Debt forgiveness:  export credit claims (DSR)</narrative>
                 <narrative xml:lang="fr">Annulation de la dette : créance de crédit à l'exportation (DSR)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -892,7 +896,7 @@
                 <narrative>Debt rescheduling:  export credit claims (P)</narrative>
                 <narrative xml:lang="fr">Rééchelonnement de la dette : créance de crédit à  l'exportation (P)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -903,7 +907,7 @@
                 <narrative>Debt rescheduling:  export credit claims (I)</narrative>
                 <narrative xml:lang="fr">Rééchelonnement de la dette : créance de crédit à  l'exportation (I)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -914,7 +918,7 @@
                 <narrative>Debt rescheduling:  export credit claims (DSR)</narrative>
                 <narrative xml:lang="fr">Rééchelonnement de la dette : créance de crédit à  l'exportation (DSR)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -925,7 +929,7 @@
                 <narrative>Debt rescheduling:  export credit claim (DSR – original loan principal)</narrative>
                 <narrative xml:lang="fr">Rééchelonnement de la dette : créance de crédit à  l'exportation (DSR - principal du prêt originel)</narrative>
             </name>
-            <parent-code>600</parent-code>
+            <category>600</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -950,7 +954,7 @@
                 <narrative>Foreign direct investment, new capital outflow (includes reinvested earnings if separate identification not available) </narrative>
                 <narrative xml:lang="fr">Investissement direct international</narrative>
             </name>
-            <parent-code>700</parent-code>
+            <category>700</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -961,7 +965,7 @@
                 <narrative>Other foreign direct investment, including reinvested earnings</narrative>
                 <narrative xml:lang="fr">Autre investissement direct international , y compris les bénéfices réinvestis</narrative>
             </name>
-            <parent-code>700</parent-code>
+            <category>700</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -972,7 +976,7 @@
                 <narrative>Foreign direct investment, reinvested earnings</narrative>
                 <narrative xml:lang="fr"/>
             </name>
-            <parent-code>700</parent-code>
+            <category>700</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -997,7 +1001,7 @@
                 <narrative>Bank bonds</narrative>
                 <narrative xml:lang="fr">Obligations du secteur bancaire</narrative>
             </name>
-            <parent-code>800</parent-code>
+            <category>800</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -1008,7 +1012,7 @@
                 <narrative>Non-bank  bonds</narrative>
                 <narrative xml:lang="fr">Obligations du secteur non bancaire</narrative>
             </name>
-            <parent-code>800</parent-code>
+            <category>800</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -1029,7 +1033,7 @@
                 <narrative>Other bank securities/claims</narrative>
                 <narrative xml:lang="fr">Autres titres/créances du secteur bancaire</narrative>
             </name>
-            <parent-code>900</parent-code>
+            <category>900</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -1040,7 +1044,7 @@
                 <narrative>Other non-bank securities/claims</narrative>
                 <narrative xml:lang="fr">Autres titres/créances du secteur non bancaire</narrative>
             </name>
-            <parent-code>900</parent-code>
+            <category>900</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -1051,7 +1055,7 @@
                 <narrative>Purchase of securities from issuing agencies</narrative>
                 <narrative xml:lang="fr">Titres et autres instruments émis par les agences multilatérales</narrative>
             </name>
-            <parent-code>900</parent-code>
+            <category>900</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
@@ -1062,7 +1066,7 @@
                 <narrative>Securities and other instruments originally issued by multilateral agencies</narrative>
                 <narrative xml:lang="fr"/>
             </name>
-            <parent-code>900</parent-code>
+            <category>900</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -1083,7 +1087,7 @@
                 <narrative>Guarantees/insurance </narrative>
                 <narrative xml:lang="fr">Garanties/assurances</narrative>
             </name>
-            <parent-code>1000</parent-code>
+            <category>1000</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -1098,7 +1102,7 @@
                 <narrative>Guarantees refer to risk-sharing agreements under which the guarantor agrees to pay part or the entire amount due on a loan, equity or other instrument to the lender/investor in the event of non-payment by the borrower or loss of value in case of investment. Other unfunded contingent liabilities include insurances and other instruments that do not constitute a flow.</narrative>
                 <narrative xml:lang="fr">Guarantees refer to risk-sharing agreements under which the guarantor agrees to pay part or the entire amount due on a loan, equity or other instrument to the lender/investor in the event of non-payment by the borrower or loss of value in case of investment. Other unfunded contingent liabilities include insurances and other instruments that do not constitute a flow.</narrative>
             </description>
-            <parent-code>1000</parent-code>
+            <category>1000</category>
             <crs>0</crs>
             <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
@@ -1113,7 +1117,7 @@
                 <narrative>A guarantee on an individual standard loan</narrative>
                 <narrative xml:lang="fr">Une garantie sur un prêt individuel standard</narrative>
             </description>
-            <parent-code>1000</parent-code>
+            <category>1000</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
@@ -1128,7 +1132,7 @@
                 <narrative>A guarantee covering a portfolio of standard loans administered by financial intermediaries, such as banks, microfinance institutions or collective investment vehicles.</narrative>
                 <narrative xml:lang="fr">Une garantie couvrant un portefeuille de prêts standards administrés par des intermédiaires financiers, tels que des banques, des institutions de microfinance ou des véhicules de placement collectif.</narrative>
             </description>
-            <parent-code>1000</parent-code>
+            <category>1000</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
@@ -1143,7 +1147,7 @@
                 <narrative>A guarantee on an individual mezzanine finance investment (subordinated loans or preferred equities). </narrative>
                 <narrative xml:lang="fr">Une garantie sur un investissement individuel en financement mezzanine (prêts subordonnés ou actions privilégiées).</narrative>
             </description>
-            <parent-code>1000</parent-code>
+            <category>1000</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
@@ -1158,7 +1162,7 @@
                 <narrative>A guarantee covering a portfolio of mezzanine finance investments (subordinated loans or preferred equities) administered by financial intermediaries, such as banks, microfinance institutions or collective investment vehicles.</narrative>
                 <narrative xml:lang="fr">Une garantie couvrant un portefeuille d'investissements en financement mezzanine (prêts subordonnés ou actions privilégiées) administré par des intermédiaires financiers, tels que des banques, des institutions de microfinance ou des véhicules de placement collectif.</narrative>
             </description>
-            <parent-code>1000</parent-code>
+            <category>1000</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
@@ -1173,7 +1177,7 @@
                 <narrative>A guarantee covering an equity investment.</narrative>
                 <narrative xml:lang="fr">Une garantie couvrant un investissement en actions.</narrative>
             </description>
-            <parent-code>1000</parent-code>
+            <category>1000</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
@@ -1188,7 +1192,7 @@
                 <narrative>A guarantee covering a portfolio of equity investments administered by financial intermediaries, such as banks, microfinance institutions or collective investment vehicles.</narrative>
                 <narrative xml:lang="fr">Garantie couvrant un portefeuille de participations administré par des intermédiaires financiers, tels que des banques, des institutions de microfinance ou des organismes de placement collectif.</narrative>
             </description>
-            <parent-code>1000</parent-code>
+            <category>1000</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
@@ -1203,7 +1207,7 @@
                 <narrative>A guarantee specifically designed to absorb the very first loss on one or more investments, such as in the context of collective investment vehicles. Please use other codes for guarantees that are not specifically designed to absorb the very first loss.</narrative>
                 <narrative xml:lang="fr">Une garantie spécifiquement conçue pour absorber la toute première perte sur un ou plusieurs investissements, comme dans le cadre de véhicules de placement collectif. Veuillez utiliser d'autres codes pour les garanties qui ne sont pas spécifiquement conçues pour absorber la toute première perte.</narrative>
             </description>
-            <parent-code>1000</parent-code>
+            <category>1000</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
@@ -1218,7 +1222,7 @@
                 <narrative>Other guarantees, such as volume guarantees, payment guarantees etc.</narrative>
                 <narrative xml:lang="fr">Autres garanties, telles que garanties de volume, garanties de paiement, etc.</narrative>
             </description>
-            <parent-code>1000</parent-code>
+            <category>1000</category>
             <crs>1</crs>
             <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
@@ -1242,7 +1246,7 @@
                 <narrative>Direct provider spending</narrative>
                 <narrative xml:lang="fr">Direct provider spending</narrative>
             </name>
-            <parent-code>2000</parent-code>
+            <category>2000</category>
             <crs>0</crs>
             <tossd>1</tossd>
         </codelist-item>
@@ -1269,7 +1273,7 @@
                 <narrative>This category includes subsidies and social benefits to households as defined in the System of National Accounts (SNA). Subsidies are unrequited payments that government units, including non-resident government units, make to enterprises on the basis of the levels of their production activities or the quantities or values of the goods or services which they produce, sell or import. Subsidies prohibited by the WTO are not reportable in TOSSD. Social benefits to households are current transfers received by households that are intended to provide for the needs that arise from certain events or circumstances, for example housing. Subsidies and similar transfers can be used by governments to promote sustainable development objectives, for example by supporting research activities carried out by pharmaceutical firms or efforts by households to improve the energy efficiency of their housing. According to the United Nations System of Environmental-Economic Accounting (SEEA), an environmental subsidy or similar transfer is a transfer intended to support activities that protect the environment or reduce the use and extraction of natural resources.</narrative>
                 <narrative xml:lang="fr">This category includes subsidies and social benefits to households as defined in the System of National Accounts (SNA). Subsidies are unrequited payments that government units, including non-resident government units, make to enterprises on the basis of the levels of their production activities or the quantities or values of the goods or services which they produce, sell or import. Subsidies prohibited by the WTO are not reportable in TOSSD. Social benefits to households are current transfers received by households that are intended to provide for the needs that arise from certain events or circumstances, for example housing. Subsidies and similar transfers can be used by governments to promote sustainable development objectives, for example by supporting research activities carried out by pharmaceutical firms or efforts by households to improve the energy efficiency of their housing. According to the United Nations System of Environmental-Economic Accounting (SEEA), an environmental subsidy or similar transfer is a transfer intended to support activities that protect the environment or reduce the use and extraction of natural resources.</narrative>
             </description>
-            <parent-code>3000</parent-code>
+            <category>3000</category>
             <crs>0</crs>
             <tossd>1</tossd>
         </codelist-item>

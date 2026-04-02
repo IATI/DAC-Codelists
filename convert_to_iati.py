@@ -54,7 +54,7 @@ def cleanup(codelist):
     # Remove some tags
     for codelist_item in codelist.find("codelist-items").findall("codelist-item"):
         for child in codelist_item:
-            if child.tag in ["acronym", "crs", "tossd"]:
+            if child.tag in ["acronym", "crs", "tossd", "parent-code"]:
                 child.getparent().remove(child)
 
     # Remove dac namespaces from the xml.
@@ -85,12 +85,6 @@ def cleanup(codelist):
 
 def renames(codelist):
     """Rename some tags and values"""
-
-    # Rename some tags
-    for codelist_item in codelist.find("codelist-items").findall("codelist-item"):
-        child = codelist_item.find("parent-code")
-        if child is not None:
-            child.tag = "category"
 
     # Rename some status values
     for codelist_item in codelist.find("codelist-items").findall("codelist-item"):
@@ -176,7 +170,7 @@ def compare_codes(codelist, iati_codelist):
             if element.attrib["status"] != "withdrawn":
                 element.attrib["status"] = "withdrawn"
             if "withdrawal-date" not in element.attrib.keys():
-                element.attrib["withdrawal-date"] = "2025-10-30"
+                element.attrib["withdrawal-date"] = "2026-04-02"
             dac_codes[key] = element
     return sorted(dac_codes.items())
 
