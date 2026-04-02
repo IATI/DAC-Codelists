@@ -54,7 +54,7 @@ def cleanup(codelist):
     # Remove some tags
     for codelist_item in codelist.find("codelist-items").findall("codelist-item"):
         for child in codelist_item:
-            if child.tag in ["acronym", "crs", "tossd", "parent-code"]:
+            if child.tag in ["acronym", "parent-code"]:
                 child.getparent().remove(child)
 
     # Remove dac namespaces from the xml.
