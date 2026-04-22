@@ -16,7 +16,10 @@ DAC_IATI_CODELISTS = [
     ("Purpose code", "SectorCategory", "@Heading=1"),
 ]
 OUTPUTDIR = "DAC_to_IATI"
-namespaces = {"dac": "http://www.oecd.org/dac/stats/dacandcrscodelists"}
+namespaces = {
+    "dac": "http://www.oecd.org/dac/stats/dacandcrscodelists",
+    "extras": "https://namespaces.iatistandard.org/codelist_extras",
+}
 codelist_dict = {"Channel-category": "CRSChannelCode"}
 
 
@@ -56,6 +59,8 @@ def cleanup(codelist):
         for child in codelist_item:
             if child.tag in ["acronym", "parent-code"]:
                 child.getparent().remove(child)
+            if child.tag in ["crs", "tossd"]:
+                child.tag = "{" + namespaces["extras"] + "}" + child.tag
 
     # Remove dac namespaces from the xml.
     if codelist.attrib["name"] in codelist_dict.keys():
@@ -122,17 +127,17 @@ def remove_trailing_whitespaces(codelist_item):
 
 def add_iati_codelist_xml(codelist, iati_codelist):
     """Add metadata content and update codelists."""
-    codelist.attrib["embedded"] = "0"
-    metadata = codelist.find("metadata")
     iati_metadata = iati_codelist.find("metadata")
-    metadata.getparent().replace(metadata, iati_metadata)
     sorted_codes = compare_codes(codelist, iati_codelist)
-    new_codelist = etree.Element("codelist-items")
+    new_codelist_items = etree.Element("codelist-items")
     for item in sorted_codes:
         remove_empty_narratives(item[1])
-        new_codelist.append(item[1])
-    codelist.replace(codelist.find("codelist-items"), new_codelist)
-    return codelist
+        new_codelist_items.append(item[1])
+    new_codelist = etree.Element("codelist", attrib=codelist.attrib, nsmap=namespaces)
+    new_codelist.attrib["embedded"] = "0"
+    new_codelist.append(iati_metadata)
+    new_codelist.append(new_codelist_items)
+    return new_codelist
 
 
 def compare_codes(codelist, iati_codelist):
