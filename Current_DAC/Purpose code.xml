@@ -1616,6 +1616,21 @@
             <code>15190</code>
             <name>
                 <narrative>Facilitation of orderly, safe, regular and responsible migration and mobility</narrative>
+                <narrative xml:lang="fr">Facilitation of orderly, safe, regular and responsible migration and mobility</narrative>
+            </name>
+            <description>
+                <narrative>Assistance to developing countries that facilitates the orderly, safe, regular and responsible migration and mobility of people. This includes:• Capacity building in migration and mobility policy, analysis, planning and management. This includes support to facilitate safe and regular migration and address irregular migration, engagement with diaspora and programmes enhancing the development impact of remittances and/or their use for developmental projects in developing countries.• Measures to improve migrant labour recruitment systems in developing countries.• Capacity building for strategy and policy development as well as legal and judicial development (including border management) in developing countries. This includes support to address and reduce vulnerabilities in migration, and strengthen the transnational response to smuggling of migrants and preventing and combating trafficking in human beings.• Support to effective strategies to ensure international protection and the right to asylum.• Support to effective strategies to ensure access to justice and assistance for displaced persons.• Assistance to migrants for their safe, dignified, informed and voluntary return to their country of origin (covers only returns from another developing country; assistance to forced returns is excluded from ODA).• Assistance to migrants for their sustainable reintegration in their country of origin (use code 93010 for pre-departure assistance provided in provider countries in the context of voluntary returns). Activities that pursue first and foremost providers' interest are excluded from ODA. Activities addressing the root causes of forced displacement and irregular migration should not be coded here, but under their relevant sector of intervention. In addition, use code 15136 for support to countries' authorities for immigration affairs and services (optional), code 24050 for programmes aiming at reducing the sending costs of remittances, code 72010 for humanitarian aspects of assistance to refugees and internally displaced persons (IDPs) such as delivery of emergency services and humanitarian protection. Use code 93010 when expenditure is for the temporary sustenance of refugees in the provider country, including for their voluntary return and for their reintegration when support is provided in a provider country in connection with the return from that provider country (i.e. pre-departure assistance), or voluntary resettlement in a third developed country.</narrative>
+                <narrative xml:lang="fr">Assistance to developing countries that facilitates the orderly, safe, regular and responsible migration and mobility of people. This includes:• Capacity building in migration and mobility policy, analysis, planning and management. This includes support to facilitate safe and regular migration and address irregular migration, engagement with diaspora and programmes enhancing the development impact of remittances and/or their use for developmental projects in developing countries.• Measures to improve migrant labour recruitment systems in developing countries.• Capacity building for strategy and policy development as well as legal and judicial development (including border management) in developing countries. This includes support to address and reduce vulnerabilities in migration, and strengthen the transnational response to smuggling of migrants and preventing and combating trafficking in human beings.• Support to effective strategies to ensure international protection and the right to asylum.• Support to effective strategies to ensure access to justice and assistance for displaced persons.• Assistance to migrants for their safe, dignified, informed and voluntary return to their country of origin (covers only returns from another developing country; assistance to forced returns is excluded from ODA).• Assistance to migrants for their sustainable reintegration in their country of origin (use code 93010 for pre-departure assistance provided in provider countries in the context of voluntary returns). Activities that pursue first and foremost providers' interest are excluded from ODA. Activities addressing the root causes of forced displacement and irregular migration should not be coded here, but under their relevant sector of intervention. In addition, use code 15136 for support to countries' authorities for immigration affairs and services (optional), code 24050 for programmes aiming at reducing the sending costs of remittances, code 72010 for humanitarian aspects of assistance to refugees and internally displaced persons (IDPs) such as delivery of emergency services and humanitarian protection. Use code 93010 when expenditure is for the temporary sustenance of refugees in the provider country, including for their voluntary return and for their reintegration when support is provided in a provider country in connection with the return from that provider country (i.e. pre-departure assistance), or voluntary resettlement in a third developed country.</narrative>
+            </description>
+            <category>151</category>
+            <crs>0</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT(2018)23/REV3</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>15190</code>
+            <name>
+                <narrative>Facilitation of orderly, safe, regular and responsible migration and mobility</narrative>
                 <narrative xml:lang="fr">Faciliter la migration et la mobilité de façon ordonnée, sans danger, régulière et responsable</narrative>
             </name>
             <description>
@@ -1624,7 +1639,7 @@
             </description>
             <category>151</category>
             <crs>1</crs>
-            <tossd>1</tossd>
+            <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT(2018)23/REV3</dac:reference>
         </codelist-item>
         <codelist-item status="Active" Heading="1">
@@ -2006,13 +2021,29 @@
                 <narrative xml:lang="fr">Culture</narrative>
             </name>
             <description>
+                <narrative>Programmes to strengthen the cultural sector (cinema, music, dance, painting, literature, etc.) of developing countries; measures to promote or protect the diversity of cultural expressions. This includes support to cultural industries, construction and reparation of facilities; capacity-building for artists and other persons working in the cultural sector; activities to support the production or the dissemination of artistic works of developing country nationals (e.g. artistic or musical events). Preservation of tangible (artefacts, monuments, sites, museums) and intangible (arts, social practices, knowledge and skills, shared values, traditions, performances) cultural heritage that has a diversity of values including symbolic, historic, artistic, aesthetic, ethnological or anthropological, scientific and social significance. Use code 99820 – promotion of development awareness for activities in the field of culture in the provider country that are designed to increase public support and awareness of development co-operation efforts in the provider country.</narrative>
+                <narrative xml:lang="fr">Programmes to strengthen the cultural sector (cinema, music, dance, painting, literature, etc.) of developing countries; measures to promote or protect the diversity of cultural expressions. This includes support to cultural industries, construction and reparation of facilities; capacity-building for artists and other persons working in the cultural sector; activities to support the production or the dissemination of artistic works of developing country nationals (e.g. artistic or musical events). Preservation of tangible (artefacts, monuments, sites, museums) and intangible (arts, social practices, knowledge and skills, shared values, traditions, performances) cultural heritage that has a diversity of values including symbolic, historic, artistic, aesthetic, ethnological or anthropological, scientific and social significance. Use code 99820 – promotion of development awareness for activities in the field of culture in the provider country that are designed to increase public support and awareness of development co-operation efforts in the provider country.</narrative>
+            </description>
+            <category>160</category>
+            <parent-code>16061</parent-code>
+            <crs>0</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT(2023)21/REV2</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" Particularity="Voluntary code">
+            <code>16066</code>
+            <name>
+                <narrative>Culture</narrative>
+                <narrative xml:lang="fr">Culture</narrative>
+            </name>
+            <description>
                 <narrative>Programmes to strengthen the cultural sector (cinema, music, dance, painting, literature, etc.) of developing countries; measures to promote or protect the diversity of cultural expressions. This includes support to cultural industries, construction and reparation of facilities; capacity-building for artists and other persons working in the cultural sector; activities to support the production or the dissemination of artistic works of developing country nationals (e.g. artistic or musical events). Preservation of tangible (artefacts, monuments, sites, museums) and intangible (arts, social practices, knowledge and skills, shared values, traditions, performances) cultural heritage that has a diversity of values including symbolic, historic, artistic, aesthetic, ethnological or anthropological, scientific and social significance. Use code 99820 – promotion of development awareness for activities in the field of culture in the donor country that are designed to increase public support and awareness of development co-operation efforts in the donor country.</narrative>
                 <narrative xml:lang="fr">Programmes de renforcement du secteur culturel (cinéma, musique, danse, peinture, littérature, etc.) des pays en développement ; mesures visant à promouvoir ou à protéger la diversité des expressions culturelles. Cela comprend le soutien aux industries culturelles, à la construction et à la réparation des installations ; le renforcement des capacités des artistes et autres personnes travaillant dans le secteur culturel ; activités visant à soutenir la production ou la diffusion d’œuvres artistiques de ressortissants de pays en développement (par exemple événements artistiques ou musicaux). Préservation du patrimoine culturel matériel (objets, monuments, sites, musées) et immatériel (arts, pratiques sociales, connaissances et compétences, valeurs partagées, traditions, performances) qui a une diversité de valeurs, notamment symboliques, historiques, artistiques, esthétiques, ethnologiques ou une signification anthropologique, scientifique et sociale. Utilisez le code 99820 – promotion de la sensibilisation au développement pour les activités dans le domaine de la culture dans le pays donateur qui sont conçues pour accroître le soutien du public et la sensibilisation aux efforts de coopération au développement dans le pays donateur.</narrative>
             </description>
             <category>160</category>
             <parent-code>16061</parent-code>
             <crs>1</crs>
-            <tossd>1</tossd>
+            <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT(2023)21/REV2</dac:reference>
         </codelist-item>
         <codelist-item status="Active">
@@ -2042,6 +2073,20 @@
             </description>
             <category>160</category>
             <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>16063</code>
+            <name>
+                <narrative>Narcotics control</narrative>
+                <narrative xml:lang="fr">Narcotics control</narrative>
+            </name>
+            <description>
+                <narrative>In-country and customs controls including training of the police; educational programmes and awareness campaigns to restrict narcotics traffic and in-country distribution. ODA recording of narcotics control expenditures is limited to activities that focus on economic development and welfare including alternative development programmes and crop substitution (see 31165 and 43050). Activities by the provider country to interdict drug supplies destroy crops or train or finance military personnel in anti-narcotics activities are not reportable.</narrative>
+                <narrative xml:lang="fr">In-country and customs controls including training of the police; educational programmes and awareness campaigns to restrict narcotics traffic and in-country distribution. ODA recording of narcotics control expenditures is limited to activities that focus on economic development and welfare including alternative development programmes and crop substitution (see 31165 and 43050). Activities by the provider country to interdict drug supplies destroy crops or train or finance military personnel in anti-narcotics activities are not reportable.</narrative>
+            </description>
+            <category>160</category>
+            <crs>0</crs>
             <tossd>1</tossd>
         </codelist-item>
         <codelist-item status="Active">
@@ -5049,6 +5094,17 @@
             <category>910</category>
             <parent-code/>
             <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active" Heading="1">
+            <code>910</code>
+            <name>
+                <narrative>Administrative Costs</narrative>
+                <narrative xml:lang="fr">Administrative Costs</narrative>
+            </name>
+            <category>910</category>
+            <parent-code/>
+            <crs>0</crs>
             <tossd>1</tossd>
         </codelist-item>
         <codelist-item status="Active">
@@ -5064,6 +5120,17 @@
         <codelist-item status="Active" Heading="1">
             <code>930</code>
             <name>
+                <narrative>Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries)</narrative>
+                <narrative xml:lang="fr">Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries)</narrative>
+            </name>
+            <category>930</category>
+            <parent-code/>
+            <crs>0</crs>
+            <tossd>1</tossd>
+        </codelist-item>
+        <codelist-item status="Active" Heading="1">
+            <code>930</code>
+            <name>
                 <narrative>XI. Refugees/Asylum Seekers in Donor Countries</narrative>
                 <narrative xml:lang="fr">XI. Refugiés dans les Pays Donneurs</narrative>
             </name>
@@ -5071,17 +5138,6 @@
             <parent-code/>
             <crs>1</crs>
             <tossd>0</tossd>
-        </codelist-item>
-        <codelist-item status="Active" Heading="1">
-            <code>930</code>
-            <name>
-                <narrative>Domestic expenditures for refugees/asylum seekers</narrative>
-                <narrative xml:lang="fr">Domestic expenditures for refugees/asylum seekers</narrative>
-            </name>
-            <category>930</category>
-            <parent-code/>
-            <crs>0</crs>
-            <tossd>1</tossd>
         </codelist-item>
         <codelist-item status="Active">
             <code>93010</code>
@@ -5101,12 +5157,12 @@
         <codelist-item status="Active">
             <code>93010</code>
             <name>
-                <narrative>Domestic expenditures for refugees/asylum seekers (non-sector allocable)</narrative>
-                <narrative xml:lang="fr">Domestic expenditures for refugees/asylum seekers (non-sector allocable)</narrative>
+                <narrative>Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - non-sector allocable</narrative>
+                <narrative xml:lang="fr">Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - non-sector allocable</narrative>
             </name>
             <description>
-                <narrative>Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries, when costs cannot be disaggregated. </narrative>
-                <narrative xml:lang="fr">Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries, when costs cannot be disaggregated. </narrative>
+                <narrative>Costs for basic assistance to asylum seekers and refugees from developing countries, when costs cannot be disaggregated. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.</narrative>
+                <narrative xml:lang="fr">Costs for basic assistance to asylum seekers and refugees from developing countries, when costs cannot be disaggregated. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.</narrative>
             </description>
             <category>930</category>
             <crs>0</crs>
@@ -5116,12 +5172,12 @@
         <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
             <code>93011</code>
             <name>
-                <narrative>Domestic expenditures for refugees/asylum seekers - food and shelter </narrative>
-                <narrative xml:lang="fr">Domestic expenditures for refugees/asylum seekers - food and shelter </narrative>
+                <narrative>Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - food and shelter</narrative>
+                <narrative xml:lang="fr">Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - food and shelter</narrative>
             </name>
             <description>
-                <narrative>Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries – food and shelter</narrative>
-                <narrative xml:lang="fr">Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries – food and shelter</narrative>
+                <narrative>Costs for basic assistance to asylum seekers and refugees from developing countries: food and shelter. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.</narrative>
+                <narrative xml:lang="fr">Costs for basic assistance to asylum seekers and refugees from developing countries: food and shelter. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.</narrative>
             </description>
             <category>930</category>
             <parent-code>93010</parent-code>
@@ -5164,12 +5220,28 @@
         <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
             <code>93012</code>
             <name>
-                <narrative>Domestic expenditures for refugees/asylum seekers - training</narrative>
-                <narrative xml:lang="fr">Domestic expenditures for refugees/asylum seekers - training</narrative>
+                <narrative>Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - training</narrative>
+                <narrative xml:lang="fr">Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - training</narrative>
             </name>
             <description>
-                <narrative>Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries – training</narrative>
-                <narrative xml:lang="fr">Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries – training</narrative>
+                <narrative>Costs for basic assistance to asylum seekers and refugees from developing countries: training. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.</narrative>
+                <narrative xml:lang="fr">Costs for basic assistance to asylum seekers and refugees from developing countries: training. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.</narrative>
+            </description>
+            <category>930</category>
+            <parent-code>93010</parent-code>
+            <crs>0</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
+            <code>93013</code>
+            <name>
+                <narrative>Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - health</narrative>
+                <narrative xml:lang="fr">Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - health</narrative>
+            </name>
+            <description>
+                <narrative>Costs for basic assistance to asylum seekers and refugees from developing countries: basic health care and psycho-social support for persons with specific needs e.g. unaccompanied minors, persons with disabilities, survivors of violence and torture. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.</narrative>
+                <narrative xml:lang="fr">Costs for basic assistance to asylum seekers and refugees from developing countries: basic health care and psycho-social support for persons with specific needs e.g. unaccompanied minors, persons with disabilities, survivors of violence and torture. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.</narrative>
             </description>
             <category>930</category>
             <parent-code>93010</parent-code>
@@ -5194,38 +5266,6 @@
             <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
         </codelist-item>
         <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
-            <code>93013</code>
-            <name>
-                <narrative>Domestic expenditures for refugees/asylum seekers - health</narrative>
-                <narrative xml:lang="fr">Domestic expenditures for refugees/asylum seekers - health</narrative>
-            </name>
-            <description>
-                <narrative>Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries: basic health care and psycho-social support for persons with specific needs e.g. unaccompanied minors, persons with disabilities, survivors of violence and torture.</narrative>
-                <narrative xml:lang="fr">Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries: basic health care and psycho-social support for persons with specific needs e.g. unaccompanied minors, persons with disabilities, survivors of violence and torture.</narrative>
-            </description>
-            <category>930</category>
-            <parent-code>93010</parent-code>
-            <crs>0</crs>
-            <tossd>1</tossd>
-            <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
-        </codelist-item>
-        <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
-            <code>93014</code>
-            <name>
-                <narrative>Domestic expenditures for refugees/asylum seekers - other temporary sustenance</narrative>
-                <narrative xml:lang="fr">Domestic expenditures for refugees/asylum seekers - other temporary sustenance</narrative>
-            </name>
-            <description>
-                <narrative>Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries: temporary sustenance other than food and shelter (code 93011), training (93012) and health (93013), i.e.  cash 'pocket money' to cover subsistence costs and assistance in the asylum procedure: translation of documents, legal and administrative counselling, interpretation services.</narrative>
-                <narrative xml:lang="fr">Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries: temporary sustenance other than food and shelter (code 93011), training (93012) and health (93013), i.e.  cash 'pocket money' to cover subsistence costs and assistance in the asylum procedure: translation of documents, legal and administrative counselling, interpretation services.</narrative>
-            </description>
-            <category>930</category>
-            <parent-code>93010</parent-code>
-            <crs>0</crs>
-            <tossd>1</tossd>
-            <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
-        </codelist-item>
-        <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
             <code>93014</code>
             <name>
                 <narrative>Refugees/asylum seekers in donor countries - other temporary sustenance</narrative>
@@ -5239,6 +5279,38 @@
             <parent-code>93010</parent-code>
             <crs>1</crs>
             <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
+            <code>93014</code>
+            <name>
+                <narrative>Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - other temporary sustenance</narrative>
+                <narrative xml:lang="fr">Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - other temporary sustenance</narrative>
+            </name>
+            <description>
+                <narrative>Costs for basic assistance to asylum seekers and refugees from developing countries: temporary sustenance other than food and shelter (code 93011), training (93012) and health (93013), i.e.  cash 'pocket money' to cover subsistence costs and assistance in the asylum procedure: translation of documents, legal and administrative counselling, interpretation services. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.</narrative>
+                <narrative xml:lang="fr">Costs for basic assistance to asylum seekers and refugees from developing countries: temporary sustenance other than food and shelter (code 93011), training (93012) and health (93013), i.e.  cash 'pocket money' to cover subsistence costs and assistance in the asylum procedure: translation of documents, legal and administrative counselling, interpretation services. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.</narrative>
+            </description>
+            <category>930</category>
+            <parent-code>93010</parent-code>
+            <crs>0</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
+            <code>93015</code>
+            <name>
+                <narrative>Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - voluntary repatriation</narrative>
+                <narrative xml:lang="fr">Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - voluntary repatriation</narrative>
+            </name>
+            <description>
+                <narrative>Expenditures  for basic assistance to asylum seekers and refugees from developing countries: voluntary repatriation of refugees to a developing country during first twelve months. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.</narrative>
+                <narrative xml:lang="fr">Expenditures  for basic assistance to asylum seekers and refugees from developing countries: voluntary repatriation of refugees to a developing country during first twelve months. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.</narrative>
+            </description>
+            <category>930</category>
+            <parent-code>93010</parent-code>
+            <crs>0</crs>
+            <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
         </codelist-item>
         <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
@@ -5258,38 +5330,6 @@
             <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
         </codelist-item>
         <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
-            <code>93015</code>
-            <name>
-                <narrative>Domestic expenditures for refugees/asylum seekers - voluntary repatriation</narrative>
-                <narrative xml:lang="fr">Domestic expenditures for refugees/asylum seekers - voluntary repatriation</narrative>
-            </name>
-            <description>
-                <narrative>Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries: voluntary repatriation of refugees to a developing country during first twelve months.</narrative>
-                <narrative xml:lang="fr">Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries: voluntary repatriation of refugees to a developing country during first twelve months.</narrative>
-            </description>
-            <category>930</category>
-            <parent-code>93010</parent-code>
-            <crs>0</crs>
-            <tossd>1</tossd>
-            <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
-        </codelist-item>
-        <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
-            <code>93016</code>
-            <name>
-                <narrative>Domestic expenditures for refugees/asylum seekers - transport</narrative>
-                <narrative xml:lang="fr">Domestic expenditures for refugees/asylum seekers - transport</narrative>
-            </name>
-            <description>
-                <narrative>Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries: transport to the host country in the case of resettlement programmes and transport within the host country.</narrative>
-                <narrative xml:lang="fr">Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries: transport to the host country in the case of resettlement programmes and transport within the host country.</narrative>
-            </description>
-            <category>930</category>
-            <parent-code>93010</parent-code>
-            <crs>0</crs>
-            <tossd>1</tossd>
-            <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
-        </codelist-item>
-        <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
             <code>93016</code>
             <name>
                 <narrative>Refugees/asylum seekers in donor countries - transport</narrative>
@@ -5303,6 +5343,38 @@
             <parent-code>93010</parent-code>
             <crs>1</crs>
             <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
+            <code>93016</code>
+            <name>
+                <narrative>Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - transport</narrative>
+                <narrative xml:lang="fr">Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - transport</narrative>
+            </name>
+            <description>
+                <narrative>Expenditures  for basic assistance to asylum seekers and refugees from developing countries: transport to the host country in the case of resettlement programmes and transport within the host country. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.</narrative>
+                <narrative xml:lang="fr">Expenditures  for basic assistance to asylum seekers and refugees from developing countries: transport to the host country in the case of resettlement programmes and transport within the host country. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.</narrative>
+            </description>
+            <category>930</category>
+            <parent-code>93010</parent-code>
+            <crs>0</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
+            <code>93017</code>
+            <name>
+                <narrative>Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - rescue at sea</narrative>
+                <narrative xml:lang="fr">Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - rescue at sea</narrative>
+            </name>
+            <description>
+                <narrative>Expenditures  for basic assistance to asylum seekers and refugees from developing countries: rescue of refugees at sea when it is the main purpose of the operation. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.  Only the additional costs related to the operation may be counted.</narrative>
+                <narrative xml:lang="fr">Expenditures  for basic assistance to asylum seekers and refugees from developing countries: rescue of refugees at sea when it is the main purpose of the operation. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.  Only the additional costs related to the operation may be counted.</narrative>
+            </description>
+            <category>930</category>
+            <parent-code>93010</parent-code>
+            <crs>0</crs>
+            <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
         </codelist-item>
         <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
@@ -5322,38 +5394,6 @@
             <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
         </codelist-item>
         <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
-            <code>93017</code>
-            <name>
-                <narrative>Domestic expenditures for refugees/asylum seekers - rescue at sea</narrative>
-                <narrative xml:lang="fr">Domestic expenditures for refugees/asylum seekers - rescue at sea</narrative>
-            </name>
-            <description>
-                <narrative>Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries: rescue of refugees at sea when it is the main purpose of the operation. Only the additional costs related to the operation may be counted.</narrative>
-                <narrative xml:lang="fr">Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries: rescue of refugees at sea when it is the main purpose of the operation. Only the additional costs related to the operation may be counted.</narrative>
-            </description>
-            <category>930</category>
-            <parent-code>93010</parent-code>
-            <crs>0</crs>
-            <tossd>1</tossd>
-            <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
-        </codelist-item>
-        <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
-            <code>93018</code>
-            <name>
-                <narrative>Domestic expenditures for refugees/asylum seekers - administrative costs</narrative>
-                <narrative xml:lang="fr">Domestic expenditures for refugees/asylum seekers - administrative costs</narrative>
-            </name>
-            <description>
-                <narrative>Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries: administrative costs. </narrative>
-                <narrative xml:lang="fr">Domestic expenditures  for basic assistance to asylum seekers and refugees from developing countries: administrative costs. </narrative>
-            </description>
-            <category>930</category>
-            <parent-code>93010</parent-code>
-            <crs>0</crs>
-            <tossd>1</tossd>
-            <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
-        </codelist-item>
-        <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
             <code>93018</code>
             <name>
                 <narrative>Refugees/asylum seekers in donor countries - administrative costs</narrative>
@@ -5367,6 +5407,22 @@
             <parent-code>93010</parent-code>
             <crs>1</crs>
             <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2018-01-01" Particularity="Voluntary code">
+            <code>93018</code>
+            <name>
+                <narrative>Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - administrative costs</narrative>
+                <narrative xml:lang="fr">Refugee and Asylum Seeker Expenditures (Domestic/Provider Countries) - administrative costs</narrative>
+            </name>
+            <description>
+                <narrative>Expenditures  for basic assistance to asylum seekers and refugees from developing countries: administrative costs. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.</narrative>
+                <narrative xml:lang="fr">Expenditures  for basic assistance to asylum seekers and refugees from developing countries: administrative costs. Includes both domestic expenditures and costs incurred in non-TOSSD recipient countries.</narrative>
+            </description>
+            <category>930</category>
+            <parent-code>93010</parent-code>
+            <crs>0</crs>
+            <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT(2018)53</dac:reference>
         </codelist-item>
         <codelist-item status="Active" Heading="1">
@@ -5410,6 +5466,20 @@
             </description>
             <category>998</category>
             <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>99820</code>
+            <name>
+                <narrative>Promotion of development awareness (non-sector allocable)</narrative>
+                <narrative xml:lang="fr">Promotion of development awareness (non-sector allocable)</narrative>
+            </name>
+            <description>
+                <narrative>Domestic expenditures for heightened awareness/interest in development co-operation (brochures, lectures, special research projects, etc.).</narrative>
+                <narrative xml:lang="fr">Domestic expenditures for heightened awareness/interest in development co-operation (brochures, lectures, special research projects, etc.).</narrative>
+            </description>
+            <category>998</category>
+            <crs>0</crs>
             <tossd>1</tossd>
         </codelist-item>
     </codelist-items>

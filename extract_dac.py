@@ -1,7 +1,7 @@
 from lxml import etree
 import os
 
-DAC_CRS_FILE = "./DevFi_Classification - 2026-04-02T135913.xml"
+DAC_CRS_FILE = "./DevFi_Classification - 2026-06-04T145840.xml"
 DAC_CODELISTS = [
     "Co-operation modality",
     "Channel of delivery",

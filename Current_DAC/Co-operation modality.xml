@@ -518,26 +518,21 @@
         <codelist-item status="Active" Heading="1">
             <code>E</code>
             <name>
+                <narrative>Scholarships and imputed student costs</narrative>
+                <narrative xml:lang="fr">Scholarships and imputed student costs</narrative>
+            </name>
+            <crs>0</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT(2009)1</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" Heading="1">
+            <code>E</code>
+            <name>
                 <narrative>Scholarships and student costs in donor countries</narrative>
                 <narrative xml:lang="fr">Bourses et autres frais d’étude dans les pays donneurs</narrative>
             </name>
             <crs>1</crs>
-            <tossd>1</tossd>
-            <dac:reference>DCD/DAC/STAT(2009)1</dac:reference>
-        </codelist-item>
-        <codelist-item status="Active">
-            <code>E01</code>
-            <name>
-                <narrative>Scholarships/training in provider country</narrative>
-                <narrative xml:lang="fr">Scholarships/training in provider country</narrative>
-            </name>
-            <description>
-                <narrative>Reportable under Pillar I.</narrative>
-                <narrative xml:lang="fr">Reportable under Pillar I.</narrative>
-            </description>
-            <category>E</category>
-            <crs>0</crs>
-            <tossd>1</tossd>
+            <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT(2009)1</dac:reference>
         </codelist-item>
         <codelist-item status="Active">
@@ -553,6 +548,21 @@
             <category>E</category>
             <crs>1</crs>
             <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT(2009)1</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>E01</code>
+            <name>
+                <narrative>Scholarships/training in provider country</narrative>
+                <narrative xml:lang="fr">Scholarships/training in provider country</narrative>
+            </name>
+            <description>
+                <narrative>Reportable under Pillar I.</narrative>
+                <narrative xml:lang="fr">Reportable under Pillar I.</narrative>
+            </description>
+            <category>E</category>
+            <crs>0</crs>
+            <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT(2009)1</dac:reference>
         </codelist-item>
         <codelist-item status="Active">
@@ -591,12 +601,8 @@
                 <narrative>Debt relief</narrative>
                 <narrative xml:lang="fr">Allégement de la dette</narrative>
             </name>
-            <description>
-                <narrative>Debt relief corresponds to any form of debt reorganisation which relieves the overall burden of debt by altering the amount or repayment terms of outstanding debt. It includes operations such as rescheduling, refinancing, debt forgiveness, conversion and buybacks within or outside multilateral frameworks. Debt relief is reportable in Pillar I. Both the principal and interest components of the reorganisation are reportable.</narrative>
-                <narrative xml:lang="fr">Debt relief corresponds to any form of debt reorganisation which relieves the overall burden of debt by altering the amount or repayment terms of outstanding debt. It includes operations such as rescheduling, refinancing, debt forgiveness, conversion and buybacks within or outside multilateral frameworks. Debt relief is reportable in Pillar I. Both the principal and interest components of the reorganisation are reportable.</narrative>
-            </description>
-            <crs>0</crs>
-            <tossd>1</tossd>
+            <crs>1</crs>
+            <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT(2009)1</dac:reference>
         </codelist-item>
         <codelist-item status="Active" Heading="1">
@@ -605,23 +611,12 @@
                 <narrative>Debt relief</narrative>
                 <narrative xml:lang="fr">Allégement de la dette</narrative>
             </name>
-            <crs>1</crs>
-            <tossd>0</tossd>
-            <dac:reference>DCD/DAC/STAT(2009)1</dac:reference>
-        </codelist-item>
-        <codelist-item status="Active">
-            <code>F01</code>
-            <name>
-                <narrative>Debt relief</narrative>
-                <narrative xml:lang="fr">Allégement de la dette</narrative>
-            </name>
             <description>
-                <narrative>Groups all actions relating to debt (forgiveness, conversions, swaps, buy-backs, rescheduling, refinancing).</narrative>
-                <narrative xml:lang="fr">Regroupe toutes les actions se rapportant à la dette (annulation, conversion, échange, rachat, rééchelonnement, refinancement).</narrative>
+                <narrative>Debt relief corresponds to any form of debt reorganisation which relieves the overall burden of debt by altering the amount or repayment terms of outstanding debt. It includes operations such as rescheduling, refinancing, debt forgiveness, conversion and buybacks within or outside multilateral frameworks. Debt relief is reportable in Pillar I. Both the principal and interest components of the reorganisation are reportable.</narrative>
+                <narrative xml:lang="fr">Debt relief corresponds to any form of debt reorganisation which relieves the overall burden of debt by altering the amount or repayment terms of outstanding debt. It includes operations such as rescheduling, refinancing, debt forgiveness, conversion and buybacks within or outside multilateral frameworks. Debt relief is reportable in Pillar I. Both the principal and interest components of the reorganisation are reportable.</narrative>
             </description>
-            <category>F</category>
-            <crs>1</crs>
-            <tossd>0</tossd>
+            <crs>0</crs>
+            <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT(2009)1</dac:reference>
         </codelist-item>
         <codelist-item status="Active">
@@ -637,6 +632,21 @@
             <category>F</category>
             <crs>0</crs>
             <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT(2009)1</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>F01</code>
+            <name>
+                <narrative>Debt relief</narrative>
+                <narrative xml:lang="fr">Allégement de la dette</narrative>
+            </name>
+            <description>
+                <narrative>Groups all actions relating to debt (forgiveness, conversions, swaps, buy-backs, rescheduling, refinancing).</narrative>
+                <narrative xml:lang="fr">Regroupe toutes les actions se rapportant à la dette (annulation, conversion, échange, rachat, rééchelonnement, refinancement).</narrative>
+            </description>
+            <category>F</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT(2009)1</dac:reference>
         </codelist-item>
         <codelist-item status="Active" activation-date="2020-01-01">
@@ -681,6 +691,21 @@
             <code>G01</code>
             <name>
                 <narrative>Administrative costs not included elsewhere</narrative>
+                <narrative xml:lang="fr">Frais administratifs non inclus ailleurs</narrative>
+            </name>
+            <description>
+                <narrative>Administrative costs of development assistance programmes not already included under other ODA items as an integral part of the costs of delivering or implementing the aid provided. This category covers situation analyses and auditing activities.As regards the salaries component of administrative costs, it relates to  in-house agency staff and contractors only; costs associated with donor experts/consultants are to be reported under category C or D01.</narrative>
+                <narrative xml:lang="fr">Frais d'administration des programmes d'aide au développement qui ne sont pas déjà inclus dans d'autres rubriques comme partie intégrante du coût de l’acheminement ou de la mise en œuvre de l’aide fournie. Cette catégorie comprend les analyses de situation et les activités d’audit.En ce qui concerne la composante salariale des frais administratifs, elle se rapporte uniquement au personnel et contractuels de l’agence ; les coûts associés aux experts/consultants du pays donneur sont à notifier sous les catégories C ou D01.</narrative>
+            </description>
+            <category>G</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT(2009)1</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>G01</code>
+            <name>
+                <narrative>Administrative costs not included elsewhere</narrative>
                 <narrative xml:lang="fr">Administrative costs not included elsewhere</narrative>
             </name>
             <description>
@@ -692,19 +717,14 @@
             <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT(2009)1</dac:reference>
         </codelist-item>
-        <codelist-item status="Active">
-            <code>G01</code>
+        <codelist-item status="Active" Heading="1">
+            <code>H</code>
             <name>
-                <narrative>Administrative costs not included elsewhere</narrative>
-                <narrative xml:lang="fr">Frais administratifs non inclus ailleurs</narrative>
+                <narrative>Expenditures in the provider country</narrative>
+                <narrative xml:lang="fr">Expenditures in the provider country</narrative>
             </name>
-            <description>
-                <narrative>Administrative costs of development assistance programmes not already included under other ODA items as an integral part of the costs of delivering or implementing the aid provided. This category covers situation analyses and auditing activities.As regards the salaries component of administrative costs, it relates to  in-house agency staff and contractors only; costs associated with donor experts/consultants are to be reported under category C or D01.</narrative>
-                <narrative xml:lang="fr">Frais d'administration des programmes d'aide au développement qui ne sont pas déjà inclus dans d'autres rubriques comme partie intégrante du coût de l’acheminement ou de la mise en œuvre de l’aide fournie. Cette catégorie comprend les analyses de situation et les activités d’audit.En ce qui concerne la composante salariale des frais administratifs, elle se rapporte uniquement au personnel et contractuels de l’agence ; les coûts associés aux experts/consultants du pays donneur sont à notifier sous les catégories C ou D01.</narrative>
-            </description>
-            <category>G</category>
-            <crs>1</crs>
-            <tossd>0</tossd>
+            <crs>0</crs>
+            <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT(2009)1</dac:reference>
         </codelist-item>
         <codelist-item status="Active" Heading="1">
@@ -719,16 +739,6 @@
             </description>
             <crs>1</crs>
             <tossd>0</tossd>
-            <dac:reference>DCD/DAC/STAT(2009)1</dac:reference>
-        </codelist-item>
-        <codelist-item status="Active" Heading="1">
-            <code>H</code>
-            <name>
-                <narrative>Expenditures in the provider country</narrative>
-                <narrative xml:lang="fr">Expenditures in the provider country</narrative>
-            </name>
-            <crs>0</crs>
-            <tossd>1</tossd>
             <dac:reference>DCD/DAC/STAT(2009)1</dac:reference>
         </codelist-item>
         <codelist-item status="Active" activation-date="2019-01-01">
@@ -921,8 +931,8 @@
         <codelist-item status="Active" activation-date="2025-01-01" Heading="1">
             <code>J</code>
             <name>
-                <narrative>In-kind ddonations</narrative>
-                <narrative xml:lang="fr">In-kind ddonations</narrative>
+                <narrative>In-kind donations</narrative>
+                <narrative xml:lang="fr">In-kind donations</narrative>
             </name>
             <crs>0</crs>
             <tossd>1</tossd>
