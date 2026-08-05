@@ -1,9 +1,16 @@
 from lxml import etree
 import os
 
-DAC_CRS_FILE = 'DAC-CRS-CODES_2023-08-29.xml'
-DAC_CODELISTS = ['AidType', 'AidType-category', 'Channel-category', 'Channelcode', 'CollaborationType', 'FinanceType', 'FinanceType-category', 'FlowType', 'Sector', 'SectorCategory']
-OUTPUTDIR = 'Current_DAC'
+DAC_CRS_FILE = "./DevFi_Classification - 2026-06-04T145840.xml"
+DAC_CODELISTS = [
+    "Co-operation modality",
+    "Channel of delivery",
+    "Bi_Multi",
+    "Type of finance",
+    "Type of flow",
+    "Purpose code",
+]
+OUTPUTDIR = "Current_DAC"
 
 
 def indent(elem, level=0, shift=2):
@@ -34,16 +41,9 @@ def merge_channel_codelists(channel, channel_code):
 parser = etree.XMLParser(remove_blank_text=True)
 dac_xml = etree.parse(DAC_CRS_FILE)
 for codelist in DAC_CODELISTS:
-    new_codelist = etree.ElementTree(dac_xml.find("codelist[@name='{}']".format(codelist)))
+    new_codelist = etree.ElementTree(dac_xml.find(f"codelist[@name='{codelist}']"))
     indent(new_codelist.getroot(), 0, 4)
     try:
-        new_codelist.write(os.path.join(OUTPUTDIR, '{}.xml'.format(codelist)), encoding='utf-8')
+        new_codelist.write(os.path.join(OUTPUTDIR, f"{codelist}.xml"), encoding="utf-8")
     except AttributeError:
         print(codelist)
-
-channel = etree.parse('{}/Channel-category.xml'.format(OUTPUTDIR))
-channel_code = etree.parse('{}/Channelcode.xml'.format(OUTPUTDIR))
-combined = merge_channel_codelists(channel, channel_code)
-combined.write(os.path.join(OUTPUTDIR, '{}.xml'.format('CRSChannelCode')), encoding='utf-8')
-os.remove('{}/Channelcode.xml'.format(OUTPUTDIR))
-os.remove('{}/Channel-category.xml'.format(OUTPUTDIR))

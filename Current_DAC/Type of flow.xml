@@ -1,12 +1,12 @@
-<codelist xmlns:dac="http://www.oecd.org/dac/stats/dacandcrscodelists" name="FlowType" xml:lang="en" complete="1">
+<codelist xmlns:dac="https://www.oecd.org/dac/stats/dacandcrscodelists" name="Type of flow" xml:lang="en" CRS="1" TOSSD="0" complete="1">
     <metadata>
         <name>
-            <narrative>Flow Type</narrative>
+            <narrative>Type of flow</narrative>
         </name>
-        <url>http://www.oecd.org/dac/stats/dacandcrscodelists.htm</url>
+        <url>https://www.oecd.org/dac/stats/dacandcrscodelists.htm</url>
     </metadata>
     <codelist-items>
-        <codelist-item status="active">
+        <codelist-item status="Active">
             <code>10</code>
             <name>
                 <narrative>ODA</narrative>
@@ -16,8 +16,10 @@
                 <narrative>Official Development Assistance</narrative>
                 <narrative xml:lang="fr">Aide Publique au Développement</narrative>
             </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
         </codelist-item>
-        <codelist-item status="withdrawn" withdrawal-date="2015-12-31">
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
             <code>20</code>
             <name>
                 <narrative>OOF</narrative>
@@ -27,9 +29,11 @@
                 <narrative>Other Official Flows</narrative>
                 <narrative xml:lang="fr">Autres Apports du Secteur Public</narrative>
             </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2016-01-01">
+        <codelist-item status="Active" activation-date="2016-01-01">
             <code>21</code>
             <name>
                 <narrative>Non-export credit OOF</narrative>
@@ -39,9 +43,11 @@
                 <narrative>Other Official Flows, excl. export credits</narrative>
                 <narrative xml:lang="fr">Autres Apports du Secteur Public, à l'exclusion des crédits à l'exportation</narrative>
             </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2016-01-01">
+        <codelist-item status="Active" activation-date="2016-01-01">
             <code>22</code>
             <name>
                 <narrative>Officially supported export credits</narrative>
@@ -51,9 +57,11 @@
                 <narrative>Officially supported export credits. Covers both official direct export credits and private export credits under official guarantee or insurance</narrative>
                 <narrative xml:lang="fr">Autres Apports du Secteur Public, comprenant les crédits à l'exportation soutenus par le secteur public et les exportations privées bénéficiant de garantie ou d'assurance publiques</narrative>
             </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
         </codelist-item>
-        <codelist-item status="active">
+        <codelist-item status="Active">
             <code>30</code>
             <name>
                 <narrative>Private Development Finance</narrative>
@@ -63,8 +71,10 @@
                 <narrative>Financing by civil society organisations (NGOs, philantropic foundations, etc.)</narrative>
                 <narrative xml:lang="fr">Financement par les organisations de la société civile (ONG, fondations philantropiques, etc.)</narrative>
             </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
         </codelist-item>
-        <codelist-item status="withdrawn" withdrawal-date="2015-12-31">
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
             <code>35</code>
             <name>
                 <narrative>Private Market</narrative>
@@ -74,9 +84,11 @@
                 <narrative>Private long-term (i.e. over one-year maturity) capital transactions made by residents of DAC countries</narrative>
                 <narrative xml:lang="fr">Apports privés aux conditions du marché</narrative>
             </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2016-01-01">
+        <codelist-item status="Active" activation-date="2016-01-01">
             <code>36</code>
             <name>
                 <narrative>Private Foreign Direct Investment</narrative>
@@ -86,9 +98,11 @@
                 <narrative>Private Foreign Direct Investment</narrative>
                 <narrative xml:lang="fr">Investissements directs à l'étranger</narrative>
             </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
         </codelist-item>
-        <codelist-item status="active" activation-date="2016-01-01">
+        <codelist-item status="Active" activation-date="2016-01-01">
             <code>37</code>
             <name>
                 <narrative>Other Private flows at market terms</narrative>
@@ -98,9 +112,11 @@
                 <narrative>Private long-term (i.e. over one-year maturity) capital transactions made by residents of DAC countries</narrative>
                 <narrative xml:lang="fr">Apports privés de long-terme (i.e. dont la maturité est  supérieure à un an), transactions en capital faites par des résidents de pays du CAD</narrative>
             </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
             <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
         </codelist-item>
-        <codelist-item status="active">
+        <codelist-item status="Active">
             <code>40</code>
             <name>
                 <narrative>Non flow</narrative>
@@ -110,8 +126,10 @@
                 <narrative>e.g. GNI, ODA%GNI, Population etc</narrative>
                 <narrative xml:lang="fr">ex : RNB, APD%RNB, Population etc</narrative>
             </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
         </codelist-item>
-        <codelist-item status="active">
+        <codelist-item status="Active">
             <code>50</code>
             <name>
                 <narrative>Other flows</narrative>
@@ -121,6 +139,22 @@
                 <narrative>e.g. non-ODA component of peacebuilding operations</narrative>
                 <narrative xml:lang="fr">ex : élément non APD des opérations de maintien de la paix</narrative>
             </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2023-01-01">
+            <code>60</code>
+            <name>
+                <narrative>PSI</narrative>
+                <narrative xml:lang="fr">ISP</narrative>
+            </name>
+            <description>
+                <narrative>Private sector instruments</narrative>
+                <narrative xml:lang="fr">Instruments du secteur privé</narrative>
+            </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2023)44</dac:reference>
         </codelist-item>
     </codelist-items>
 </codelist>

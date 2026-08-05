@@ -1,0 +1,1281 @@
+<codelist xmlns:dac="https://www.oecd.org/dac/stats/dacandcrscodelists" name="Type of finance" xml:lang="en" CRS="1" TOSSD="1" complete="1">
+    <metadata>
+        <name>
+            <narrative>Financing instrument</narrative>
+        </name>
+        <url>https://www.oecd.org/dac/stats/dacandcrscodelists.htm</url>
+    </metadata>
+    <codelist-items>
+        <codelist-item status="Active" Heading="1">
+            <code>0</code>
+            <name>
+                <narrative>NON FLOW ITEMS</narrative>
+                <narrative xml:lang="fr">AUTRE QU’APPORTS </narrative>
+            </name>
+            <description>
+                <narrative>Non resource flow items requested on DAC table 1</narrative>
+                <narrative xml:lang="fr">Rubriques requises sur le tableau CAD 1 portant sur des informations autre que des apports</narrative>
+            </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>1</code>
+            <name>
+                <narrative>GNI: Gross National Income</narrative>
+                <narrative xml:lang="fr">RNB : Revenu national brut</narrative>
+            </name>
+            <category>0</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>2</code>
+            <name>
+                <narrative>ODA % GNI</narrative>
+                <narrative xml:lang="fr">APD en % du RNB</narrative>
+            </name>
+            <category>0</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>3</code>
+            <name>
+                <narrative>Total Flows % GNI</narrative>
+                <narrative xml:lang="fr">Apports totaux en % du RNB</narrative>
+            </name>
+            <category>0</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>4</code>
+            <name>
+                <narrative>Population</narrative>
+                <narrative xml:lang="fr">Population</narrative>
+            </name>
+            <category>0</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active" Heading="1">
+            <code>100</code>
+            <name>
+                <narrative>GRANTS</narrative>
+                <narrative xml:lang="fr">DONS</narrative>
+            </name>
+            <crs>1</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>110</code>
+            <name>
+                <narrative>Standard grant</narrative>
+                <narrative xml:lang="fr">Dons ordinaires</narrative>
+            </name>
+            <description>
+                <narrative>Grants are transfers in cash or in kind for which no legal debt is incurred by the recipient.</narrative>
+                <narrative xml:lang="fr">Transferts en espèces ou en nature qui n'entraînent pas d'obligation juridique de remboursement pour le bénéficiaire.</narrative>
+            </description>
+            <category>100</category>
+            <crs>1</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>111</code>
+            <name>
+                <narrative>Subsidies to national private investors</narrative>
+                <narrative xml:lang="fr">Don hors réorganisation de la dette (y compris quasi-dons)</narrative>
+            </name>
+            <category>100</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>200</code>
+            <name>
+                <narrative>INTEREST SUBSIDY</narrative>
+                <narrative xml:lang="fr">BONIFICATION  D’INTERET</narrative>
+            </name>
+            <description>
+                <narrative>Subsidies to soften the terms of private export credits, or loans or credits by the banking sector.</narrative>
+                <narrative xml:lang="fr">Subventions visant à assouplir les conditions des crédits à l’exportation ou des prêts/crédits du secteur bancaire.</narrative>
+            </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>210</code>
+            <name>
+                <narrative>Interest subsidy</narrative>
+                <narrative xml:lang="fr">Bonification d'intérêt</narrative>
+            </name>
+            <description>
+                <narrative>A payment to soften the terms of private export credits, or loans or credits by the banking sector.</narrative>
+                <narrative xml:lang="fr">Subventions visant à assouplir les conditions des crédits à l’exportation ou des prêts/crédits du secteur bancaire.</narrative>
+            </description>
+            <category>100</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>211</code>
+            <name>
+                <narrative>Interest subsidy to national private exporters</narrative>
+                <narrative xml:lang="fr">Bonification d’intérêt octroyée aux exportateurs privés nationaux</narrative>
+            </name>
+            <category>100</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>300</code>
+            <name>
+                <narrative>CAPITAL SUBSCRIPTION</narrative>
+                <narrative xml:lang="fr">SOUSCRIPTION AU CAPITAL</narrative>
+            </name>
+            <description>
+                <narrative>Payments to multilateral agencies in the form of notes and similar instruments, unconditionally cashable at sight by the recipient institutions.</narrative>
+                <narrative xml:lang="fr">Versements aux agences multilatérales sous forme de billets à ordre et effets similaires encaissables à vue sans condition par l'institution bénéficiaire.</narrative>
+            </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>310</code>
+            <name>
+                <narrative>Capital subscription on deposit basis</narrative>
+                <narrative xml:lang="fr">Souscriptions au capital sur la base des dépôt</narrative>
+            </name>
+            <description>
+                <narrative>Payments to multilateral agencies in the form of notes and similar instruments, unconditionally encashable at sight by the recipient institutions.</narrative>
+                <narrative xml:lang="fr">Versements aux agences multilatérales sous forme de billets à ordre et effets similaires encaissables à vue sans condition par l'institution bénéficiaire.</narrative>
+            </description>
+            <category>100</category>
+            <crs>1</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>311</code>
+            <name>
+                <narrative>Capital subscription on encashment basis</narrative>
+                <narrative xml:lang="fr">Souscriptions au capital sur la base des encaissements </narrative>
+            </name>
+            <description>
+                <narrative>Payments to multilateral agencies in the form of notes and similar instruments, unconditionally encashable at sight by the recipient institutions.</narrative>
+                <narrative xml:lang="fr">Versements aux agences multilatérales sous forme de billets à ordre et effets similaires encaissables à vue sans condition par l'institution bénéficiaire.</narrative>
+            </description>
+            <category>100</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>400</code>
+            <name>
+                <narrative>LOAN</narrative>
+                <narrative xml:lang="fr">PRÊT</narrative>
+            </name>
+            <description>
+                <narrative>Transfers in cash or in kind for which the recipient incurs legal debt.</narrative>
+                <narrative xml:lang="fr">Transferts en espèce ou en nature qui entraînent une obligation juridique de remboursement pour le bénéficiaire.</narrative>
+            </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>410</code>
+            <name>
+                <narrative>Aid loan excluding debt reorganisation</narrative>
+                <narrative xml:lang="fr">Prêt d’aide hors réorganisation de la dette</narrative>
+            </name>
+            <category>400</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>411</code>
+            <name>
+                <narrative>Investment-related loan to developing countries</narrative>
+                <narrative xml:lang="fr">Prêt lié à un investissement dans les pays en développement</narrative>
+            </name>
+            <category>400</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>412</code>
+            <name>
+                <narrative>Loan in a joint venture with the recipient</narrative>
+                <narrative xml:lang="fr">Prêt dans une coentreprise avec le pays bénéficiaire</narrative>
+            </name>
+            <category>400</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>413</code>
+            <name>
+                <narrative>Loan to national private investor</narrative>
+                <narrative xml:lang="fr">Prêt à un investisseur privé national</narrative>
+            </name>
+            <category>400</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>414</code>
+            <name>
+                <narrative>Loan to national private exporter</narrative>
+                <narrative xml:lang="fr">Prêt à un exportateur privé national</narrative>
+            </name>
+            <category>400</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01" Heading="1">
+            <code>420</code>
+            <name>
+                <narrative>DEBT INSTRUMENTS</narrative>
+                <narrative xml:lang="fr">INSTRUMENTS DE DETTE</narrative>
+            </name>
+            <crs>1</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>421</code>
+            <name>
+                <narrative>Standard loan</narrative>
+                <narrative xml:lang="fr">Prêt ordinaire</narrative>
+            </name>
+            <description>
+                <narrative>Loans are transfers in cash or in kind for which the recipient incurs legal debt (and the resulting claim is not intended to be traded). This includes loans repayable in the borrower’s currency whether the lender intends to repatriate the repayments or to use them in the borrowing country. Loans also include ‘instalment sale’ and ‘istisna’a’ of Islamic finance.</narrative>
+                <narrative xml:lang="fr">Loans are transfers in cash or in kind for which the recipient incurs legal debt (and the resulting claim is not intended to be traded). This includes loans repayable in the borrower’s currency whether the lender intends to repatriate the repayments or to use them in the borrowing country. Loans also include ‘instalment sale’ and ‘istisna’a’ of Islamic finance.</narrative>
+            </description>
+            <category>420</category>
+            <crs>0</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>421</code>
+            <name>
+                <narrative>Standard loan</narrative>
+                <narrative xml:lang="fr">Prêt ordinaire</narrative>
+            </name>
+            <description>
+                <narrative>Transfers in cash or in kind for which the recipient incurs legal debt (and the resulting claim is not intended to be traded).  Since payment obligations on standard loan are senior obligations, i.e. creditors are entitled to receive payments against their claims before anyone else, they are also referred to as senior loans.</narrative>
+                <narrative xml:lang="fr">Transferts en espèce ou en nature qui entraînent une obligation juridique de remboursement pour le bénéficiaire (dont la créance n'est pas échangeable.) Lorsque les obligations de remboursement sur les prêts ordinaires sont senior, càd que le créditeur est éligible à percevoir le remboursement de sa créance avant quiconque, on parle de prêt senior.</narrative>
+            </description>
+            <category>420</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>422</code>
+            <name>
+                <narrative>Reimbursable grant </narrative>
+                <narrative xml:lang="fr">Don remboursable</narrative>
+            </name>
+            <description>
+                <narrative>A contribution provided to a recipient institution for investment purposes, with the expectation of long-term reflows at conditions specified in the financing agreement. The provider assumes the risk of total or partial failure of the investment; it can also decide if and when to reclaim its investment.  </narrative>
+                <narrative xml:lang="fr">Contribution fournie à une institution bénéficiaire à des fins d'investissement, dans une perspective de remboursement à long-terme à des conditions spécifiées dans l'accord de financement. Le fournisseur assume le risque partiel ou total de faillite de l'investissement ; il peut aussi décider si et quand il récupère son investissement.</narrative>
+            </description>
+            <category>420</category>
+            <crs>1</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2023-01-01">
+            <code>4221</code>
+            <name>
+                <narrative>Loan-type reimbursable grant</narrative>
+                <narrative xml:lang="fr">Don remboursable de type prêt</narrative>
+            </name>
+            <description>
+                <narrative>A contribution provided to a recipient institution for investment purposes, for which the conditions - including a concrete repayment schedule – are specified in the financing agreement.</narrative>
+                <narrative xml:lang="fr">Contribution fournie à une institution bénéficiaire à des fins d'investissement, dont les conditions – y compris un calendrier de remboursement concret – sont précisées dans l'accord de financement.</narrative>
+            </description>
+            <category>420</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2023-01-01">
+            <code>4222</code>
+            <name>
+                <narrative>Reflow-based reimbursable grant</narrative>
+                <narrative xml:lang="fr">Don remboursable par retour de capitaux</narrative>
+            </name>
+            <description>
+                <narrative>A contribution provided to a recipient institution for investment purposes, for which the details on reflows are unknown at the time of investment as they depend on the performance of the underlying investments.</narrative>
+                <narrative xml:lang="fr">Contribution fournie à une institution bénéficiaire à des fins d'investissement, pour laquelle les détails des remboursements sont inconnus au moment de l'investissement car ils dépendent de la performance des investissements sous-jacents.</narrative>
+            </description>
+            <category>420</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>423</code>
+            <name>
+                <narrative>Bonds</narrative>
+                <narrative xml:lang="fr">Obligations</narrative>
+            </name>
+            <description>
+                <narrative>Fixed-interest debt instruments, issued by governments, public utilities, banks or companies, tradable in financial markets.</narrative>
+                <narrative xml:lang="fr">Instruments de dette à intérêts fixes émis par des gouvernements, entités publiques, banques ou sociétés, échangeables sur les marchés financiers.</narrative>
+            </description>
+            <category>420</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>423</code>
+            <name>
+                <narrative>Bonds</narrative>
+                <narrative xml:lang="fr">Obligations</narrative>
+            </name>
+            <description>
+                <narrative>Bonds are fixed-interest debt instruments, issued by governments, public utilities, banks or companies, tradable in financial markets. The issuer of a coupon bond pledges to pay the par value of the bond to the bondholder on a fixed date (maturity date) as well as specified interest over the life of the bond. Alternatively, bonds can be issued at a price lower than their par value in lieu of the periodic interest, with the full par value being paid to the bondholder on maturity (discount bonds).</narrative>
+                <narrative xml:lang="fr">Bonds are fixed-interest debt instruments, issued by governments, public utilities, banks or companies, tradable in financial markets. The issuer of a coupon bond pledges to pay the par value of the bond to the bondholder on a fixed date (maturity date) as well as specified interest over the life of the bond. Alternatively, bonds can be issued at a price lower than their par value in lieu of the periodic interest, with the full par value being paid to the bondholder on maturity (discount bonds).</narrative>
+            </description>
+            <category>420</category>
+            <crs>0</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>424</code>
+            <name>
+                <narrative>Asset-backed securities </narrative>
+                <narrative xml:lang="fr">Titres adossés à des actifs</narrative>
+            </name>
+            <description>
+                <narrative>Asset-backed securities are securities whose value and income payments are derived from and backed by a specific pool of underlying assets. The Sukuks of Islamic finance are also categorised as debt securities.</narrative>
+                <narrative xml:lang="fr">Asset-backed securities are securities whose value and income payments are derived from and backed by a specific pool of underlying assets. The Sukuks of Islamic finance are also categorised as debt securities.</narrative>
+            </description>
+            <category>420</category>
+            <crs>0</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>424</code>
+            <name>
+                <narrative>Asset-backed securities </narrative>
+                <narrative xml:lang="fr">Titres adossés à des actifs</narrative>
+            </name>
+            <description>
+                <narrative>Securities whose value and income payments are derived from and backed by a specific pool of underlying assets.</narrative>
+                <narrative xml:lang="fr">Actifs dont la valeur et les revenus sont dérivés de et adossés à un panier d'actifs sous-jacents.</narrative>
+            </description>
+            <category>420</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>425</code>
+            <name>
+                <narrative>Other debt securities</narrative>
+                <narrative xml:lang="fr">Autres actifs de dette</narrative>
+            </name>
+            <category>420</category>
+            <crs>1</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01" Heading="1">
+            <code>430</code>
+            <name>
+                <narrative>MEZZANINE FINANCE INSTRUMENTS</narrative>
+                <narrative xml:lang="fr">INSTRUMENTS DE DETTE</narrative>
+            </name>
+            <crs>1</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>431</code>
+            <name>
+                <narrative>Subordinated loan </narrative>
+                <narrative xml:lang="fr">Prêt subordonné</narrative>
+            </name>
+            <description>
+                <narrative>A loan that, in the event of default, will only be repaid after all senior obligations have been satisfied.  In compensation for the increased risk, mezzanine debt holders require a higher return for their investment than secured or more senior lenders.</narrative>
+                <narrative xml:lang="fr">Prêt qui, en cas de défaut, ne sera remboursé qu'après que les obligations senior soient satisfaites.  En compensation du risque accru, les détenteurs de dette mezzanine exigent un retour sur investissement plus élevé que les prêteurs garantis ou senior.</narrative>
+            </description>
+            <category>430</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>431</code>
+            <name>
+                <narrative>Subordinated loan </narrative>
+                <narrative xml:lang="fr">Prêt subordonné</narrative>
+            </name>
+            <description>
+                <narrative>A subordinated (or junior) loan, in the event of default, will only be repaid after all senior obligations have been satisfied.</narrative>
+                <narrative xml:lang="fr">A subordinated (or junior) loan, in the event of default, will only be repaid after all senior obligations have been satisfied.</narrative>
+            </description>
+            <category>430</category>
+            <crs>0</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>432</code>
+            <name>
+                <narrative>Preferred equity </narrative>
+                <narrative xml:lang="fr">Action privilégiée</narrative>
+            </name>
+            <description>
+                <narrative>Preferred equity, in the event of default, will be repaid after all senior obligations and subordinated loans have been satisfied; and will be paid before other equity holders.</narrative>
+                <narrative xml:lang="fr">Preferred equity, in the event of default, will be repaid after all senior obligations and subordinated loans have been satisfied; and will be paid before other equity holders.</narrative>
+            </description>
+            <category>430</category>
+            <crs>0</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>432</code>
+            <name>
+                <narrative>Preferred equity </narrative>
+                <narrative xml:lang="fr">Action privilégiée</narrative>
+            </name>
+            <description>
+                <narrative>Equity that, in the event of default, will be repaid after all senior obligations and subordinated loans have been satisfied; and will be paid before common equity holders. It is a more expensive source of finance than senior debt, a less expensive source than equity.</narrative>
+                <narrative xml:lang="fr">Action qui, en cas de défaut, ne sera remboursé qu'après que les obligations senior soient satisfaites ; mais avant les détenteurs d'actions ordinaires.  Il s'agit d'une source de financement plus onéreuse que la dette senior mais moins coûteuse que les actions.</narrative>
+            </description>
+            <category>430</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>433</code>
+            <name>
+                <narrative>Other hybrid instruments </narrative>
+                <narrative xml:lang="fr">Autres instruments hybrides</narrative>
+            </name>
+            <description>
+                <narrative>Including convertible debt or equity.</narrative>
+                <narrative xml:lang="fr">Incluant les dettes convertibles et les actions.</narrative>
+            </description>
+            <category>430</category>
+            <crs>1</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2024-01-01">
+            <code>434</code>
+            <name>
+                <narrative>Multilateral hybrid capital</narrative>
+                <narrative xml:lang="fr">Capital hybride multilatéral</narrative>
+            </name>
+            <description>
+                <narrative> Hybrid capital instruments issued by multilateral institutions</narrative>
+                <narrative xml:lang="fr">Instruments de capital hybride émis par des institutions multilatérales</narrative>
+            </description>
+            <category>430</category>
+            <crs>1</crs>
+            <tossd>1</tossd>
+            <dac:reference> DCD/DAC/STAT(2024)24/REV2</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>451</code>
+            <name>
+                <narrative>Non-banks guaranteed export credits</narrative>
+                <narrative xml:lang="fr">Crédits à l'exportation garantis du secteur non bancaire</narrative>
+            </name>
+            <category>450</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>452</code>
+            <name>
+                <narrative>Non-banks non-guaranteed portions of guaranteed export credits</narrative>
+                <narrative xml:lang="fr">Fraction non garantie des crédits à l'exportation garantis du secteur bancaire</narrative>
+            </name>
+            <category>400</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>453</code>
+            <name>
+                <narrative>Bank export credits</narrative>
+                <narrative xml:lang="fr">Crédits à l'exportation du secteur bancaire</narrative>
+            </name>
+            <category>400</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" Heading="1">
+            <code>500</code>
+            <name>
+                <narrative>EQUITY AND SHARES IN COLLECTIVE INVESTMENT VEHICLES</narrative>
+                <narrative xml:lang="fr">ACTIONS ET PARTS DANS DES VEHICULES COLLECTIFS D'INVESTISSEMENT</narrative>
+            </name>
+            <crs>1</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>510</code>
+            <name>
+                <narrative>Common equity</narrative>
+                <narrative xml:lang="fr">Action ordinaire</narrative>
+            </name>
+            <description>
+                <narrative>A share in the ownership of a corporation that gives the owner claims on the residual value of the corporation after creditors’ claims have been met.</narrative>
+                <narrative xml:lang="fr">Part de propriété dans une société donnant à son détenteur une créance sur la valeurs résiduelle de la société une fois que les créances de ses créditeurs ont été satisfaites.</narrative>
+            </description>
+            <category>500</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>510</code>
+            <name>
+                <narrative>Common equity</narrative>
+                <narrative xml:lang="fr">Action ordinaire</narrative>
+            </name>
+            <description>
+                <narrative>Common equity is a share in the ownership of a corporation that gives the owner a claim on the residual value of the corporation after creditors’ claims have been met. This category also covers the profit-sharing agreements (Musharaka) of Islamic finance.</narrative>
+                <narrative xml:lang="fr">Common equity is a share in the ownership of a corporation that gives the owner a claim on the residual value of the corporation after creditors’ claims have been met. This category also covers the profit-sharing agreements (Musharaka) of Islamic finance.</narrative>
+            </description>
+            <category>500</category>
+            <crs>0</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>511</code>
+            <name>
+                <narrative>Acquisition of equity not part of joint venture in developing countries</narrative>
+                <narrative xml:lang="fr">Acquisition de prises de participation en dehors des coentreprises avec les pays en développement</narrative>
+            </name>
+            <category>500</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>512</code>
+            <name>
+                <narrative>Other acquisition of equity</narrative>
+                <narrative xml:lang="fr">Autre acquisition de prises de participation</narrative>
+            </name>
+            <category>500</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>520</code>
+            <name>
+                <narrative>Shares in collective investment vehicles </narrative>
+                <narrative xml:lang="fr">Parts dans des organismes collectifs d'investissement</narrative>
+            </name>
+            <description>
+                <narrative>Shares in collective investment vehicles refer to collective undertakings through which investors pool funds for investment in financial or nonfinancial assets or both. These vehicles issue shares (if a corporate structure is used) or units (if a trust structure is used).</narrative>
+                <narrative xml:lang="fr">Shares in collective investment vehicles refer to collective undertakings through which investors pool funds for investment in financial or nonfinancial assets or both. These vehicles issue shares (if a corporate structure is used) or units (if a trust structure is used).</narrative>
+            </description>
+            <category>500</category>
+            <crs>0</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>520</code>
+            <name>
+                <narrative>Shares in collective investment vehicles </narrative>
+                <narrative xml:lang="fr">Parts dans des organismes collectifs d'investissement</narrative>
+            </name>
+            <description>
+                <narrative>Collective undertakings through which investors pool funds for investment in financial or nonfinancial assets or both. These vehicles issue shares (if a corporate structure is used) or units (if a trust structure is used).</narrative>
+                <narrative xml:lang="fr">Placement collectif par lequel un groupe d'investisseurs abonde un fond d'actifs financiers ou non financiers ou les deux. Ces véhicules émettent des parts (en cas de structure d'entreprise) ou des unités de compte (en cas de structure fiduciaire.)</narrative>
+            </description>
+            <category>500</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>530</code>
+            <name>
+                <narrative>Reinvested earnings</narrative>
+                <narrative xml:lang="fr">Bénéfices réinvestis</narrative>
+            </name>
+            <description>
+                <narrative>This item is only applicable to Foreign Direct Investment (FDI). Reinvested earnings on FDI consist of the retained earnings of a direct foreign investment enterprise which are treated as if they were distributed and remitted to foreign direct investors in proportion to their ownership of the equity of the enterprise and then reinvested by them in the enterprise. </narrative>
+                <narrative xml:lang="fr">Cet item n'est applicable qu'aux investissement direct étrangers (IDE). Les bénéfices réinvestis sur des IDE consistent en des bénéfices retenus d'un investissement direct à l'étranger qui sont traités comme s'ils étaient redistribués et versés aux investisseurs en proportion de leur part dans l'actionnariat puis réinvestis par eux dans l'entreprise.</narrative>
+            </description>
+            <category>500</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" Heading="1">
+            <code>600</code>
+            <name>
+                <narrative>DEBT RELIEF</narrative>
+                <narrative xml:lang="fr">ALLEGEMENT DE LA DETTE</narrative>
+            </name>
+            <description>
+                <narrative>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</narrative>
+                <narrative xml:lang="fr">Annulation de dette, conversion de dette, rééchelonnement de dette au sein ou en dehors du Club de Paris.</narrative>
+            </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>610</code>
+            <name>
+                <narrative>Debt forgiveness:  ODA claims (P)</narrative>
+                <narrative xml:lang="fr">Annulation/conversion de la dette : créance APD (P)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>611</code>
+            <name>
+                <narrative>Debt forgiveness: ODA claims (I)</narrative>
+                <narrative xml:lang="fr">Annulation/conversion de la dette : créance APD (I)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>612</code>
+            <name>
+                <narrative>Debt forgiveness: OOF claims (P)</narrative>
+                <narrative xml:lang="fr">Annulation/conversion de la dette : créance AASP (P)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>613</code>
+            <name>
+                <narrative>Debt forgiveness: OOF claims (I)</narrative>
+                <narrative xml:lang="fr">Annulation/conversion de la dette : créance AASP (I)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>614</code>
+            <name>
+                <narrative>Debt forgiveness:  Private claims (P)</narrative>
+                <narrative xml:lang="fr">Annulation/conversion de la dette : créance du secteur privé (P)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>615</code>
+            <name>
+                <narrative>Debt forgiveness:  Private claims (I)</narrative>
+                <narrative xml:lang="fr">Annulation/conversion de la dette : créance du secteur privé (I)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>616</code>
+            <name>
+                <narrative>Debt forgiveness: OOF claims (DSR)</narrative>
+                <narrative xml:lang="fr">Annulation/conversion de la dette : créance AASP (DSR)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>617</code>
+            <name>
+                <narrative>Debt forgiveness:  Private claims (DSR)</narrative>
+                <narrative xml:lang="fr">Annulation/conversion de la dette : créance du secteur privé (DSR)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>618</code>
+            <name>
+                <narrative>Debt forgiveness: Other</narrative>
+                <narrative xml:lang="fr">Annulation/conversion de la dette : autre</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>620</code>
+            <name>
+                <narrative>Debt rescheduling: ODA claims (P)</narrative>
+                <narrative xml:lang="fr">Rééchelonnement de la dette : créance APD (P)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>621</code>
+            <name>
+                <narrative>Debt rescheduling: ODA claims (I)</narrative>
+                <narrative xml:lang="fr">Rééchelonnement de la dette : créance APD (I)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>622</code>
+            <name>
+                <narrative>Debt rescheduling: OOF claims (P)</narrative>
+                <narrative xml:lang="fr">Rééchelonnement de la dette : créance AASP (P)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>623</code>
+            <name>
+                <narrative>Debt rescheduling: OOF claims (I)</narrative>
+                <narrative xml:lang="fr">Rééchelonnement de la dette : créance AASP (I)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>624</code>
+            <name>
+                <narrative>Debt rescheduling:  Private claims (P)</narrative>
+                <narrative xml:lang="fr">Rééchelonnement de la dette : créance du secteur privé (P)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>625</code>
+            <name>
+                <narrative>Debt rescheduling:  Private claims (I)</narrative>
+                <narrative xml:lang="fr">Rééchelonnement de la dette : créance du secteur privé (I)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>626</code>
+            <name>
+                <narrative>Debt rescheduling: OOF claims (DSR)</narrative>
+                <narrative xml:lang="fr">Rééchelonnement de la dette : créance AASP (RSD)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>627</code>
+            <name>
+                <narrative>Debt rescheduling:  Private claims (DSR)</narrative>
+                <narrative xml:lang="fr">Rééchelonnement de la dette : créance du secteur privé (RSD)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>630</code>
+            <name>
+                <narrative>Debt rescheduling: OOF claim (DSR – original loan principal) </narrative>
+                <narrative xml:lang="fr">Rééchelonnement de la dette : créance AASP (RSD – principal du prêt d’origine)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>631</code>
+            <name>
+                <narrative>Debt rescheduling: OOF claim (DSR – original loan interest)</narrative>
+                <narrative xml:lang="fr">Rééchelonnement de la dette : créance AASP (RSD – intérêts du prêt d’origine)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>632</code>
+            <name>
+                <narrative>Debt rescheduling: Private claim (DSR – original loan principal)</narrative>
+                <narrative xml:lang="fr">Rééchelonnement de la dette : créance du secteur privé (RSD – principal du prêt d’origine)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>633</code>
+            <name>
+                <narrative>Debt forgiveness/conversion: export credit claims (P)</narrative>
+                <narrative xml:lang="fr">Annulation/conversion de la dette : créance de crédit à l'exportation (P)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>634</code>
+            <name>
+                <narrative>Debt forgiveness/conversion:  export credit claims (I)</narrative>
+                <narrative xml:lang="fr">Annulation/conversion de la dette : créance de crédit à l'exportation (I)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>635</code>
+            <name>
+                <narrative>Debt forgiveness:  export credit claims (DSR)</narrative>
+                <narrative xml:lang="fr">Annulation de la dette : créance de crédit à l'exportation (DSR)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>636</code>
+            <name>
+                <narrative>Debt rescheduling:  export credit claims (P)</narrative>
+                <narrative xml:lang="fr">Rééchelonnement de la dette : créance de crédit à  l'exportation (P)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>637</code>
+            <name>
+                <narrative>Debt rescheduling:  export credit claims (I)</narrative>
+                <narrative xml:lang="fr">Rééchelonnement de la dette : créance de crédit à  l'exportation (I)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>638</code>
+            <name>
+                <narrative>Debt rescheduling:  export credit claims (DSR)</narrative>
+                <narrative xml:lang="fr">Rééchelonnement de la dette : créance de crédit à  l'exportation (DSR)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>639</code>
+            <name>
+                <narrative>Debt rescheduling:  export credit claim (DSR – original loan principal)</narrative>
+                <narrative xml:lang="fr">Rééchelonnement de la dette : créance de crédit à  l'exportation (DSR - principal du prêt originel)</narrative>
+            </name>
+            <category>600</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>700</code>
+            <name>
+                <narrative>INVESTMENT</narrative>
+                <narrative xml:lang="fr">INVESTISSEMENTS DIRECTS INTERNATIONAUX</narrative>
+            </name>
+            <description>
+                <narrative>Investment made by a private entity resident in a reporting country to acquire or add to a lasting interest(1) in an enterprise in a country on the DAC List of ODA Recipients.  </narrative>
+                <narrative xml:lang="fr">L’investissement direct est motivé par la volonté d’une entité résidente d’un pays déclarant d’acquérir ou de maintenir un intérêt durable1 dans une entité résidente d’un pays en développement.</narrative>
+            </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>710</code>
+            <name>
+                <narrative>Foreign direct investment, new capital outflow (includes reinvested earnings if separate identification not available) </narrative>
+                <narrative xml:lang="fr">Investissement direct international</narrative>
+            </name>
+            <category>700</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>711</code>
+            <name>
+                <narrative>Other foreign direct investment, including reinvested earnings</narrative>
+                <narrative xml:lang="fr">Autre investissement direct international , y compris les bénéfices réinvestis</narrative>
+            </name>
+            <category>700</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>712</code>
+            <name>
+                <narrative>Foreign direct investment, reinvested earnings</narrative>
+                <narrative xml:lang="fr"/>
+            </name>
+            <category>700</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>800</code>
+            <name>
+                <narrative>BONDS</narrative>
+                <narrative xml:lang="fr">OBLIGATIONS</narrative>
+            </name>
+            <description>
+                <narrative>Acquisition of bonds issued by developing countries.</narrative>
+                <narrative xml:lang="fr">Acquisition d’obligations émises par les pays en développement.</narrative>
+            </description>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>810</code>
+            <name>
+                <narrative>Bank bonds</narrative>
+                <narrative xml:lang="fr">Obligations du secteur bancaire</narrative>
+            </name>
+            <category>800</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>811</code>
+            <name>
+                <narrative>Non-bank  bonds</narrative>
+                <narrative xml:lang="fr">Obligations du secteur non bancaire</narrative>
+            </name>
+            <category>800</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>900</code>
+            <name>
+                <narrative>OTHER SECURITIES/CLAIMS</narrative>
+                <narrative xml:lang="fr">AUTRES TITRES/CREANCES</narrative>
+            </name>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>910</code>
+            <name>
+                <narrative>Other bank securities/claims</narrative>
+                <narrative xml:lang="fr">Autres titres/créances du secteur bancaire</narrative>
+            </name>
+            <category>900</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>911</code>
+            <name>
+                <narrative>Other non-bank securities/claims</narrative>
+                <narrative xml:lang="fr">Autres titres/créances du secteur non bancaire</narrative>
+            </name>
+            <category>900</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>912</code>
+            <name>
+                <narrative>Purchase of securities from issuing agencies</narrative>
+                <narrative xml:lang="fr">Titres et autres instruments émis par les agences multilatérales</narrative>
+            </name>
+            <category>900</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC(2016)3/FINAL</dac:reference>
+        </codelist-item>
+        <codelist-item status="Withdrawn" withdrawal-date="2015-12-31">
+            <code>913</code>
+            <name>
+                <narrative>Securities and other instruments originally issued by multilateral agencies</narrative>
+                <narrative xml:lang="fr"/>
+            </name>
+            <category>900</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01" Heading="1">
+            <code>1000</code>
+            <name>
+                <narrative>GUARANTEES AND OTHER UNFUNDED CONTINGENT LIABILITIES</narrative>
+                <narrative xml:lang="fr">GARANTIES ET AUTRES ENGAGEMENTS CONDITIONNELS NON PROVISIONNÉS</narrative>
+            </name>
+            <crs>1</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>1100</code>
+            <name>
+                <narrative>Guarantees/insurance </narrative>
+                <narrative xml:lang="fr">Garanties/assurances</narrative>
+            </name>
+            <category>1000</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2016-01-01">
+            <code>1100</code>
+            <name>
+                <narrative>Guarantees/insurance </narrative>
+                <narrative xml:lang="fr">Garanties/assurances</narrative>
+            </name>
+            <description>
+                <narrative>Guarantees refer to risk-sharing agreements under which the guarantor agrees to pay part or the entire amount due on a loan, equity or other instrument to the lender/investor in the event of non-payment by the borrower or loss of value in case of investment. Other unfunded contingent liabilities include insurances and other instruments that do not constitute a flow.</narrative>
+                <narrative xml:lang="fr">Guarantees refer to risk-sharing agreements under which the guarantor agrees to pay part or the entire amount due on a loan, equity or other instrument to the lender/investor in the event of non-payment by the borrower or loss of value in case of investment. Other unfunded contingent liabilities include insurances and other instruments that do not constitute a flow.</narrative>
+            </description>
+            <category>1000</category>
+            <crs>0</crs>
+            <tossd>1</tossd>
+            <dac:reference>DCD/DAC/STAT/RD(2017)4</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2023-01-01">
+            <code>1101</code>
+            <name>
+                <narrative>Individual loan guarantee</narrative>
+                <narrative xml:lang="fr">Garantie individuelle accordée prêt par prêt</narrative>
+            </name>
+            <description>
+                <narrative>A guarantee on an individual standard loan</narrative>
+                <narrative xml:lang="fr">Une garantie sur un prêt individuel standard</narrative>
+            </description>
+            <category>1000</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2023-01-01">
+            <code>1102</code>
+            <name>
+                <narrative>Loan portfolio guarantee</narrative>
+                <narrative xml:lang="fr">Garantie de portefeuille de prêts</narrative>
+            </name>
+            <description>
+                <narrative>A guarantee covering a portfolio of standard loans administered by financial intermediaries, such as banks, microfinance institutions or collective investment vehicles.</narrative>
+                <narrative xml:lang="fr">Une garantie couvrant un portefeuille de prêts standards administrés par des intermédiaires financiers, tels que des banques, des institutions de microfinance ou des véhicules de placement collectif.</narrative>
+            </description>
+            <category>1000</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2023-01-01">
+            <code>1103</code>
+            <name>
+                <narrative>Individual mezzanine finance guarantee</narrative>
+                <narrative xml:lang="fr">Garantie individuelle pour le financement mezzanine</narrative>
+            </name>
+            <description>
+                <narrative>A guarantee on an individual mezzanine finance investment (subordinated loans or preferred equities). </narrative>
+                <narrative xml:lang="fr">Une garantie sur un investissement individuel en financement mezzanine (prêts subordonnés ou actions privilégiées).</narrative>
+            </description>
+            <category>1000</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2023-01-01">
+            <code>1104</code>
+            <name>
+                <narrative>Mezzanine finance portfolio guarantee</narrative>
+                <narrative xml:lang="fr">Garantie de portefeuille des instruments mezzanine</narrative>
+            </name>
+            <description>
+                <narrative>A guarantee covering a portfolio of mezzanine finance investments (subordinated loans or preferred equities) administered by financial intermediaries, such as banks, microfinance institutions or collective investment vehicles.</narrative>
+                <narrative xml:lang="fr">Une garantie couvrant un portefeuille d'investissements en financement mezzanine (prêts subordonnés ou actions privilégiées) administré par des intermédiaires financiers, tels que des banques, des institutions de microfinance ou des véhicules de placement collectif.</narrative>
+            </description>
+            <category>1000</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2023-01-01">
+            <code>1105</code>
+            <name>
+                <narrative>Individual equity finance guarantee</narrative>
+                <narrative xml:lang="fr">Garantie individuelle pour le financement en fonds propres</narrative>
+            </name>
+            <description>
+                <narrative>A guarantee covering an equity investment.</narrative>
+                <narrative xml:lang="fr">Une garantie couvrant un investissement en actions.</narrative>
+            </description>
+            <category>1000</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2023-01-01">
+            <code>1106</code>
+            <name>
+                <narrative>Equity portfolio guarantee</narrative>
+                <narrative xml:lang="fr">Garantie de portefeuille d'actions </narrative>
+            </name>
+            <description>
+                <narrative>A guarantee covering a portfolio of equity investments administered by financial intermediaries, such as banks, microfinance institutions or collective investment vehicles.</narrative>
+                <narrative xml:lang="fr">Garantie couvrant un portefeuille de participations administré par des intermédiaires financiers, tels que des banques, des institutions de microfinance ou des organismes de placement collectif.</narrative>
+            </description>
+            <category>1000</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2023-01-01">
+            <code>1107</code>
+            <name>
+                <narrative>First-loss guarantee</narrative>
+                <narrative xml:lang="fr">Garantie des premières pertes</narrative>
+            </name>
+            <description>
+                <narrative>A guarantee specifically designed to absorb the very first loss on one or more investments, such as in the context of collective investment vehicles. Please use other codes for guarantees that are not specifically designed to absorb the very first loss.</narrative>
+                <narrative xml:lang="fr">Une garantie spécifiquement conçue pour absorber la toute première perte sur un ou plusieurs investissements, comme dans le cadre de véhicules de placement collectif. Veuillez utiliser d'autres codes pour les garanties qui ne sont pas spécifiquement conçues pour absorber la toute première perte.</narrative>
+            </description>
+            <category>1000</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2023-01-01">
+            <code>1108</code>
+            <name>
+                <narrative>Other guarantees</narrative>
+                <narrative xml:lang="fr">Autres garanties</narrative>
+            </name>
+            <description>
+                <narrative>Other guarantees, such as volume guarantees, payment guarantees etc.</narrative>
+                <narrative xml:lang="fr">Autres garanties, telles que garanties de volume, garanties de paiement, etc.</narrative>
+            </description>
+            <category>1000</category>
+            <crs>1</crs>
+            <tossd>0</tossd>
+            <dac:reference>DCD/DAC/STAT(2024)10</dac:reference>
+        </codelist-item>
+        <codelist-item status="Active" Heading="1">
+            <code>2000</code>
+            <name>
+                <narrative>Direct provider spending</narrative>
+                <narrative xml:lang="fr">Direct provider spending</narrative>
+            </name>
+            <description>
+                <narrative>Direct provider spending</narrative>
+                <narrative xml:lang="fr">Direct provider spending</narrative>
+            </description>
+            <crs>0</crs>
+            <tossd>1</tossd>
+        </codelist-item>
+        <codelist-item status="Active">
+            <code>2100</code>
+            <name>
+                <narrative>Direct provider spending</narrative>
+                <narrative xml:lang="fr">Direct provider spending</narrative>
+            </name>
+            <category>2000</category>
+            <crs>0</crs>
+            <tossd>1</tossd>
+        </codelist-item>
+        <codelist-item status="Active" Heading="1">
+            <code>3000</code>
+            <name>
+                <narrative>Subsidies and similar transfers</narrative>
+                <narrative xml:lang="fr">Subsidies and similar transfers</narrative>
+            </name>
+            <description>
+                <narrative>Subsidies and similar transfers</narrative>
+                <narrative xml:lang="fr">Subsidies and similar transfers</narrative>
+            </description>
+            <crs>0</crs>
+            <tossd>1</tossd>
+        </codelist-item>
+        <codelist-item status="Active" activation-date="2020-01-01">
+            <code>3100</code>
+            <name>
+                <narrative>Subsidies and similar transfers</narrative>
+                <narrative xml:lang="fr">Subsidies and similar transfers</narrative>
+            </name>
+            <description>
+                <narrative>This category includes subsidies and social benefits to households as defined in the System of National Accounts (SNA). Subsidies are unrequited payments that government units, including non-resident government units, make to enterprises on the basis of the levels of their production activities or the quantities or values of the goods or services which they produce, sell or import. Subsidies prohibited by the WTO are not reportable in TOSSD. Social benefits to households are current transfers received by households that are intended to provide for the needs that arise from certain events or circumstances, for example housing. Subsidies and similar transfers can be used by governments to promote sustainable development objectives, for example by supporting research activities carried out by pharmaceutical firms or efforts by households to improve the energy efficiency of their housing. According to the United Nations System of Environmental-Economic Accounting (SEEA), an environmental subsidy or similar transfer is a transfer intended to support activities that protect the environment or reduce the use and extraction of natural resources.</narrative>
+                <narrative xml:lang="fr">This category includes subsidies and social benefits to households as defined in the System of National Accounts (SNA). Subsidies are unrequited payments that government units, including non-resident government units, make to enterprises on the basis of the levels of their production activities or the quantities or values of the goods or services which they produce, sell or import. Subsidies prohibited by the WTO are not reportable in TOSSD. Social benefits to households are current transfers received by households that are intended to provide for the needs that arise from certain events or circumstances, for example housing. Subsidies and similar transfers can be used by governments to promote sustainable development objectives, for example by supporting research activities carried out by pharmaceutical firms or efforts by households to improve the energy efficiency of their housing. According to the United Nations System of Environmental-Economic Accounting (SEEA), an environmental subsidy or similar transfer is a transfer intended to support activities that protect the environment or reduce the use and extraction of natural resources.</narrative>
+            </description>
+            <category>3000</category>
+            <crs>0</crs>
+            <tossd>1</tossd>
+        </codelist-item>
+    </codelist-items>
+</codelist>
